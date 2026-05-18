@@ -1,0 +1,65 @@
+name: Update World Cup data
+
+on:
+  schedule:
+    # Runs every 5 minutes. GitHub may delay scheduled runs under load, so
+    # actual cadence is usually 5-15 minutes — fine for scoreboards.
+    - cron: '*/5 * * * *'
+  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+  push:
+    branches: [ main ]      # also runs on every push to main, so the first run is immediate
+
+permissions:
+  contents: write           # needed so the workflow can commit data.json back to the repo
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch matches and scorers from football-data.org
+        env:
+          FD_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: |
+          set -e
+          mkdir -p .tmp
+
+          echo "Fetching matches..."
+          curl -sS --fail-with-body \
+            -H "X-Auth-Token: $FD_TOKEN" \
+            "https://api.football-data.org/v4/competitions/WC/matches?season=2026" \
+            -o .tmp/matches.json
+
+          echo "Fetching scorers..."
+          # Scorers may not exist until the tournament starts; don't fail the whole run if it 404s.
+          curl -sS \
+            -H "X-Auth-Token: $FD_TOKEN" \
+            "https://api.football-data.org/v4/competitions/WC/scorers?season=2026&limit=20" \
+            -o .tmp/scorers.json || echo '{"scorers":[]}' > .tmp/scorers.json
+
+          # Combine into one file and add a timestamp.
+          NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          jq -n \
+            --arg updatedAt "$NOW" \
+            --slurpfile matches .tmp/matches.json \
+            --slurpfile scorers .tmp/scorers.json \
+            '{updatedAt: $updatedAt, matches: $matches[0], scorers: $scorers[0]}' \
+            > data.json
+
+          echo "Preview:"
+          jq '{updatedAt, matchCount: (.matches.matches | length), scorerCount: (.scorers.scorers | length)}' data.json
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          # If nothing changed, exit cleanly without committing
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Update data.json [skip ci]"
+          git push
