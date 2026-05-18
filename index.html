@@ -744,6 +744,54 @@ h1{
 }
 .modal-info strong{color:var(--text2)}
 
+/* Proxy details / Cloudflare Worker setup */
+.proxy-details{
+  margin-top:14px;background:var(--bg);border:1px solid var(--border);
+  border-radius:10px;overflow:hidden;
+}
+.proxy-details summary{
+  list-style:none;cursor:pointer;padding:11px 14px;
+  display:flex;align-items:center;gap:8px;user-select:none;
+  font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:600;
+  letter-spacing:.8px;color:var(--text2);transition:background .2s ease;
+}
+.proxy-details summary:hover{background:var(--bg2);color:var(--text)}
+.proxy-details summary::-webkit-details-marker{display:none}
+.summary-arrow{font-size:9px;color:var(--text3);transition:transform .2s ease;display:inline-block}
+.proxy-details[open] .summary-arrow{transform:rotate(90deg)}
+.proxy-body{padding:0 14px 14px;border-top:1px solid var(--border);animation:fadeIn .25s ease}
+.proxy-intro{
+  font-size:12px;color:var(--text2);line-height:1.55;margin:10px 0 12px;
+}
+.cf-steps{margin-bottom:12px}
+.cf-step{
+  display:flex;align-items:flex-start;gap:9px;padding:5px 0;
+  font-size:12.5px;color:var(--text);line-height:1.45;
+}
+.cf-num{
+  flex-shrink:0;width:20px;height:20px;background:var(--accent);
+  color:#000;border-radius:50%;font-family:'Bebas Neue',sans-serif;
+  font-size:13px;display:flex;align-items:center;justify-content:center;
+}
+[data-theme="light"] .cf-num{color:#fff}
+.cf-step a{color:var(--accent);text-decoration:none;border-bottom:1px dashed var(--accent)}
+.cf-step a:hover{border-bottom-style:solid}
+.cf-step code,.cf-step em{
+  background:var(--bg2);padding:1px 5px;border-radius:3px;
+  font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--accent);font-style:normal;
+}
+.cf-code{
+  background:#000;color:#7ee787;padding:11px 13px;border-radius:8px;
+  font-family:'JetBrains Mono',monospace;font-size:10.5px;line-height:1.5;
+  white-space:pre;overflow-x:auto;margin:8px 0 14px;border:1px solid var(--border);
+  scrollbar-width:thin;
+}
+[data-theme="light"] .cf-code{background:#1a1f2e;color:#7ee787}
+.btn-tiny{padding:5px 11px;font-size:11px;letter-spacing:1px;margin-bottom:0}
+.proxy-tip{
+  font-size:11px;color:var(--text3);margin-top:8px;line-height:1.5;
+}
+
 /* ════════════════════════════════════════════════════════════
    LOADING OVERLAY & MISC
 ═══════════════════════════════════════════════════════════════ */
@@ -1125,9 +1173,57 @@ button:focus-visible,input:focus-visible,a:focus-visible,[role="button"]:focus-v
       <label class="form-label">Status</label>
       <div class="status-bar empty" id="statusMsg">No connection yet — enter your API token above.</div>
 
+      <!-- Custom proxy (advanced) -->
+      <details class="proxy-details" id="proxyDetails">
+        <summary>
+          <span class="summary-arrow">▶</span>
+          <span class="summary-text">⚙️ Connection issues? Set up your own free proxy</span>
+        </summary>
+        <div class="proxy-body">
+          <p class="proxy-intro">football-data.org blocks direct browser requests, so this app routes through public CORS proxies. These can be unreliable (rate limits, downtime, blocked by Brave Shields). For a rock-solid setup, deploy your own free Cloudflare Worker — takes <strong>5 minutes</strong>, supports <strong>100,000 requests/day</strong>, and works forever:</p>
+          <div class="cf-steps">
+            <div class="cf-step">
+              <div class="cf-num">1</div>
+              <div>Sign up free at <a href="https://dash.cloudflare.com/sign-up/workers-and-pages" target="_blank" rel="noopener">dash.cloudflare.com</a> (no credit card)</div>
+            </div>
+            <div class="cf-step">
+              <div class="cf-num">2</div>
+              <div>Click <em>Workers &amp; Pages</em> → <em>Create application</em> → <em>Create Worker</em></div>
+            </div>
+            <div class="cf-step">
+              <div class="cf-num">3</div>
+              <div>Click <em>Edit code</em>, replace everything with the snippet below, click <em>Deploy</em></div>
+            </div>
+            <div class="cf-step">
+              <div class="cf-num">4</div>
+              <div>Copy the Worker URL it gives you (e.g. <code>https://my-proxy.YOURNAME.workers.dev</code>) and paste it here ↓</div>
+            </div>
+          </div>
+          <button class="btn btn-outline btn-tiny" onclick="copyWorkerCode(this)" type="button">📋 Copy Worker code</button>
+          <pre class="cf-code" id="cfCode">export default {
+  async fetch(request) {
+    const url = new URL(request.url);
+    const target = url.searchParams.get('url');
+    if (!target) return new Response('Missing ?url=', {status:400});
+    const r = await fetch(target, {headers: request.headers});
+    const h = new Headers(r.headers);
+    h.set('Access-Control-Allow-Origin', '*');
+    h.set('Access-Control-Allow-Headers', '*');
+    return new Response(r.body, {status:r.status, headers:h});
+  }
+}</pre>
+          <label class="form-label" for="proxyUrl">Your proxy URL (optional)</label>
+          <div class="input-row">
+            <input type="text" id="proxyUrl" placeholder="https://my-proxy.YOURNAME.workers.dev" autocomplete="off" spellcheck="false">
+            <button class="btn btn-outline" id="btnSaveProxy" onclick="saveProxy()" type="button">Save</button>
+          </div>
+          <div class="proxy-tip">Leave empty to use the built-in public proxies. Your URL is saved only in your browser.</div>
+        </div>
+      </details>
+
       <div class="modal-info">
         <strong>Free tier:</strong> 10 requests/minute is plenty for this app. Auto-refresh activates automatically when there are live matches.<br>
-        <strong>Privacy:</strong> Your token is stored only in your browser (localStorage). It is never sent anywhere except directly to football-data.org.
+        <strong>Privacy:</strong> Your token is stored only in your browser (localStorage). Browser calls to football-data.org are routed through a CORS proxy (yours if you set one up, otherwise public fallbacks).
       </div>
     </div>
   </div>
@@ -1137,7 +1233,7 @@ button:focus-visible,input:focus-visible,a:focus-visible,[role="button"]:focus-v
 <header>
   <div class="h-orbs"><div class="h-orb o1"></div><div class="h-orb o2"></div><div class="h-orb o3"></div></div>
   <div class="h-controls">
-    <button class="icon-btn" id="settingsBtn" onclick="openSettings()" title="Settings & API" aria-label="Open settings">⚙️</button>
+    <button class="icon-btn" id="settingsBtn" onclick="openSettings()" title="Settings & API" aria-label="Open settings" style="display:none">⚙️</button>
     <button class="icon-btn" id="themeBtn" onclick="toggleTheme()" title="Toggle theme" aria-label="Toggle theme">🌙</button>
   </div>
   <div class="hbadge">⚽ USA · Mexico · Canada</div>
@@ -1147,7 +1243,7 @@ button:focus-visible,input:focus-visible,a:focus-visible,[role="button"]:focus-v
     <span class="hsub-dot"></span>
     <span>Times in ART (UTC–3)</span>
   </div>
-  <div class="connection-pill" id="connPill" onclick="openSettings()">
+  <div class="connection-pill" id="connPill" onclick="fetchScores()">
     <div class="conn-dot"></div>
     <span id="connLabel">Set up API to load live data</span>
   </div>
@@ -1840,8 +1936,7 @@ function checkAutoRefresh(){
   if(hasLive){
     if(!arTimer){
       arTimer=setInterval(()=>{
-        const key=document.getElementById('apiKey').value.trim();
-        if(key) fetchScores(true);
+        fetchScores(true);
       },60000);
     }
     updateConnectionPill('live','Auto-refreshing live matches');
@@ -1853,25 +1948,55 @@ function checkAutoRefresh(){
 /* ════════════════════════════════════════════════════════════
    FETCH SCORES
 ═══════════════════════════════════════════════════════════════ */
-async function fetchScores(silent=false){
-  const key=document.getElementById('apiKey').value.trim();
-  if(!key){
-    setStatus('Enter your API key first','err');
-    openSettings();
-    return;
+/* ════════════════════════════════════════════════════════════
+   CORS PROXY (football-data.org doesn't allow browser calls)
+   1. If user has set a custom proxy URL in settings, try that first
+      (e.g. their own Cloudflare Worker — most reliable)
+   2. Then fall back to public proxies in order
+═══════════════════════════════════════════════════════════════ */
+const PUBLIC_CORS_PROXIES=[
+  url=>`https://corsproxy.io/?url=${encodeURIComponent(url)}`,
+  url=>`https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`,
+  url=>`https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+  url=>`https://cors.x2u.in/${url}`,
+];
+function getProxyChain(){
+  const custom=(localStorage.getItem('wc26_proxy')||'').trim();
+  if(!custom) return PUBLIC_CORS_PROXIES;
+  // Custom URL — append target via ?url= unless URL already has a ? or trailing slash
+  const builder=url=>{
+    if(custom.includes('${url}')) return custom.replace('${url}',encodeURIComponent(url));
+    if(custom.endsWith('?')||custom.endsWith('=')) return custom+encodeURIComponent(url);
+    if(custom.endsWith('/')) return custom+url;
+    return custom+'?url='+encodeURIComponent(url);
+  };
+  return [builder, ...PUBLIC_CORS_PROXIES];
+}
+async function fetchViaProxy(targetUrl,headers){
+  const chain=getProxyChain();
+  let lastErr;
+  for(const proxify of chain){
+    try{
+      const res=await fetch(proxify(targetUrl),{headers});
+      // Real upstream responses (200/403/429) — return immediately
+      if(res.status===403||res.status===429||res.ok) return res;
+      lastErr=new Error(`Proxy responded ${res.status}`);
+    }catch(e){lastErr=e;}
   }
+  throw lastErr||new Error('All proxies failed — set up your own (see Settings)');
+}
+
+async function fetchScores(silent=false){
   document.getElementById('btnLive').disabled=true;
   if(!silent) document.getElementById('loadingOverlay').classList.add('active');
-  if(!silent) setStatus('Connecting…','');
+  if(!silent) setStatus('Loading latest data…','');
   try{
-    const res=await fetch('https://api.football-data.org/v4/competitions/WC/matches?season=2026',{
-      headers:{'X-Auth-Token':key}
-    });
-    if(res.status===403) throw new Error('Invalid key — make sure you copied the whole token');
-    if(res.status===429) throw new Error('Too many requests — wait about a minute and try again');
-    if(!res.ok) throw new Error(`API error ${res.status}`);
-    const data=await res.json();
-    if(!data.matches) throw new Error('Unexpected response from the API');
+    // Loads the data.json generated by the GitHub Action (no API key needed in the browser)
+    const res=await fetch('./data.json?t='+Date.now());
+    if(!res.ok) throw new Error('data.json not found yet — wait a few minutes for the first GitHub Action run');
+    const bundle=await res.json();
+    const data=bundle.matches;
+    if(!data||!data.matches) throw new Error('data.json is missing matches');
 
     SS={};
     const allKO=Object.values(KO).flatMap(r=>[...(r.matches||[]),...(r.extra||[])]);
@@ -1907,12 +2032,10 @@ async function fetchScores(silent=false){
       }
     });
 
-    // Scorers
+    // Scorers (also pre-fetched by GitHub Action and bundled in data.json)
     try{
-      const sr=await fetch('https://api.football-data.org/v4/competitions/WC/scorers?season=2026&limit=20',{headers:{'X-Auth-Token':key}});
-      if(sr.ok){
-        const sd=await sr.json();
-        SCORERS=(sd.scorers||[]).map(s=>{
+      if(bundle.scorers && Array.isArray(bundle.scorers.scorers)){
+        SCORERS=bundle.scorers.scorers.map(s=>{
           const[tf,tn]=tInfo(s.team?.name||'');
           return{name:s.player?.name||'?',team:tn||s.team?.name||'?',tf,goals:s.goals||0};
         });
@@ -1920,7 +2043,8 @@ async function fetchScores(silent=false){
     }catch(e){/* scorers optional */}
 
     buildStandings();
-    const time=new Date().toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
+    const stamp=bundle.updatedAt?new Date(bundle.updatedAt):new Date();
+    const time=stamp.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
     if(!silent){
       if(updated===0){
         setStatus("Tournament hasn't started yet · Ready for Jun 11 🙌",'ok');
@@ -1933,7 +2057,10 @@ async function fetchScores(silent=false){
     renderAll();
     checkAutoRefresh();
   }catch(e){
-    if(!silent){setStatus('❌ '+e.message,'err');updateConnectionPill('warn','Connection error — check settings');}
+    if(!silent){
+      setStatus('❌ '+e.message,'err');
+      updateConnectionPill('warn','Could not load data');
+    }
     console.error(e);
   }finally{
     document.getElementById('btnLive').disabled=false;
@@ -1950,15 +2077,18 @@ async function testKey(){
   document.getElementById('btnTest').disabled=true;
   setStatus('Verifying…','');
   try{
-    const res=await fetch('https://api.football-data.org/v4/competitions/WC',{headers:{'X-Auth-Token':key}});
+    const res=await fetchViaProxy('https://api.football-data.org/v4/competitions/WC',{'X-Auth-Token':key});
     if(res.status===403) throw new Error('Invalid key — check you copied it correctly');
     if(!res.ok) throw new Error(`Error ${res.status}`);
     const d=await res.json();
     setStatus(`✅ Valid key — ${d.name||'World Cup'} ready to load`,'ok');
     updateConnectionPill('ok','API connected — press Update');
   }catch(e){
-    setStatus('❌ '+e.message,'err');
-    updateConnectionPill('warn','Invalid API key');
+    const isNet=/fetch|network|failed/i.test(e.message);
+    const hint=isNet?' — try setting up your own proxy below':'';
+    setStatus('❌ '+e.message+hint,'err');
+    updateConnectionPill('warn','Connection error');
+    if(isNet) document.getElementById('proxyDetails')?.setAttribute('open','');
   }finally{document.getElementById('btnTest').disabled=false;}
 }
 
@@ -2038,6 +2168,40 @@ document.addEventListener('keydown',e=>{
 });
 
 /* ════════════════════════════════════════════════════════════
+   CUSTOM PROXY
+═══════════════════════════════════════════════════════════════ */
+function saveProxy(){
+  const v=document.getElementById('proxyUrl').value.trim();
+  if(v && !/^https?:\/\//.test(v)){
+    setStatus('❌ Proxy URL must start with http:// or https://','err');
+    return;
+  }
+  if(v) localStorage.setItem('wc26_proxy',v);
+  else localStorage.removeItem('wc26_proxy');
+  setStatus(v?'✓ Proxy saved — press Verify or Update to test it':'✓ Custom proxy cleared — using public proxies','ok');
+}
+function copyWorkerCode(btn){
+  const code=document.getElementById('cfCode').textContent;
+  const done=()=>{
+    const orig=btn.textContent;
+    btn.textContent='✓ Copied!';
+    setTimeout(()=>{btn.textContent=orig;},1500);
+  };
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(code).then(done).catch(()=>{
+      // Fallback: select the code block
+      const range=document.createRange();range.selectNode(document.getElementById('cfCode'));
+      window.getSelection().removeAllRanges();window.getSelection().addRange(range);
+      done();
+    });
+  } else {
+    const range=document.createRange();range.selectNode(document.getElementById('cfCode'));
+    window.getSelection().removeAllRanges();window.getSelection().addRange(range);
+    done();
+  }
+}
+
+/* ════════════════════════════════════════════════════════════
    THEME
 ═══════════════════════════════════════════════════════════════ */
 function toggleTheme(){
@@ -2062,6 +2226,14 @@ const savedKey=localStorage.getItem('wc26_fdkey');
 if(savedKey) document.getElementById('apiKey').value=savedKey;
 document.getElementById('apiKey').addEventListener('input',e=>localStorage.setItem('wc26_fdkey',e.target.value));
 
+// Load saved custom proxy URL (if any)
+const savedProxy=localStorage.getItem('wc26_proxy');
+if(savedProxy){
+  document.getElementById('proxyUrl').value=savedProxy;
+  // Open the details so user sees it's configured
+  document.getElementById('proxyDetails').setAttribute('open','');
+}
+
 const savedTheme=localStorage.getItem('wc26_theme');
 if(savedTheme){
   document.documentElement.setAttribute('data-theme',savedTheme);
@@ -2081,12 +2253,9 @@ if(savedTab && validTabs.includes(savedTab)){
   currentTab=savedTab;
 }
 
-// Initial connection state
-if(savedKey){
-  updateConnectionPill('ok','API key saved — press Update');
-} else {
-  updateConnectionPill('','Set up API to load live data');
-}
+// Auto-load data on every page open
+updateConnectionPill('','Loading latest results…');
+fetchScores();
 
 renderAll();
 </script>
