@@ -2001,6 +2001,33 @@ async function fetchScores(silent=false){
     SS={};
     const allKO=Object.values(KO).flatMap(r=>[...(r.matches||[]),...(r.extra||[])]);
     let updated=0,live=0;
+
+    // === Rebuild the group-stage fixture from the API (source of truth) ===
+    // The hardcoded MATCHES used to drift out of sync with the real FIFA schedule.
+    // Now the API decides who plays whom, when (Argentina time), and where.
+    MATCHES.length=0;
+    const groupMatches=data.matches
+      .filter(fm=>fm.stage==='GROUP_STAGE')
+      .sort((a,b)=>new Date(a.utcDate)-new Date(b.utcDate));
+    const apiToLocalId={};
+    groupMatches.forEach((fm,i)=>{
+      const utc=new Date(fm.utcDate);
+      // Argentina is UTC-3 year-round (no DST), so shifting by -3h is exact
+      const art=new Date(utc.getTime()-3*3600*1000);
+      const d=art.toISOString().slice(0,10);
+      const t=art.toISOString().slice(11,16);
+      const groupLetter=(fm.group||'').replace(/^GROUP[_-]?/i,'');
+      const hName=fm.homeTeam?.name||'TBD';
+      const aName=fm.awayTeam?.name||'TBD';
+      const[hf,hn]=tInfo(hName);const[af,an]=tInfo(aName);
+      const localId='m'+String(i+1).padStart(3,'0');
+      apiToLocalId[fm.id]=localId;
+      const m={id:localId,d,t,h:hn||hName,a:an||aName,hf,af,g:groupLetter,v:fm.venue||''};
+      if(/argentina/i.test(hName+' '+aName)) m.arg=true;
+      MATCHES.push(m);
+    });
+
+    // Now iterate the API again to fill SS (scores) — exact id mapping for group, fuzzy date for knockouts
     data.matches.forEach(fm=>{
       let status='upcoming';
       if(['FINISHED','AWARDED'].includes(fm.status)) status='final';
@@ -2013,12 +2040,10 @@ async function fetchScores(silent=false){
       const[hf,hn]=tInfo(hName);const[af,an]=tInfo(aName);
       const pen=(fm.score?.penalties?.home!=null)?`${fm.score.penalties.home}–${fm.score.penalties.away}`:null;
       const min=fm.minute||null;
-      const mg=MATCHES.find(m=>{
-        const ah=hName.toLowerCase(),aa=aName.toLowerCase();
-        return(m.h.toLowerCase().includes(ah.split(' ')[0])||ah.includes(m.h.toLowerCase().split(' ')[0]))
-          &&(m.a.toLowerCase().includes(aa.split(' ')[0])||aa.includes(m.a.toLowerCase().split(' ')[0]));
-      });
-      if(mg){SS[mg.id]={hs,as:as_,status,min,pen};updated++;if(status==='live')live++;return;}
+      // Group stage: exact match by API id (we just built the mapping above)
+      const localId=apiToLocalId[fm.id];
+      if(localId){SS[localId]={hs,as:as_,status,min,pen};updated++;if(status==='live')live++;return;}
+      // Knockout stage: fuzzy match by date proximity (the bracket is still hardcoded)
       const fDate=fm.utcDate?.split('T')[0];
       const km=allKO.find(m=>{
         if(!fDate||!m.d) return false;
