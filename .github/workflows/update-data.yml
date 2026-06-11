@@ -1,65 +1,154 @@
 name: Update World Cup data
 
+# Goal: data.json refreshed roughly every 5 minutes for the whole tournament.
+#
+# GitHub heavily throttles high-frequency cron schedules (we observed gaps of
+# 2-3.5 hours between '*/5' firings on this repo), so the cron alone is not
+# enough. The strategy:
+#   1. Each run loops for ~28 minutes, fetching every ~4.5 minutes.
+#   2. When a run finishes it re-dispatches itself (workflow_dispatch), so
+#      there is always an active run. The cron is just a safety net that
+#      restarts the chain if it ever breaks.
+#   3. concurrency ensures only one run is active at a time (extra cron
+#      firings are queued and deduped — you may see a few auto-cancelled
+#      queued runs in the Actions tab, that's normal).
+#
+# The football-data.org API serves cached (stale) responses when the same URL
+# is requested repeatedly — on opening day this hid finished matches for
+# hours. A unique ?nocache= query param on every request bypasses that cache.
+#
+# It all stops automatically after the tournament (2026-07-20), or
+# immediately if a file called STOP exists in the repo root.
+
 on:
   schedule:
-    # Runs every 5 minutes. GitHub may delay scheduled runs under load, so
-    # actual cadence is usually 5-15 minutes — fine for scoreboards.
     - cron: '*/5 * * * *'
-  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+  workflow_dispatch:
   push:
-    branches: [ main ]      # also runs on every push to main, so the first run is immediate
+    branches: [ main ]
 
 permissions:
-  contents: write           # needed so the workflow can commit data.json back to the repo
+  contents: write           # commit data.json back to the repo
+  actions: write            # re-dispatch this workflow to keep the chain alive
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
 
 jobs:
-  fetch:
+  update:
     runs-on: ubuntu-latest
+    timeout-minutes: 35
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Fetch matches and scorers from football-data.org
+      - name: Fetch loop (every ~4.5 min for ~28 min)
         env:
           FD_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
         run: |
-          set -e
-          mkdir -p .tmp
+          set -u
 
-          echo "Fetching matches..."
-          curl -sS --fail-with-body \
-            -H "X-Auth-Token: $FD_TOKEN" \
-            "https://api.football-data.org/v4/competitions/WC/matches?season=2026" \
-            -o .tmp/matches.json
-
-          echo "Fetching scorers..."
-          # Scorers may not exist until the tournament starts; don't fail the whole run if it 404s.
-          curl -sS \
-            -H "X-Auth-Token: $FD_TOKEN" \
-            "https://api.football-data.org/v4/competitions/WC/scorers?season=2026&limit=20" \
-            -o .tmp/scorers.json || echo '{"scorers":[]}' > .tmp/scorers.json
-
-          # Combine into one file and add a timestamp.
-          NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-          jq -n \
-            --arg updatedAt "$NOW" \
-            --slurpfile matches .tmp/matches.json \
-            --slurpfile scorers .tmp/scorers.json \
-            '{updatedAt: $updatedAt, matches: $matches[0], scorers: $scorers[0]}' \
-            > data.json
-
-          echo "Preview:"
-          jq '{updatedAt, matchCount: (.matches.matches | length), scorerCount: (.scorers.scorers | length)}' data.json
-
-      - name: Commit and push if data changed
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data.json
-          # If nothing changed, exit cleanly without committing
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
+          if [ -f STOP ]; then
+            echo "STOP file present — updates disabled."
             exit 0
           fi
-          git commit -m "Update data.json [skip ci]"
-          git push
+          if [ "$(date -u +%Y%m%d)" -gt 20260720 ]; then
+            echo "Tournament is over — nothing to update."
+            exit 0
+          fi
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          fetch_once() {
+            local CB NOW CHANGED AGE LAST
+            CB=$(date +%s%N)
+            NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+            mkdir -p .tmp
+
+            # --- Matches (required: skip this iteration if it fails) ---
+            if ! curl -sS --fail -m 30 -H "X-Auth-Token: $FD_TOKEN" \
+                 "https://api.football-data.org/v4/competitions/WC/matches?nocache=$CB" \
+                 -o .tmp/matches.json || ! jq -e '.matches' .tmp/matches.json >/dev/null; then
+              echo "matches fetch failed — keeping previous data.json"
+              return 0
+            fi
+            sleep 7   # free tier allows 10 requests/min — space the calls out
+
+            # --- Standings (optional: fall back to the previous ones) ---
+            if ! curl -sS --fail -m 30 -H "X-Auth-Token: $FD_TOKEN" \
+                 "https://api.football-data.org/v4/competitions/WC/standings?nocache=$CB" \
+                 -o .tmp/standings.json || ! jq -e '.standings' .tmp/standings.json >/dev/null; then
+              jq '.standings // {standings: []}' data.json > .tmp/standings.json 2>/dev/null \
+                || echo '{"standings":[]}' > .tmp/standings.json
+            fi
+            sleep 7
+
+            # --- Scorers (optional: fall back to the previous ones) ---
+            if ! curl -sS --fail -m 30 -H "X-Auth-Token: $FD_TOKEN" \
+                 "https://api.football-data.org/v4/competitions/WC/scorers?limit=30&nocache=$CB" \
+                 -o .tmp/scorers.json || ! jq -e '.scorers' .tmp/scorers.json >/dev/null; then
+              jq '.scorers // {scorers: []}' data.json > .tmp/scorers.json 2>/dev/null \
+                || echo '{"scorers":[]}' > .tmp/scorers.json
+            fi
+
+            jq -n \
+              --arg updatedAt "$NOW" \
+              --slurpfile matches .tmp/matches.json \
+              --slurpfile standings .tmp/standings.json \
+              --slurpfile scorers .tmp/scorers.json \
+              '{updatedAt: $updatedAt, matches: $matches[0], standings: $standings[0], scorers: $scorers[0]}' \
+              > .tmp/data.new.json
+
+            # Commit only when the football data really changed (ignoring our own
+            # timestamp), or every 30 min as a heartbeat so updatedAt stays honest.
+            CHANGED=1
+            if [ -f data.json ] && \
+               diff <(jq -S 'del(.updatedAt)' data.json) <(jq -S 'del(.updatedAt)' .tmp/data.new.json) >/dev/null 2>&1; then
+              CHANGED=0
+            fi
+            AGE=999999
+            if LAST=$(git log -1 --format=%ct -- data.json 2>/dev/null) && [ -n "$LAST" ]; then
+              AGE=$(( $(date +%s) - LAST ))
+            fi
+
+            if [ "$CHANGED" = "1" ] || [ "$AGE" -ge 1800 ]; then
+              mv .tmp/data.new.json data.json
+              echo "Committing update:"
+              jq '{updatedAt, played: .matches.resultSet.played, scorers: (.scorers.scorers | length)}' data.json
+              git add data.json
+              git commit -q -m "Update data.json [skip ci]" || return 0
+              git pull --rebase -q origin main || true
+              git push -q origin main || echo "push failed — will retry next iteration"
+            else
+              echo "No data change (data.json age: ${AGE}s) — skipping commit."
+            fi
+          }
+
+          for i in 1 2 3 4 5 6; do
+            echo "────── iteration $i / 6 ──────"
+            fetch_once
+            if [ "$i" -lt 6 ]; then sleep 260; fi
+          done
+          true
+
+      - name: Re-dispatch to keep the update chain alive
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f STOP ]; then echo "STOP file present — chain ends here."; exit 0; fi
+          if [ "$(date -u +%Y%m%d)" -gt 20260720 ]; then echo "Tournament finished — chain ends."; exit 0; fi
+          # If a run is already waiting in the queue (e.g. a cron firing), it
+          # will continue the chain — no need to dispatch another one.
+          QUEUED=$(gh run list --workflow=update-data.yml --status queued --json databaseId --jq 'length' 2>/dev/null || echo 0)
+          if [ "${QUEUED:-0}" -gt 0 ]; then
+            echo "A queued run already exists — not dispatching."
+            exit 0
+          fi
+          if gh workflow run update-data.yml --ref main; then
+            echo "Dispatched next run."
+          else
+            echo "Dispatch failed — the cron schedule will restart the chain."
+          fi

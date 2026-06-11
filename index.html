@@ -1391,10 +1391,11 @@ const KO={
 ═══════════════════════════════════════════════════════════════ */
 let SS={};
 let STANDINGS={};
+let OFFICIAL_STANDINGS=null; // official tables from the API (data.json), preferred over the locally computed ones
 let SCORERS=[];
 let arTimer=null;
 let openKoRounds=new Set(['r32']);
-let groupsView='grid';  // 'grid' | 'standings'
+let groupsView=localStorage.getItem('wc26_groupsview')||'grid';  // 'grid' | 'standings'
 
 /* ════════════════════════════════════════════════════════════
    HELPERS
@@ -1573,7 +1574,8 @@ function renderGroupsGrid(){
 }
 
 function renderStandings(){
-  const hasResults=Object.values(SS).some(s=>s.status==='final');
+  const hasResults=Object.values(SS).some(s=>s.status==='final')
+    ||(OFFICIAL_STANDINGS&&Object.values(OFFICIAL_STANDINGS).some(rows=>rows.some(r=>r.pj>0)));
   if(!hasResults){
     return`<div class="empty-state">
       <span class="emoji">📊</span>
@@ -1583,7 +1585,8 @@ function renderStandings(){
   }
   return GROUPS.map(g=>{
     const rows=STANDINGS[g.n]||g.t.map(([f,n])=>({team:n,f,pj:0,pg:0,pe:0,pp:0,gf:0,gc:0,pts:0}));
-    const sorted=[...rows].sort((a,b)=>b.pts-a.pts||(b.gf-b.gc)-(a.gf-a.gc)||b.gf-a.gf);
+    // Official rows carry the API position (correct FIFA tiebreakers) — use it when present
+    const sorted=[...rows].sort((a,b)=>(a.pos&&b.pos)?a.pos-b.pos:(b.pts-a.pts||(b.gf-b.gc)-(a.gf-a.gc)||b.gf-a.gf));
     const isArgG=g.n==='J';
     return`<div class="standing-section">
       <div class="st-group-label${isArgG?' arg-group':''}">Group ${g.n}</div>
@@ -1617,6 +1620,7 @@ function renderGroups(){
 }
 function setGroupsView(v){
   groupsView=v;
+  localStorage.setItem('wc26_groupsview',v);
   document.getElementById('tab-groups').innerHTML=renderGroups();
 }
 
@@ -1819,6 +1823,12 @@ function buildStandings(){
     else{hr.pe++;ar.pe++;hr.pts++;ar.pts++;}
   });
   STANDINGS=st;
+  // Prefer the official API tables wherever we have them
+  if(OFFICIAL_STANDINGS){
+    Object.entries(OFFICIAL_STANDINGS).forEach(([g,rows])=>{
+      if(rows && rows.length) STANDINGS[g]=rows;
+    });
+  }
 }
 
 /* ════════════════════════════════════════════════════════════
@@ -1932,17 +1942,15 @@ function updateConnectionPill(state,label){
    AUTO-REFRESH
 ═══════════════════════════════════════════════════════════════ */
 function checkAutoRefresh(){
+  // Always keep refreshing in the background: every 60s while a match is
+  // live, every 5 min otherwise (so finished games / standings appear on
+  // their own, without the user reloading the page).
   const hasLive=Object.values(SS).some(s=>s.status==='live');
-  if(hasLive){
-    if(!arTimer){
-      arTimer=setInterval(()=>{
-        fetchScores(true);
-      },60000);
-    }
-    updateConnectionPill('live','Auto-refreshing live matches');
-  } else {
-    if(arTimer){clearInterval(arTimer);arTimer=null;}
-  }
+  const period=hasLive?60000:300000;
+  if(window._arPeriod!==period&&arTimer){clearInterval(arTimer);arTimer=null;}
+  window._arPeriod=period;
+  if(!arTimer) arTimer=setInterval(()=>{fetchScores(true);},period);
+  if(hasLive) updateConnectionPill('live','Auto-refreshing live matches');
 }
 
 /* ════════════════════════════════════════════════════════════
@@ -2033,9 +2041,12 @@ async function fetchScores(silent=false){
       if(['FINISHED','AWARDED'].includes(fm.status)) status='final';
       else if(['IN_PLAY','PAUSED','HALF_TIME'].includes(fm.status)) status='live';
       if(status==='upcoming') return;
-      const hs=fm.score?.fullTime?.home??fm.score?.regularTime?.home;
-      const as_=fm.score?.fullTime?.away??fm.score?.regularTime?.away;
-      if(hs==null||as_==null) return;
+      let hs=fm.score?.fullTime?.home??fm.score?.regularTime?.home;
+      let as_=fm.score?.fullTime?.away??fm.score?.regularTime?.away;
+      if(hs==null||as_==null){
+        if(status!=='live') return;
+        hs=hs??0;as_=as_??0; // live match with no score exposed yet — show 0–0 rather than hiding it
+      }
       const hName=fm.homeTeam?.name||'';const aName=fm.awayTeam?.name||'';
       const[hf,hn]=tInfo(hName);const[af,an]=tInfo(aName);
       const pen=(fm.score?.penalties?.home!=null)?`${fm.score.penalties.home}–${fm.score.penalties.away}`:null;
@@ -2066,6 +2077,30 @@ async function fetchScores(silent=false){
         });
       }
     }catch(e){/* scorers optional */}
+
+    // Official standings from the API (handles FIFA tiebreakers properly).
+    // Group comes as "Group A" — keep just the letter to match GROUPS[].n
+    OFFICIAL_STANDINGS=null;
+    try{
+      if(bundle.standings && Array.isArray(bundle.standings.standings)){
+        const ost={};
+        bundle.standings.standings.forEach(s=>{
+          if(s.type && s.type!=='TOTAL') return;
+          const letter=(s.group||'').replace(/^GROUP[\s_-]*/i,'').trim();
+          if(!letter || !Array.isArray(s.table) || !s.table.length) return;
+          ost[letter]=s.table.map(r=>{
+            const nm=r.team?.name||'?';
+            const[f,n]=tInfo(nm);
+            return{team:n||nm,f,pj:r.playedGames||0,pg:r.won||0,pe:r.draw||0,pp:r.lost||0,
+                   gf:r.goalsFor||0,gc:r.goalsAgainst||0,pts:r.points||0,pos:r.position||null};
+          });
+        });
+        if(Object.keys(ost).length) OFFICIAL_STANDINGS=ost;
+      }
+    }catch(e){/* standings optional — computed fallback below */}
+
+    // First visit during the tournament: open Groups directly on the table
+    if(!localStorage.getItem('wc26_groupsview') && (OFFICIAL_STANDINGS||updated>0)) groupsView='standings';
 
     buildStandings();
     const stamp=bundle.updatedAt?new Date(bundle.updatedAt):new Date();

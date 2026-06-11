@@ -5,36 +5,34 @@ A lightweight, single-file web app to follow the 2026 FIFA World Cup in real tim
 
 
 🚀 How to use it
-1. Get your free API key
-The app pulls live scores from football-data.org — it's completely free, no credit card needed, just an email address.
+👉 Just open gasparduarte.github.io/Worldcup2026 — that's it.
 
-Go to football-data.org/client/register
-Sign up with your email
-Check your inbox — your API key will be there
+No API key, no setup. The page loads fresh data on its own and keeps refreshing while you have it open (every minute during live matches, every 5 minutes otherwise).
 
-2. Open the app
-👉 gasparduarte.github.io/Worldcup2026
-3. Paste your key and hit Update
-Paste your API key in the field at the top of the page and click Update. That's it — live scores, standings, and top scorers will load automatically.
+⚙️ How it works
+A GitHub Action fetches live data from football-data.org roughly every 5 minutes and commits it to `data.json` in this repo. The page just reads that file — no key needed in the browser.
+
+- The Action keeps itself alive by re-dispatching at the end of each run (GitHub heavily throttles 5-minute cron schedules, so the cron alone is only a safety net).
+- It stops automatically when the tournament ends (July 20, 2026).
+- Emergency brake: create a file called `STOP` in the repo root and updates halt.
+- The API key lives in the repo secret `FOOTBALL_DATA_TOKEN` (Settings → Secrets → Actions).
 
 ✨ Features
 
 📅 Full fixture list — all 104 matches with dates, times, and venues
-📊 Live standings — group tables update automatically with results
+📊 Live standings — official group tables straight from the API
 🏆 Knockout bracket — Round of 32 through the Final
 👟 Top scorers — live golden boot race
 🇦🇷 Argentina tab — dedicated view for La Scaloneta's matches and road to the title
 ⏱️ Countdown — live timer to the next Argentina match
-🔄 Auto-refresh — updates every 60 seconds when there are live games
+🔄 Auto-refresh — no reload needed, scores appear on their own
 🌙 Dark / light mode — toggle in the top right corner
-🎮 Demo mode — try it out before the tournament starts, no key needed
+🎮 Demo mode — preview with fake results, no key needed
 
 
 ℹ️ Notes
 
-Each person needs their own free API key — keys are personal and can't be shared
-The app works entirely in the browser — no server, no backend, no data stored anywhere
-Live data is provided by football-data.org (free tier)
+Live data is provided by football-data.org (free tier). Final scores can take a little while to be confirmed there — if a match just ended, give it a few minutes.
 
 
 Made with ❤️ for the team, World Cup tracker
