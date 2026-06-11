@@ -18,9 +18,9 @@
 [data-theme="dark"]{
   --bg:#0a0e14;--bg2:#111722;--bg3:#1a2132;--card:#151d2b;--card-hover:#1a2336;
   --border:#1e2a3d;--border2:#2a3852;--border3:#3a4a68;
-  --accent:#4fc3f7;--accent2:#29b6f6;--accent-glow:rgba(79,195,247,.15);
-  --arg:#74b9ff;--arg-bg:rgba(116,185,255,.08);--arg-border:rgba(116,185,255,.25);
-  --gold:#ffd54f;--gold-bg:rgba(255,213,79,.06);--gold-border:rgba(255,213,79,.25);
+  --accent:#74acdf;--accent2:#5b9bd1;--accent-glow:rgba(116,172,223,.16);
+  --arg:#74acdf;--arg-bg:rgba(116,172,223,.08);--arg-border:rgba(116,172,223,.3);--arg-glow:rgba(116,172,223,.38);
+  --gold:#f6b426;--gold-bg:rgba(246,180,38,.07);--gold-border:rgba(246,180,38,.3);
   --green:#66bb6a;--green-bg:rgba(102,187,106,.1);
   --red:#ef5350;--live:#ff5252;--live-glow:rgba(255,82,82,.4);
   --text:#e8edf5;--text2:#8a9bbf;--text3:#5a6a8a;
@@ -31,9 +31,9 @@
 [data-theme="light"]{
   --bg:#f3f6fb;--bg2:#ffffff;--bg3:#eaf0f8;--card:#ffffff;--card-hover:#f7faff;
   --border:#dce5f0;--border2:#c4d0e0;--border3:#a8b8cc;
-  --accent:#0288d1;--accent2:#0277bd;--accent-glow:rgba(2,136,209,.12);
-  --arg:#1565c0;--arg-bg:rgba(21,101,192,.07);--arg-border:rgba(21,101,192,.25);
-  --gold:#e6a700;--gold-bg:rgba(230,167,0,.07);--gold-border:rgba(230,167,0,.3);
+  --accent:#3e7fb8;--accent2:#33699a;--accent-glow:rgba(62,127,184,.14);
+  --arg:#2e6da4;--arg-bg:rgba(46,109,164,.07);--arg-border:rgba(46,109,164,.28);--arg-glow:rgba(46,109,164,.3);
+  --gold:#cf9305;--gold-bg:rgba(207,147,5,.08);--gold-border:rgba(207,147,5,.3);
   --green:#2e7d32;--green-bg:rgba(46,125,50,.1);
   --red:#c62828;--live:#d32f2f;--live-glow:rgba(211,47,47,.3);
   --text:#0f1724;--text2:#3a4a68;--text3:#7588a8;
@@ -50,8 +50,8 @@ body{
   transition:background .3s ease, color .3s ease;
   background-image:
     radial-gradient(ellipse 80% 40% at 50% -10%,var(--accent-glow),transparent 60%),
-    radial-gradient(ellipse 60% 35% at 90% 30%,rgba(116,185,255,.05),transparent 60%),
-    radial-gradient(ellipse 60% 35% at 5% 60%,rgba(255,213,79,.04),transparent 60%),
+    radial-gradient(ellipse 60% 35% at 90% 30%,rgba(116,172,223,.05),transparent 60%),
+    radial-gradient(ellipse 60% 35% at 5% 60%,rgba(246,180,38,.04),transparent 60%),
     linear-gradient(var(--grid-line) 1px,transparent 1px),
     linear-gradient(90deg,var(--grid-line) 1px,transparent 1px);
   background-size:auto,auto,auto,48px 48px,48px 48px;
@@ -77,10 +77,26 @@ header{
 header::before{
   content:'';position:absolute;inset:0;pointer-events:none;
   background:
+    /* stadium floodlight beams breaking through the dark */
+    linear-gradient(112deg,transparent 30%,rgba(255,255,255,.05) 40%,transparent 50%),
+    linear-gradient(248deg,transparent 30%,rgba(255,255,255,.045) 40%,transparent 50%),
     radial-gradient(ellipse 60% 80% at 20% 0%,var(--accent-glow) 0%,transparent 60%),
-    radial-gradient(ellipse 60% 80% at 80% 0%,rgba(116,185,255,.1) 0%,transparent 60%),
+    radial-gradient(ellipse 60% 80% at 80% 0%,rgba(116,172,223,.1) 0%,transparent 60%),
     radial-gradient(ellipse 40% 60% at 50% 100%,var(--gold-bg) 0%,transparent 70%);
 }
+[data-theme="light"] header::before{
+  background:
+    radial-gradient(ellipse 60% 80% at 20% 0%,var(--accent-glow) 0%,transparent 60%),
+    radial-gradient(ellipse 60% 80% at 80% 0%,rgba(46,109,164,.08) 0%,transparent 60%),
+    radial-gradient(ellipse 40% 60% at 50% 100%,var(--gold-bg) 0%,transparent 70%);
+}
+/* Faint tactical pitch lines behind the title */
+.h-orbs::before{
+  content:'';position:absolute;inset:0;pointer-events:none;
+  background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 380' fill='none' stroke='white' stroke-width='2'><rect x='8' y='8' width='584' height='364' rx='4'/><line x1='8' y1='190' x2='592' y2='190'/><circle cx='300' cy='190' r='64'/><circle cx='300' cy='190' r='3' fill='white'/><rect x='190' y='8' width='220' height='84'/><rect x='252' y='8' width='96' height='34'/><rect x='190' y='288' width='220' height='84'/><rect x='252' y='346' width='96' height='34'/><path d='M236 92 A 70 70 0 0 0 364 92'/><path d='M236 288 A 70 70 0 0 1 364 288'/></svg>") center 42%/min(640px,92%) no-repeat;
+  opacity:.055;
+}
+[data-theme="light"] .h-orbs::before{opacity:.07;filter:invert(1)}
 /* Soccer-field stripe at the bottom of the header */
 header::after{
   content:'';position:absolute;left:0;right:0;bottom:0;height:2px;
@@ -138,6 +154,12 @@ h1{
 @keyframes title-in{
   from{opacity:0;transform:translateY(20px) scale(.96);letter-spacing:12px;filter:blur(8px)}
   to{opacity:1;transform:translateY(0) scale(1);letter-spacing:5px;filter:blur(0)}
+}
+/* Crisp white title popping against the dark theme */
+[data-theme="dark"] h1{
+  background:linear-gradient(180deg,#ffffff 0%,#f2f7fd 55%,var(--accent) 118%);
+  -webkit-background-clip:text;background-clip:text;
+  text-shadow:0 0 90px var(--arg-glow);
 }
 .hsub{
   font-family:'Barlow Condensed',sans-serif;color:var(--text2);
@@ -217,9 +239,29 @@ h1{
 ═══════════════════════════════════════════════════════════════ */
 .today-hero{
   position:relative;overflow:hidden;
-  background:linear-gradient(135deg,var(--arg-bg) 0%,var(--card) 60%);
+  background:linear-gradient(135deg,var(--arg-bg) 0%,var(--card) 55%,var(--arg-bg) 130%);
   border:1px solid var(--arg-border);border-radius:14px;
-  padding:1.5rem;margin-bottom:1.5rem;
+  padding:1.5rem;margin-bottom:1.5rem;box-shadow:var(--shadow);
+}
+/* Soft animated albiceleste glow — opacity-only animation so it stays on the GPU */
+.today-hero::after{
+  content:'';position:absolute;inset:0;border-radius:14px;pointer-events:none;
+  border:1px solid var(--arg);
+  box-shadow:inset 0 0 26px -10px var(--arg-glow);
+  opacity:0;animation:hero-glow 3.6s ease-in-out infinite;
+}
+@keyframes hero-glow{
+  0%,100%{opacity:0}
+  50%{opacity:1}
+}
+.hero-stars{
+  font-size:11px;letter-spacing:4px;line-height:1;margin-bottom:4px;
+  filter:drop-shadow(0 0 5px var(--gold-border));
+  animation:stars-shimmer 2.8s ease-in-out infinite;
+}
+@keyframes stars-shimmer{
+  0%,100%{opacity:.75;transform:scale(1)}
+  50%{opacity:1;transform:scale(1.06)}
 }
 .today-hero::before{
   content:'';position:absolute;top:-50%;right:-20%;width:300px;height:300px;
@@ -244,13 +286,24 @@ h1{
   letter-spacing:3px;padding:0 10px;
 }
 .cd-grid{
-  display:grid;grid-template-columns:repeat(4,1fr);gap:8px;
-  background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:14px 10px;
+  display:grid;grid-template-columns:repeat(4,1fr);gap:10px;
 }
-.cd-unit{text-align:center}
+/* Glassmorphism countdown boxes with high-stakes gold digits */
+.cd-unit{
+  text-align:center;padding:13px 6px;border-radius:12px;
+  background:linear-gradient(165deg,rgba(255,255,255,.07) 0%,rgba(255,255,255,.02) 100%);
+  border:1px solid var(--border2);
+  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.07),0 4px 14px rgba(0,0,0,.18);
+}
+[data-theme="light"] .cd-unit{
+  background:linear-gradient(165deg,rgba(255,255,255,.75) 0%,rgba(255,255,255,.4) 100%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.9),0 4px 14px rgba(15,23,36,.07);
+}
 .cd-num{
-  font-family:'Bebas Neue',sans-serif;font-size:34px;color:var(--arg);
-  letter-spacing:2px;line-height:1;
+  font-family:'Bebas Neue',sans-serif;font-size:36px;color:var(--gold);
+  letter-spacing:2px;line-height:1;font-weight:700;
+  text-shadow:0 0 16px var(--gold-border);
 }
 .cd-name{
   font-size:10px;font-family:'Barlow Condensed',sans-serif;
@@ -819,6 +872,13 @@ footer{
   border-top:1px solid var(--border);margin-top:2rem;
   font-family:'Barlow Condensed',sans-serif;letter-spacing:1.5px;
 }
+/* Tiny low-contrast easter egg for the believers */
+.muchachos{
+  margin-top:9px;font-family:'Bebas Neue',sans-serif;font-size:12px;
+  letter-spacing:5px;text-transform:uppercase;color:var(--text3);opacity:.5;
+  transition:all .35s ease;cursor:default;
+}
+.muchachos:hover{opacity:1;color:var(--gold);text-shadow:0 0 14px var(--gold-border)}
 
 .flg-txt{
   display:inline-flex;align-items:center;justify-content:center;
@@ -994,7 +1054,7 @@ footer{
 .cd-num.tick{animation:digit-tick .35s ease}
 @keyframes digit-tick{
   0%{transform:translateY(0);color:var(--arg)}
-  40%{transform:translateY(-3px);color:var(--accent)}
+  40%{transform:translateY(-3px);color:var(--text)}
   100%{transform:translateY(0);color:var(--arg)}
 }
 
@@ -1267,7 +1327,9 @@ button:focus-visible,input:focus-visible,a:focus-visible,[role="button"]:focus-v
 <div id="tab-scorers"    class="tab-content" role="tabpanel"></div>
 <div id="tab-argentina"  class="tab-content" role="tabpanel"></div>
 
-<footer>Live data: football-data.org (free API) &nbsp;·&nbsp; All times in Argentina time (ART / UTC–3)</footer>
+<footer>Live data: football-data.org (free API) &nbsp;·&nbsp; All times in Argentina time (ART / UTC–3)
+  <div class="muchachos">Muchachos ⭐⭐⭐ · Elijo Creer</div>
+</footer>
 
 <script>
 /* ════════════════════════════════════════════════════════════
@@ -1483,11 +1545,13 @@ function renderHero(){
     <div class="hero-match">
       <div class="hero-team">
         <span class="hero-flag">${next.hf}</span>
+        ${next.h==='Argentina'?'<div class="hero-stars">⭐⭐⭐</div>':''}
         <div class="hero-name">${next.h}</div>
       </div>
       <div class="hero-vs">VS</div>
       <div class="hero-team right">
         <span class="hero-flag">${next.af}</span>
+        ${next.a==='Argentina'?'<div class="hero-stars">⭐⭐⭐</div>':''}
         <div class="hero-name">${next.a}</div>
       </div>
     </div>

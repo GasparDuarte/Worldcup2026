@@ -9,6 +9,8 @@ A lightweight, single-file web app to follow the 2026 FIFA World Cup in real tim
 
 No API key, no setup. The page loads fresh data on its own and keeps refreshing while you have it open (every minute during live matches, every 5 minutes otherwise).
 
+Opening a downloaded copy of `index.html` by double-clicking also works: if the browser blocks reading the local `data.json` (file:// pages can't fetch local files), the page automatically falls back to the published data.
+
 ⚙️ How it works
 A GitHub Action fetches live data from football-data.org roughly every 5 minutes and commits it to `data.json` in this repo. The page just reads that file — no key needed in the browser.
 
