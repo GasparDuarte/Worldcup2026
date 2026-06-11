@@ -1,0 +1,34 @@
+name: Diagnose football-data API
+on:
+  workflow_dispatch:
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe endpoint variants
+        env:
+          FD_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: |
+          probe() {
+            echo "================ $1 ================"
+            curl -sS -D /tmp/h -H "X-Auth-Token: $FD_TOKEN" "$1" -o /tmp/b || true
+            grep -iE '^(HTTP|age:|cache-control|cf-cache-status|x-cache|last-modified|expires)' /tmp/h || true
+            jq -r '
+              if .matches then
+                ("resultSet: " + ((.resultSet // {}) | tostring)),
+                (.matches[] | select(.id==537327) | "MEX-RSA: status=\(.status) score=\(.score.fullTime.home)-\(.score.fullTime.away) lastUpdated=\(.lastUpdated)")
+              elif .standings then
+                (.standings[] | select((.group // "") == "GROUP_A") | .table[] | "\(.position). \(.team.name) pts=\(.points) played=\(.playedGames) gf=\(.goalsFor)")
+              else
+                (. | tostring | .[0:300])
+              end' /tmp/b 2>/dev/null | head -25 || head -c 400 /tmp/b
+            echo ""
+            sleep 8
+          }
+          probe "https://api.football-data.org/v4/competitions/WC/matches?season=2026"
+          probe "https://api.football-data.org/v4/competitions/WC/matches"
+          probe "https://api.football-data.org/v4/matches?date=2026-06-11"
+          probe "https://api.football-data.org/v4/competitions/WC/matches?dateFrom=2026-06-11&dateTo=2026-06-12"
+          probe "https://api.football-data.org/v4/competitions/WC/standings"
+          probe "https://api.football-data.org/v4/competitions/2000/matches?matchday=1"
