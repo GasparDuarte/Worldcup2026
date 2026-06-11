@@ -1455,7 +1455,7 @@ function matchCardHTML(m){
     <div class="mc-team"><span class="mc-flag">${m.hf}</span><span class="mc-name">${m.h}</span></div>
     <div class="mc-center">${sg(m)}</div>
     <div class="mc-team right"><span class="mc-flag">${m.af}</span><span class="mc-name">${m.a}</span></div>
-    <div class="mc-venue">📍 ${m.v}</div>
+    ${m.v?`<div class="mc-venue">📍 ${m.v}</div>`:''}
   </div>`;
 }
 
@@ -1497,7 +1497,7 @@ function renderHero(){
       <div class="cd-unit"><div class="cd-num" id="cdM">--</div><div class="cd-name">Min</div></div>
       <div class="cd-unit"><div class="cd-num" id="cdS">--</div><div class="cd-name">Sec</div></div>
     </div>
-    <div class="hero-venue">📍 ${next.v} · ⏰ ${next.t} ART</div>
+    <div class="hero-venue">${next.v?`📍 ${next.v} · `:''}⏰ ${next.t} ART</div>
   </div>`;
 }
 
@@ -2013,6 +2013,8 @@ async function fetchScores(silent=false){
     // === Rebuild the group-stage fixture from the API (source of truth) ===
     // The hardcoded MATCHES used to drift out of sync with the real FIFA schedule.
     // Now the API decides who plays whom, when (Argentina time), and where.
+    // Keep the original hardcoded venues around: the API often returns venue:null
+    if(!window._V0) window._V0=MATCHES.map(m=>({d:m.d,h:m.h,a:m.a,v:m.v}));
     MATCHES.length=0;
     const groupMatches=data.matches
       .filter(fm=>fm.stage==='GROUP_STAGE')
@@ -2030,7 +2032,9 @@ async function fetchScores(silent=false){
       const[hf,hn]=tInfo(hName);const[af,an]=tInfo(aName);
       const localId='m'+String(i+1).padStart(3,'0');
       apiToLocalId[fm.id]=localId;
-      const m={id:localId,d,t,h:hn||hName,a:an||aName,hf,af,g:groupLetter,v:fm.venue||''};
+      const hh=hn||hName,aa=an||aName;
+      const v0=window._V0.find(x=>x.d===d&&((x.h===hh&&x.a===aa)||(x.h===aa&&x.a===hh)));
+      const m={id:localId,d,t,h:hh,a:aa,hf,af,g:groupLetter,v:fm.venue||v0?.v||''};
       if(/argentina/i.test(hName+' '+aName)) m.arg=true;
       MATCHES.push(m);
     });
