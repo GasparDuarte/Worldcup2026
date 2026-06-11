@@ -6,29 +6,29 @@ jobs:
   diag:
     runs-on: ubuntu-latest
     steps:
-      - name: Probe endpoint variants
+      - name: Probe round 2
         env:
           FD_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
         run: |
-          probe() {
-            echo "================ $1 ================"
-            curl -sS -D /tmp/h -H "X-Auth-Token: $FD_TOKEN" "$1" -o /tmp/b || true
-            grep -iE '^(HTTP|age:|cache-control|cf-cache-status|x-cache|last-modified|expires)' /tmp/h || true
-            jq -r '
-              if .matches then
-                ("resultSet: " + ((.resultSet // {}) | tostring)),
-                (.matches[] | select(.id==537327) | "MEX-RSA: status=\(.status) score=\(.score.fullTime.home)-\(.score.fullTime.away) lastUpdated=\(.lastUpdated)")
-              elif .standings then
-                (.standings[] | select((.group // "") == "GROUP_A") | .table[] | "\(.position). \(.team.name) pts=\(.points) played=\(.playedGames) gf=\(.goalsFor)")
-              else
-                (. | tostring | .[0:300])
-              end' /tmp/b 2>/dev/null | head -25 || head -c 400 /tmp/b
-            echo ""
-            sleep 8
-          }
-          probe "https://api.football-data.org/v4/competitions/WC/matches?season=2026"
-          probe "https://api.football-data.org/v4/competitions/WC/matches"
-          probe "https://api.football-data.org/v4/matches?date=2026-06-11"
-          probe "https://api.football-data.org/v4/competitions/WC/matches?dateFrom=2026-06-11&dateTo=2026-06-12"
-          probe "https://api.football-data.org/v4/competitions/WC/standings"
-          probe "https://api.football-data.org/v4/competitions/2000/matches?matchday=1"
+          echo "================ STANDINGS RAW ================"
+          curl -sS -H "X-Auth-Token: $FD_TOKEN" \
+            "https://api.football-data.org/v4/competitions/WC/standings" -o /tmp/st.json
+          jq -c '{season: .season.id, count: (.standings|length), first: .standings[0]}' /tmp/st.json | head -c 2000
+          echo ""
+          echo "--- group A table row sample ---"
+          jq -c '.standings[] | select(.group=="GROUP_A" or .group=="Group A") | .table[0:2]' /tmp/st.json | head -c 1500
+          echo ""
+          sleep 8
+
+          echo "================ CACHE-BUST PARAM TOLERANCE ================"
+          curl -sS -w "HTTP %{http_code}\n" -H "X-Auth-Token: $FD_TOKEN" \
+            "https://api.football-data.org/v4/competitions/WC/matches?nocache=$(date +%s)" -o /tmp/m.json
+          jq -r '(.resultSet // .message // "no body") | tostring' /tmp/m.json | head -c 300
+          echo ""
+          sleep 8
+
+          echo "================ SCORERS SHAPE ================"
+          curl -sS -H "X-Auth-Token: $FD_TOKEN" \
+            "https://api.football-data.org/v4/competitions/WC/scorers?limit=30" -o /tmp/sc.json
+          jq -c '{count: (.scorers|length), first: .scorers[0], season: .season.id}' /tmp/sc.json | head -c 1200
+          echo ""
