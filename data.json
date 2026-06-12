@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T08:22:08Z",
+  "updatedAt": "2026-06-12T08:26:45Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -45,7 +45,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_A",
-        "lastUpdated": "2026-06-12T00:21:43Z",
+        "lastUpdated": "2026-06-12T08:25:00Z",
         "homeTeam": {
           "id": 769,
           "name": "Mexico",
@@ -111,7 +111,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_A",
-        "lastUpdated": "2026-06-12T04:01:39Z",
+        "lastUpdated": "2026-06-12T08:25:00Z",
         "homeTeam": {
           "id": 772,
           "name": "South Korea",
