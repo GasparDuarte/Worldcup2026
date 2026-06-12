@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T20:29:35Z",
+  "updatedAt": "2026-06-12T20:34:13Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -177,7 +177,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_B",
-        "lastUpdated": "2026-06-12T20:29:14Z",
+        "lastUpdated": "2026-06-12T20:34:02Z",
         "homeTeam": {
           "id": 828,
           "name": "Canada",
