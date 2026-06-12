@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T19:27:04Z",
+  "updatedAt": "2026-06-12T19:31:42Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -177,7 +177,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_B",
-        "lastUpdated": "2026-06-12T19:26:41Z",
+        "lastUpdated": "2026-06-12T19:30:53Z",
         "homeTeam": {
           "id": 828,
           "name": "Canada",
@@ -193,11 +193,11 @@
           "crest": "https://crests.football-data.org/bosnia.svg"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": null,
@@ -6336,35 +6336,16 @@
             },
             "playedGames": 1,
             "form": null,
-            "won": 0,
-            "draw": 1,
+            "won": 1,
+            "draw": 0,
             "lost": 0,
-            "points": 1,
-            "goalsFor": 0,
+            "points": 3,
+            "goalsFor": 1,
             "goalsAgainst": 0,
-            "goalDifference": 0
+            "goalDifference": 1
           },
           {
-            "position": 1,
-            "team": {
-              "id": 828,
-              "name": "Canada",
-              "shortName": "Canada",
-              "tla": "CAN",
-              "crest": "https://crests.football-data.org/canada.svg"
-            },
-            "playedGames": 1,
-            "form": null,
-            "won": 0,
-            "draw": 1,
-            "lost": 0,
-            "points": 1,
-            "goalsFor": 0,
-            "goalsAgainst": 0,
-            "goalDifference": 0
-          },
-          {
-            "position": 3,
+            "position": 2,
             "team": {
               "id": 8030,
               "name": "Qatar",
@@ -6383,7 +6364,7 @@
             "goalDifference": 0
           },
           {
-            "position": 3,
+            "position": 2,
             "team": {
               "id": 788,
               "name": "Switzerland",
@@ -6400,6 +6381,25 @@
             "goalsFor": 0,
             "goalsAgainst": 0,
             "goalDifference": 0
+          },
+          {
+            "position": 4,
+            "team": {
+              "id": 828,
+              "name": "Canada",
+              "shortName": "Canada",
+              "tla": "CAN",
+              "crest": "https://crests.football-data.org/canada.svg"
+            },
+            "playedGames": 1,
+            "form": null,
+            "won": 0,
+            "draw": 0,
+            "lost": 1,
+            "points": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 1,
+            "goalDifference": -1
           }
         ]
       },
