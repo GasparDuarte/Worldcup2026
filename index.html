@@ -16,16 +16,18 @@
    THEMES
 ═══════════════════════════════════════════════════════════════ */
 [data-theme="dark"]{
-  --bg:#0a0e14;--bg2:#111722;--bg3:#1a2132;--card:#151d2b;--card-hover:#1a2336;
-  --border:#1e2a3d;--border2:#2a3852;--border3:#3a4a68;
+  /* deep midnight blue — no flat black anywhere */
+  --bg:#070d1d;--bg2:#0c1428;--bg3:#13203c;--card:#0f1930;--card-hover:#152340;
+  --border:#1c2b4d;--border2:#2b3f66;--border3:#3e5582;
   --accent:#74acdf;--accent2:#5b9bd1;--accent-glow:rgba(116,172,223,.16);
   --arg:#74acdf;--arg-bg:rgba(116,172,223,.08);--arg-border:rgba(116,172,223,.3);--arg-glow:rgba(116,172,223,.38);
-  --gold:#f6b426;--gold-bg:rgba(246,180,38,.07);--gold-border:rgba(246,180,38,.3);
+  /* rich deep cup gold */
+  --gold:#e9ae1f;--gold-bg:rgba(233,174,31,.07);--gold-border:rgba(233,174,31,.33);
   --green:#66bb6a;--green-bg:rgba(102,187,106,.1);
   --red:#ef5350;--live:#ff5252;--live-glow:rgba(255,82,82,.4);
-  --text:#e8edf5;--text2:#8a9bbf;--text3:#5a6a8a;
-  --shadow:0 4px 16px rgba(0,0,0,.3);
-  --shadow-lg:0 16px 48px rgba(0,0,0,.5);
+  --text:#f4f8ff;--text2:#94a7cd;--text3:#62739a;
+  --shadow:0 4px 16px rgba(2,7,18,.45);
+  --shadow-lg:0 16px 48px rgba(2,7,18,.6);
   --grid-line:rgba(255,255,255,.02);
 }
 [data-theme="light"]{
@@ -90,13 +92,13 @@ header::before{
     radial-gradient(ellipse 60% 80% at 80% 0%,rgba(46,109,164,.08) 0%,transparent 60%),
     radial-gradient(ellipse 40% 60% at 50% 100%,var(--gold-bg) 0%,transparent 70%);
 }
-/* Faint tactical pitch lines behind the title */
+/* Faint Sol de Mayo behind the title — 32 golden rays via dash-circle */
 .h-orbs::before{
   content:'';position:absolute;inset:0;pointer-events:none;
-  background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 380' fill='none' stroke='white' stroke-width='2'><rect x='8' y='8' width='584' height='364' rx='4'/><line x1='8' y1='190' x2='592' y2='190'/><circle cx='300' cy='190' r='64'/><circle cx='300' cy='190' r='3' fill='white'/><rect x='190' y='8' width='220' height='84'/><rect x='252' y='8' width='96' height='34'/><rect x='190' y='288' width='220' height='84'/><rect x='252' y='346' width='96' height='34'/><path d='M236 92 A 70 70 0 0 0 364 92'/><path d='M236 288 A 70 70 0 0 1 364 288'/></svg>") center 42%/min(640px,92%) no-repeat;
-  opacity:.055;
+  background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400' fill='none'><circle cx='200' cy='200' r='50' stroke='%23e9ae1f' stroke-width='2.5'/><circle cx='200' cy='200' r='57' stroke='%23e9ae1f' stroke-width='1' stroke-opacity='.6'/><circle cx='200' cy='200' r='108' stroke='%23e9ae1f' stroke-width='72' stroke-dasharray='7.5 13.7'/><circle cx='200' cy='200' r='150' stroke='%23e9ae1f' stroke-width='1' stroke-opacity='.35'/></svg>") center 32%/min(430px,72%) no-repeat;
+  opacity:.075;
 }
-[data-theme="light"] .h-orbs::before{opacity:.07;filter:invert(1)}
+[data-theme="light"] .h-orbs::before{opacity:.05}
 /* Soccer-field stripe at the bottom of the header */
 header::after{
   content:'';position:absolute;left:0;right:0;bottom:0;height:2px;
@@ -255,8 +257,8 @@ h1{
   50%{opacity:1}
 }
 .hero-stars{
-  font-size:11px;letter-spacing:4px;line-height:1;margin-bottom:4px;
-  filter:drop-shadow(0 0 5px var(--gold-border));
+  font-size:15px;letter-spacing:5px;line-height:1;margin-bottom:5px;
+  filter:drop-shadow(0 0 4px rgba(233,174,31,.9)) drop-shadow(0 0 12px rgba(233,174,31,.4));
   animation:stars-shimmer 2.8s ease-in-out infinite;
 }
 @keyframes stars-shimmer{
@@ -924,18 +926,18 @@ footer{
 
 /* Group cards — each group gets its own accent color */
 .group-card{position:relative}
-.groups-grid .group-card:nth-child(1){--g:#4fc3f7}
+.groups-grid .group-card:nth-child(1){--g:#74acdf}
 .groups-grid .group-card:nth-child(2){--g:#66bb6a}
 .groups-grid .group-card:nth-child(3){--g:#ff7043}
 .groups-grid .group-card:nth-child(4){--g:#ab47bc}
-.groups-grid .group-card:nth-child(5){--g:#ffca28}
+.groups-grid .group-card:nth-child(5){--g:#e9ae1f}
 .groups-grid .group-card:nth-child(6){--g:#26c6da}
 .groups-grid .group-card:nth-child(7){--g:#ec407a}
 .groups-grid .group-card:nth-child(8){--g:#9ccc65}
 .groups-grid .group-card:nth-child(9){--g:#5c6bc0}
-.groups-grid .group-card:nth-child(10){--g:#74b9ff}
+.groups-grid .group-card:nth-child(10){--g:#8fc1ea}
 .groups-grid .group-card:nth-child(11){--g:#ff5252}
-.groups-grid .group-card:nth-child(12){--g:#29b6f6}
+.groups-grid .group-card:nth-child(12){--g:#5b9bd1}
 .groups-grid .group-card{border-top-color:color-mix(in srgb,var(--g) 65%,var(--border2))}
 .groups-grid .group-card .gname{
   color:var(--g);
@@ -1135,6 +1137,58 @@ footer{
 *::-webkit-scrollbar-track{background:transparent}
 *::-webkit-scrollbar-thumb{background:var(--border2);border-radius:5px;border:2px solid var(--bg)}
 *::-webkit-scrollbar-thumb:hover{background:var(--border3)}
+
+/* ════════════════════════════════════════════════════════════
+   MIDNIGHT ALBICELESTE REDESIGN (dark theme only)
+   Texture + atmosphere layer: no flat black, jersey-knit mesh,
+   sky-blue/gold corner halos, flag stripes on the outer margins,
+   hex-dot module panels across every tab. Layout untouched.
+═══════════════════════════════════════════════════════════════ */
+
+/* Jersey-knit mesh over deep midnight, lit corners */
+[data-theme="dark"] body{
+  background-image:
+    radial-gradient(ellipse 50% 36% at 10% -5%,rgba(116,172,223,.15),transparent 62%),
+    radial-gradient(ellipse 50% 36% at 90% -5%,rgba(233,174,31,.10),transparent 62%),
+    radial-gradient(ellipse 100% 65% at 50% 125%,rgba(3,8,20,.6),transparent 70%),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11 0 L22 11 L11 22 L0 11 Z' fill='none' stroke='%23a9c7ec' stroke-opacity='.05'/><circle cx='11' cy='11' r='.7' fill='%23a9c7ec' fill-opacity='.06'/></svg>");
+  background-size:auto,auto,auto,22px 22px;
+  background-attachment:fixed,fixed,fixed,scroll;
+}
+/* National flag stripes running down the outer margins */
+[data-theme="dark"] body::after{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:
+    linear-gradient(90deg,rgba(116,172,223,.22) 0,rgba(116,172,223,.22) 2px,rgba(244,248,255,.15) 2px,rgba(244,248,255,.15) 4px,rgba(116,172,223,.22) 4px,rgba(116,172,223,.22) 6px,transparent 6px),
+    linear-gradient(270deg,rgba(116,172,223,.22) 0,rgba(116,172,223,.22) 2px,rgba(244,248,255,.15) 2px,rgba(244,248,255,.15) 4px,rgba(116,172,223,.22) 4px,rgba(116,172,223,.22) 6px,transparent 6px);
+  -webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 88%,transparent 100%);
+  mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 88%,transparent 100%);
+}
+/* Defined dark modules with a faint hex-dot net texture (goal-net nod)
+   — high specificity keeps the texture through :hover background swaps */
+[data-theme="dark"] .match-card,
+[data-theme="dark"] .stat-card,
+[data-theme="dark"] .group-card:not(.has-arg),
+[data-theme="dark"] .st-table,
+[data-theme="dark"] .scorers-table,
+[data-theme="dark"] .ko-match:not(.is-arg):not(.is-final-match){
+  background-image:
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='42'><circle cx='6' cy='10' r='1' fill='%23a9c7ec' fill-opacity='.07'/><circle cx='18' cy='31' r='1' fill='%23a9c7ec' fill-opacity='.07'/></svg>"),
+    linear-gradient(168deg,rgba(255,255,255,.035) 0%,rgba(255,255,255,0) 45%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.045),0 6px 18px rgba(2,6,16,.35);
+}
+/* Glass countdown keeps its gradient, gains the net texture */
+[data-theme="dark"] .cd-unit{
+  background-image:
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='42'><circle cx='6' cy='10' r='1' fill='%23a9c7ec' fill-opacity='.07'/><circle cx='18' cy='31' r='1' fill='%23a9c7ec' fill-opacity='.07'/></svg>"),
+    linear-gradient(165deg,rgba(255,255,255,.07) 0%,rgba(255,255,255,.02) 100%);
+}
+[data-theme="dark"] .today-hero{box-shadow:inset 0 1px 0 rgba(255,255,255,.05),var(--shadow)}
+/* Gold numbers on the stats modules; crisp white final scores */
+[data-theme="dark"] .stat-card .stat-value{color:var(--gold)}
+[data-theme="dark"] .stat-card.green .stat-value{color:var(--gold)}
+[data-theme="dark"] .mc-score.final{color:var(--text)}
+[data-theme="dark"] .hero-vs{color:var(--gold);opacity:.55}
 
 /* Selection color */
 ::selection{background:var(--accent);color:var(--bg)}
