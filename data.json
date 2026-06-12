@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T03:39:47Z",
+  "updatedAt": "2026-06-12T03:44:24Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -111,7 +111,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_A",
-        "lastUpdated": "2026-06-12T03:39:38Z",
+        "lastUpdated": "2026-06-12T03:43:50Z",
         "homeTeam": {
           "id": 772,
           "name": "South Korea",
@@ -7236,7 +7236,7 @@
     ]
   },
   "scorers": {
-    "count": 4,
+    "count": 5,
     "filters": {
       "season": "2026",
       "limit": 30
@@ -7361,6 +7361,37 @@
           "position": null,
           "shirtNumber": null,
           "lastUpdated": "2023-06-26T14:29:32Z"
+        },
+        "team": {
+          "id": 772,
+          "name": "South Korea",
+          "shortName": "Korea Republic",
+          "tla": "KOR",
+          "crest": "https://crests.football-data.org/772.png",
+          "address": "1-131 Sinmunno, 2-ga Jongno-Gu Seoul 110-062",
+          "website": "http://www.kfa.or.kr",
+          "founded": 1928,
+          "clubColors": "Red / White / Blue",
+          "venue": null,
+          "lastUpdated": "2022-04-02T10:45:25Z"
+        },
+        "playedMatches": 1,
+        "goals": 1,
+        "assists": 1,
+        "penalties": null
+      },
+      {
+        "player": {
+          "id": 191295,
+          "name": "Hyun-Gyu Oh",
+          "firstName": "Hyeon-gyu",
+          "lastName": "Oh",
+          "dateOfBirth": "2001-04-12",
+          "nationality": "South Korea",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-05-13T09:43:42Z"
         },
         "team": {
           "id": 772,
