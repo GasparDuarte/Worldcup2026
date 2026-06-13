@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T03:05:53Z",
+  "updatedAt": "2026-06-13T03:10:30Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -8,7 +8,7 @@
       "count": 104,
       "first": "2026-06-11",
       "last": "2026-07-19",
-      "played": 3
+      "played": 4
     },
     "competition": {
       "id": 2000,
@@ -239,11 +239,11 @@
         },
         "id": 537345,
         "utcDate": "2026-06-13T01:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-13T03:05:35Z",
+        "lastUpdated": "2026-06-13T03:09:12Z",
         "homeTeam": {
           "id": 771,
           "name": "United States",
@@ -262,7 +262,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 3,
+            "home": 4,
             "away": 1
           },
           "halfTime": {
