@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T19:44:43Z",
+  "updatedAt": "2026-06-13T19:49:26Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -309,7 +309,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_B",
-        "lastUpdated": "2026-06-13T19:43:47Z",
+        "lastUpdated": "2026-06-13T19:48:35Z",
         "homeTeam": {
           "id": 8030,
           "name": "Qatar",
