@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T18:52:54Z",
+  "updatedAt": "2026-06-13T19:02:07Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6372,12 +6372,12 @@
               "tla": "QAT",
               "crest": "https://crests.football-data.org/8030.svg"
             },
-            "playedGames": 0,
+            "playedGames": 1,
             "form": null,
             "won": 0,
-            "draw": 0,
+            "draw": 1,
             "lost": 0,
-            "points": 0,
+            "points": 1,
             "goalsFor": 0,
             "goalsAgainst": 0,
             "goalDifference": 0
@@ -6391,12 +6391,12 @@
               "tla": "SUI",
               "crest": "https://crests.football-data.org/788.svg"
             },
-            "playedGames": 0,
+            "playedGames": 1,
             "form": null,
             "won": 0,
-            "draw": 0,
+            "draw": 1,
             "lost": 0,
-            "points": 0,
+            "points": 1,
             "goalsFor": 0,
             "goalsAgainst": 0,
             "goalDifference": 0
