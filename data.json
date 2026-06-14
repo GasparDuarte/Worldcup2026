@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T01:29:22Z",
+  "updatedAt": "2026-06-14T01:33:59Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -441,7 +441,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_C",
-        "lastUpdated": "2026-06-14T01:28:47Z",
+        "lastUpdated": "2026-06-14T01:33:35Z",
         "homeTeam": {
           "id": 836,
           "name": "Haiti",
@@ -7236,7 +7236,7 @@
     ]
   },
   "scorers": {
-    "count": 14,
+    "count": 15,
     "filters": {
       "season": "2026",
       "limit": 30
@@ -7684,6 +7684,37 @@
           "clubColors": "Yellow / Green / Blue",
           "venue": null,
           "lastUpdated": "2021-05-22T11:31:45Z"
+        },
+        "playedMatches": 1,
+        "goals": 1,
+        "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
+          "id": 34646,
+          "name": "John McGinn",
+          "firstName": "John",
+          "lastName": "McGinn",
+          "dateOfBirth": "1994-10-18",
+          "nationality": "Scotland",
+          "section": "Midfield",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:32Z"
+        },
+        "team": {
+          "id": 8873,
+          "name": "Scotland",
+          "shortName": "Scotland",
+          "tla": "SCO",
+          "crest": "https://crests.football-data.org/814.svg",
+          "address": "Hampden Park Glasgow G42 9AY",
+          "website": "http://www.scottishfa.co.uk",
+          "founded": 1873,
+          "clubColors": "Navy Blue / White",
+          "venue": null,
+          "lastUpdated": "2026-06-01T09:43:58Z"
         },
         "playedMatches": 1,
         "goals": 1,
