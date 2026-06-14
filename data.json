@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T05:43:36Z",
+  "updatedAt": "2026-06-14T05:48:13Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -507,7 +507,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-14T05:42:26Z",
+        "lastUpdated": "2026-06-14T05:47:14Z",
         "homeTeam": {
           "id": 779,
           "name": "Australia",
