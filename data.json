@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T05:39:00Z",
+  "updatedAt": "2026-06-14T05:43:36Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -507,7 +507,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-14T05:38:14Z",
+        "lastUpdated": "2026-06-14T05:42:26Z",
         "homeTeam": {
           "id": 779,
           "name": "Australia",
@@ -526,7 +526,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 0
           },
           "halfTime": {
