@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T18:50:27Z",
+  "updatedAt": "2026-06-14T18:55:05Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -573,7 +573,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2026-06-14T18:49:59Z",
+        "lastUpdated": "2026-06-14T18:54:11Z",
         "homeTeam": {
           "id": 759,
           "name": "Germany",
@@ -7303,6 +7303,37 @@
       },
       {
         "player": {
+          "id": 171,
+          "name": "Kai Havertz",
+          "firstName": "Kai",
+          "lastName": "Havertz",
+          "dateOfBirth": "1999-06-11",
+          "nationality": "Germany",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:31Z"
+        },
+        "team": {
+          "id": 759,
+          "name": "Germany",
+          "shortName": "Germany",
+          "tla": "GER",
+          "crest": "https://crests.football-data.org/759.svg",
+          "address": "Otto-Fleck-Schneise 6 / Postfach 710265 Frankfurt am Main 60492",
+          "website": "http://www.dfb.de",
+          "founded": 1900,
+          "clubColors": "White / Black",
+          "venue": null,
+          "lastUpdated": "2026-06-01T09:41:12Z"
+        },
+        "playedMatches": 1,
+        "goals": 2,
+        "assists": null,
+        "penalties": 1
+      },
+      {
+        "player": {
           "id": 39237,
           "name": "Julián Quiñones",
           "firstName": "Julián",
@@ -7892,37 +7923,6 @@
       },
       {
         "player": {
-          "id": 171,
-          "name": "Kai Havertz",
-          "firstName": "Kai",
-          "lastName": "Havertz",
-          "dateOfBirth": "1999-06-11",
-          "nationality": "Germany",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-06-01T11:16:31Z"
-        },
-        "team": {
-          "id": 759,
-          "name": "Germany",
-          "shortName": "Germany",
-          "tla": "GER",
-          "crest": "https://crests.football-data.org/759.svg",
-          "address": "Otto-Fleck-Schneise 6 / Postfach 710265 Frankfurt am Main 60492",
-          "website": "http://www.dfb.de",
-          "founded": 1900,
-          "clubColors": "White / Black",
-          "venue": null,
-          "lastUpdated": "2026-06-01T09:41:12Z"
-        },
-        "playedMatches": 1,
-        "goals": 1,
-        "assists": null,
-        "penalties": 1
-      },
-      {
-        "player": {
           "id": 144393,
           "name": "Jamal Musiala",
           "firstName": "Jamal",
@@ -8011,7 +8011,7 @@
         },
         "playedMatches": 1,
         "goals": 1,
-        "assists": 1,
+        "assists": 2,
         "penalties": null
       }
     ]
