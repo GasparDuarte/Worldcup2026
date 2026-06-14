@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T02:11:43Z",
+  "updatedAt": "2026-06-14T02:16:20Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -437,11 +437,11 @@
         },
         "id": 537340,
         "utcDate": "2026-06-14T01:00:00Z",
-        "status": "PAUSED",
+        "status": "IN_PLAY",
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_C",
-        "lastUpdated": "2026-06-14T01:57:56Z",
+        "lastUpdated": "2026-06-14T02:15:50Z",
         "homeTeam": {
           "id": 836,
           "name": "Haiti",
