@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T21:54:33Z",
+  "updatedAt": "2026-06-14T21:59:10Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -639,7 +639,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2026-06-14T21:54:22Z",
+        "lastUpdated": "2026-06-14T21:58:37Z",
         "homeTeam": {
           "id": 8601,
           "name": "Netherlands",
@@ -735,14 +735,7 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": [
-          {
-            "id": 43918,
-            "name": "François Letexier",
-            "type": "REFEREE",
-            "nationality": "France"
-          }
-        ]
+        "referees": []
       },
       {
         "area": {
