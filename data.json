@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T04:51:49Z",
+  "updatedAt": "2026-06-14T04:56:27Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -503,11 +503,11 @@
         },
         "id": 537346,
         "utcDate": "2026-06-14T04:00:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-14T04:51:26Z",
+        "lastUpdated": "2026-06-14T04:56:14Z",
         "homeTeam": {
           "id": 779,
           "name": "Australia",
@@ -530,8 +530,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "odds": {
