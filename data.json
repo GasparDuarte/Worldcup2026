@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T19:05:54Z",
+  "updatedAt": "2026-06-15T19:10:32Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -899,11 +899,11 @@
         },
         "id": 537363,
         "utcDate": "2026-06-15T19:00:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_G",
-        "lastUpdated": "2026-06-14T15:20:16Z",
+        "lastUpdated": "2026-06-15T19:09:28Z",
         "homeTeam": {
           "id": 805,
           "name": "Belgium",
@@ -919,11 +919,11 @@
           "crest": "https://crests.football-data.org/825.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
