@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T02:52:06Z",
+  "updatedAt": "2026-06-15T02:56:43Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -309,7 +309,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_B",
-        "lastUpdated": "2026-06-13T21:09:44Z",
+        "lastUpdated": "2026-06-13T23:07:33Z",
         "homeTeam": {
           "id": 8030,
           "name": "Qatar",
@@ -771,7 +771,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2026-06-15T02:51:04Z",
+        "lastUpdated": "2026-06-15T02:56:28Z",
         "homeTeam": {
           "id": 792,
           "name": "Sweden",
