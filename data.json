@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T23:16:35Z",
+  "updatedAt": "2026-06-15T23:21:14Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -965,11 +965,11 @@
         },
         "id": 537370,
         "utcDate": "2026-06-15T22:00:00Z",
-        "status": "PAUSED",
+        "status": "IN_PLAY",
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-15T22:59:19Z",
+        "lastUpdated": "2026-06-15T23:20:55Z",
         "homeTeam": {
           "id": 801,
           "name": "Saudi Arabia",
