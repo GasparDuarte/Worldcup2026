@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T22:48:17Z",
+  "updatedAt": "2026-06-15T22:52:54Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -969,7 +969,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-15T22:47:19Z",
+        "lastUpdated": "2026-06-15T22:52:43Z",
         "homeTeam": {
           "id": 801,
           "name": "Saudi Arabia",
@@ -985,10 +985,10 @@
           "crest": "https://crests.football-data.org/758.svg"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
