@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T19:53:15Z",
+  "updatedAt": "2026-06-15T19:57:53Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -899,11 +899,11 @@
         },
         "id": 537363,
         "utcDate": "2026-06-15T19:00:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_G",
-        "lastUpdated": "2026-06-15T19:52:07Z",
+        "lastUpdated": "2026-06-15T19:56:55Z",
         "homeTeam": {
           "id": 805,
           "name": "Belgium",
@@ -926,8 +926,8 @@
             "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "odds": {
