@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T23:54:39Z",
+  "updatedAt": "2026-06-15T23:59:17Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -705,7 +705,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2026-06-15T08:25:01Z",
+        "lastUpdated": "2026-06-15T08:25:00Z",
         "homeTeam": {
           "id": 1935,
           "name": "Ivory Coast",
@@ -969,7 +969,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-15T23:53:43Z",
+        "lastUpdated": "2026-06-15T23:58:37Z",
         "homeTeam": {
           "id": 801,
           "name": "Saudi Arabia",
