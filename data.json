@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T02:48:56Z",
+  "updatedAt": "2026-06-16T02:53:33Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -1035,7 +1035,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_G",
-        "lastUpdated": "2026-06-16T02:48:55Z",
+        "lastUpdated": "2026-06-16T02:53:07Z",
         "homeTeam": {
           "id": 840,
           "name": "Iran",
