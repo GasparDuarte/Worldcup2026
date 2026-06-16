@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T23:59:17Z",
+  "updatedAt": "2026-06-16T00:03:56Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -969,7 +969,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-15T23:58:37Z",
+        "lastUpdated": "2026-06-16T00:03:31Z",
         "homeTeam": {
           "id": 801,
           "name": "Saudi Arabia",
@@ -6890,16 +6890,35 @@
             },
             "playedGames": 1,
             "form": null,
-            "won": 1,
-            "draw": 0,
+            "won": 0,
+            "draw": 1,
             "lost": 0,
-            "points": 3,
+            "points": 1,
             "goalsFor": 1,
-            "goalsAgainst": 0,
-            "goalDifference": 1
+            "goalsAgainst": 1,
+            "goalDifference": 0
           },
           {
-            "position": 2,
+            "position": 1,
+            "team": {
+              "id": 758,
+              "name": "Uruguay",
+              "shortName": "Uruguay",
+              "tla": "URU",
+              "crest": "https://crests.football-data.org/758.svg"
+            },
+            "playedGames": 1,
+            "form": null,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "points": 1,
+            "goalsFor": 1,
+            "goalsAgainst": 1,
+            "goalDifference": 0
+          },
+          {
+            "position": 3,
             "team": {
               "id": 760,
               "name": "Spain",
@@ -6918,7 +6937,7 @@
             "goalDifference": 0
           },
           {
-            "position": 3,
+            "position": 4,
             "team": {
               "id": 1930,
               "name": "Cape Verde Islands",
@@ -6935,25 +6954,6 @@
             "goalsFor": 0,
             "goalsAgainst": 0,
             "goalDifference": 0
-          },
-          {
-            "position": 4,
-            "team": {
-              "id": 758,
-              "name": "Uruguay",
-              "shortName": "Uruguay",
-              "tla": "URU",
-              "crest": "https://crests.football-data.org/758.svg"
-            },
-            "playedGames": 1,
-            "form": null,
-            "won": 0,
-            "draw": 0,
-            "lost": 1,
-            "points": 0,
-            "goalsFor": 0,
-            "goalsAgainst": 1,
-            "goalDifference": -1
           }
         ]
       },
