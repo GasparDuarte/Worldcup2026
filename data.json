@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T22:59:21Z",
+  "updatedAt": "2026-06-16T23:04:00Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -1163,11 +1163,11 @@
         },
         "id": 537392,
         "utcDate": "2026-06-16T22:00:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_I",
-        "lastUpdated": "2026-06-16T22:58:22Z",
+        "lastUpdated": "2026-06-16T22:59:34Z",
         "homeTeam": {
           "id": 8062,
           "name": "Iraq",
@@ -1190,8 +1190,8 @@
             "away": 2
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 2
           }
         },
         "odds": {
@@ -1263,7 +1263,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 43888,
+            "name": "Szymon Marciniak",
+            "type": "REFEREE",
+            "nationality": "Poland"
+          }
+        ]
       },
       {
         "area": {
@@ -6998,6 +7005,25 @@
           {
             "position": 2,
             "team": {
+              "id": 8872,
+              "name": "Norway",
+              "shortName": "Norway",
+              "tla": "NOR",
+              "crest": "https://crests.football-data.org/813.svg"
+            },
+            "playedGames": 1,
+            "form": null,
+            "won": 1,
+            "draw": 0,
+            "lost": 0,
+            "points": 3,
+            "goalsFor": 2,
+            "goalsAgainst": 1,
+            "goalDifference": 1
+          },
+          {
+            "position": 3,
+            "team": {
               "id": 8062,
               "name": "Iraq",
               "shortName": "Iraq",
@@ -7007,31 +7033,12 @@
             "playedGames": 1,
             "form": null,
             "won": 0,
-            "draw": 1,
-            "lost": 0,
-            "points": 1,
-            "goalsFor": 0,
-            "goalsAgainst": 0,
-            "goalDifference": 0
-          },
-          {
-            "position": 2,
-            "team": {
-              "id": 8872,
-              "name": "Norway",
-              "shortName": "Norway",
-              "tla": "NOR",
-              "crest": "https://crests.football-data.org/813.svg"
-            },
-            "playedGames": 1,
-            "form": null,
-            "won": 0,
-            "draw": 1,
-            "lost": 0,
-            "points": 1,
-            "goalsFor": 0,
-            "goalsAgainst": 0,
-            "goalDifference": 0
+            "draw": 0,
+            "lost": 1,
+            "points": 0,
+            "goalsFor": 1,
+            "goalsAgainst": 2,
+            "goalDifference": -1
           },
           {
             "position": 4,
