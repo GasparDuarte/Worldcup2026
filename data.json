@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T19:49:26Z",
+  "updatedAt": "2026-06-17T20:13:24Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -1365,7 +1365,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_K",
-        "lastUpdated": "2026-06-17T19:04:13Z",
+        "lastUpdated": "2026-06-17T19:57:01Z",
         "homeTeam": {
           "id": 765,
           "name": "Portugal",
@@ -1427,11 +1427,11 @@
         },
         "id": 537409,
         "utcDate": "2026-06-17T20:00:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_L",
-        "lastUpdated": "2026-06-16T15:20:15Z",
+        "lastUpdated": "2026-06-17T20:13:22Z",
         "homeTeam": {
           "id": 770,
           "name": "England",
@@ -1447,11 +1447,11 @@
           "crest": "https://crests.football-data.org/799.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -7262,18 +7262,37 @@
               "tla": "ENG",
               "crest": "https://crests.football-data.org/770.svg"
             },
-            "playedGames": 0,
+            "playedGames": 1,
             "form": null,
             "won": 0,
-            "draw": 0,
+            "draw": 1,
             "lost": 0,
-            "points": 0,
+            "points": 1,
             "goalsFor": 0,
             "goalsAgainst": 0,
             "goalDifference": 0
           },
           {
             "position": 1,
+            "team": {
+              "id": 799,
+              "name": "Croatia",
+              "shortName": "Croatia",
+              "tla": "CRO",
+              "crest": "https://crests.football-data.org/799.svg"
+            },
+            "playedGames": 1,
+            "form": null,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "points": 1,
+            "goalsFor": 0,
+            "goalsAgainst": 0,
+            "goalDifference": 0
+          },
+          {
+            "position": 3,
             "team": {
               "id": 763,
               "name": "Ghana",
@@ -7292,26 +7311,7 @@
             "goalDifference": 0
           },
           {
-            "position": 1,
-            "team": {
-              "id": 799,
-              "name": "Croatia",
-              "shortName": "Croatia",
-              "tla": "CRO",
-              "crest": "https://crests.football-data.org/799.svg"
-            },
-            "playedGames": 0,
-            "form": null,
-            "won": 0,
-            "draw": 0,
-            "lost": 0,
-            "points": 0,
-            "goalsFor": 0,
-            "goalsAgainst": 0,
-            "goalDifference": 0
-          },
-          {
-            "position": 1,
+            "position": 3,
             "team": {
               "id": 1836,
               "name": "Panama",
