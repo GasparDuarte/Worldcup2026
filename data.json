@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T08:20:40Z",
+  "updatedAt": "2026-06-17T08:25:18Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -1101,7 +1101,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_I",
-        "lastUpdated": "2026-06-16T21:10:25Z",
+        "lastUpdated": "2026-06-17T08:25:00Z",
         "homeTeam": {
           "id": 773,
           "name": "France",
@@ -1167,7 +1167,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_I",
-        "lastUpdated": "2026-06-17T00:07:58Z",
+        "lastUpdated": "2026-06-17T08:25:00Z",
         "homeTeam": {
           "id": 8062,
           "name": "Iraq",
@@ -1233,7 +1233,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_J",
-        "lastUpdated": "2026-06-17T03:06:10Z",
+        "lastUpdated": "2026-06-17T08:25:01Z",
         "homeTeam": {
           "id": 762,
           "name": "Argentina",
@@ -1299,7 +1299,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_J",
-        "lastUpdated": "2026-06-17T06:14:52Z",
+        "lastUpdated": "2026-06-17T08:25:01Z",
         "homeTeam": {
           "id": 816,
           "name": "Austria",
