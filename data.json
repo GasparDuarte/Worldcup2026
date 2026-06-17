@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T21:14:35Z",
+  "updatedAt": "2026-06-17T21:19:12Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -1431,7 +1431,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_L",
-        "lastUpdated": "2026-06-17T21:14:27Z",
+        "lastUpdated": "2026-06-17T21:18:40Z",
         "homeTeam": {
           "id": 770,
           "name": "England",
@@ -1447,10 +1447,10 @@
           "crest": "https://crests.football-data.org/799.svg"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 2,
+            "home": 3,
             "away": 2
           },
           "halfTime": {
