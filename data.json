@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T17:27:39Z",
+  "updatedAt": "2026-06-17T17:51:35Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -1365,7 +1365,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_K",
-        "lastUpdated": "2026-06-17T17:26:58Z",
+        "lastUpdated": "2026-06-17T17:50:58Z",
         "homeTeam": {
           "id": 765,
           "name": "Portugal",
@@ -7166,25 +7166,6 @@
           {
             "position": 1,
             "team": {
-              "id": 1934,
-              "name": "Congo DR",
-              "shortName": "Congo DR",
-              "tla": "COD",
-              "crest": "https://crests.football-data.org/congo_dr.svg"
-            },
-            "playedGames": 1,
-            "form": null,
-            "won": 0,
-            "draw": 1,
-            "lost": 0,
-            "points": 1,
-            "goalsFor": 0,
-            "goalsAgainst": 0,
-            "goalDifference": 0
-          },
-          {
-            "position": 1,
-            "team": {
               "id": 765,
               "name": "Portugal",
               "shortName": "Portugal",
@@ -7193,16 +7174,16 @@
             },
             "playedGames": 1,
             "form": null,
-            "won": 0,
-            "draw": 1,
+            "won": 1,
+            "draw": 0,
             "lost": 0,
-            "points": 1,
-            "goalsFor": 0,
+            "points": 3,
+            "goalsFor": 1,
             "goalsAgainst": 0,
-            "goalDifference": 0
+            "goalDifference": 1
           },
           {
-            "position": 3,
+            "position": 2,
             "team": {
               "id": 818,
               "name": "Colombia",
@@ -7221,7 +7202,7 @@
             "goalDifference": 0
           },
           {
-            "position": 3,
+            "position": 2,
             "team": {
               "id": 8070,
               "name": "Uzbekistan",
@@ -7238,6 +7219,25 @@
             "goalsFor": 0,
             "goalsAgainst": 0,
             "goalDifference": 0
+          },
+          {
+            "position": 4,
+            "team": {
+              "id": 1934,
+              "name": "Congo DR",
+              "shortName": "Congo DR",
+              "tla": "COD",
+              "crest": "https://crests.football-data.org/congo_dr.svg"
+            },
+            "playedGames": 1,
+            "form": null,
+            "won": 0,
+            "draw": 0,
+            "lost": 1,
+            "points": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 1,
+            "goalDifference": -1
           }
         ]
       },
