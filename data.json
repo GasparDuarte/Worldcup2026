@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T23:08:02Z",
+  "updatedAt": "2026-06-17T23:12:40Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -1497,7 +1497,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_L",
-        "lastUpdated": "2026-06-17T23:07:43Z",
+        "lastUpdated": "2026-06-17T23:12:31Z",
         "homeTeam": {
           "id": 763,
           "name": "Ghana",
