@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T04:29:32Z",
+  "updatedAt": "2026-06-17T04:29:59Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -1299,7 +1299,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_J",
-        "lastUpdated": "2026-06-17T04:28:40Z",
+        "lastUpdated": "2026-06-17T04:29:52Z",
         "homeTeam": {
           "id": 816,
           "name": "Austria",
@@ -1315,10 +1315,10 @@
           "crest": "https://crests.football-data.org/8049.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -7095,6 +7095,25 @@
           {
             "position": 2,
             "team": {
+              "id": 816,
+              "name": "Austria",
+              "shortName": "Austria",
+              "tla": "AUT",
+              "crest": "https://crests.football-data.org/816.svg"
+            },
+            "playedGames": 1,
+            "form": null,
+            "won": 1,
+            "draw": 0,
+            "lost": 0,
+            "points": 3,
+            "goalsFor": 1,
+            "goalsAgainst": 0,
+            "goalDifference": 1
+          },
+          {
+            "position": 3,
+            "team": {
               "id": 8049,
               "name": "Jordan",
               "shortName": "Jordan",
@@ -7104,31 +7123,12 @@
             "playedGames": 1,
             "form": null,
             "won": 0,
-            "draw": 1,
-            "lost": 0,
-            "points": 1,
+            "draw": 0,
+            "lost": 1,
+            "points": 0,
             "goalsFor": 0,
-            "goalsAgainst": 0,
-            "goalDifference": 0
-          },
-          {
-            "position": 2,
-            "team": {
-              "id": 816,
-              "name": "Austria",
-              "shortName": "Austria",
-              "tla": "AUT",
-              "crest": "https://crests.football-data.org/816.svg"
-            },
-            "playedGames": 1,
-            "form": null,
-            "won": 0,
-            "draw": 1,
-            "lost": 0,
-            "points": 1,
-            "goalsFor": 0,
-            "goalsAgainst": 0,
-            "goalDifference": 0
+            "goalsAgainst": 1,
+            "goalDifference": -1
           },
           {
             "position": 4,
