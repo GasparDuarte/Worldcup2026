@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T21:24:16Z",
+  "updatedAt": "2026-06-17T21:28:54Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -1431,7 +1431,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_L",
-        "lastUpdated": "2026-06-17T21:24:04Z",
+        "lastUpdated": "2026-06-17T21:28:52Z",
         "homeTeam": {
           "id": 770,
           "name": "England",
