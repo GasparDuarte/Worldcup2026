@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T20:47:40Z",
+  "updatedAt": "2026-06-18T20:52:17Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -7632,6 +7632,37 @@
       },
       {
         "player": {
+          "id": 212309,
+          "name": "Johan Manzambi",
+          "firstName": "Johan",
+          "lastName": "Manzambi",
+          "dateOfBirth": "2005-10-14",
+          "nationality": "Switzerland",
+          "section": "Midfield",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:32Z"
+        },
+        "team": {
+          "id": 788,
+          "name": "Switzerland",
+          "shortName": "Switzerland",
+          "tla": "SUI",
+          "crest": "https://crests.football-data.org/788.svg",
+          "address": "Worbstrasse 48 Bern 3000",
+          "website": "http://www.football.ch",
+          "founded": 1895,
+          "clubColors": "Red / White",
+          "venue": null,
+          "lastUpdated": "2026-06-01T09:42:31Z"
+        },
+        "playedMatches": 2,
+        "goals": 2,
+        "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
           "id": 39237,
           "name": "Julián Quiñones",
           "firstName": "Julián",
@@ -8279,37 +8310,6 @@
         "playedMatches": 1,
         "goals": 1,
         "assists": 1,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 6928,
-          "name": "Deniz Undav",
-          "firstName": "Deniz",
-          "lastName": "Undav",
-          "dateOfBirth": "1996-07-19",
-          "nationality": "Germany",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": 9,
-          "lastUpdated": "2026-06-01T11:16:31Z"
-        },
-        "team": {
-          "id": 759,
-          "name": "Germany",
-          "shortName": "Germany",
-          "tla": "GER",
-          "crest": "https://crests.football-data.org/759.svg",
-          "address": "Otto-Fleck-Schneise 6 / Postfach 710265 Frankfurt am Main 60492",
-          "website": "http://www.dfb.de",
-          "founded": 1900,
-          "clubColors": "White / Black",
-          "venue": null,
-          "lastUpdated": "2026-06-01T09:41:12Z"
-        },
-        "playedMatches": 1,
-        "goals": 1,
-        "assists": 2,
         "penalties": null
       }
     ]
