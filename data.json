@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T23:28:31Z",
+  "updatedAt": "2026-06-18T23:33:09Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -1761,7 +1761,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_B",
-        "lastUpdated": "2026-06-18T23:27:23Z",
+        "lastUpdated": "2026-06-18T23:32:21Z",
         "homeTeam": {
           "id": 828,
           "name": "Canada",
@@ -1780,7 +1780,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 3,
+            "home": 4,
             "away": 0
           },
           "halfTime": {
@@ -6468,6 +6468,25 @@
           {
             "position": 1,
             "team": {
+              "id": 828,
+              "name": "Canada",
+              "shortName": "Canada",
+              "tla": "CAN",
+              "crest": "https://crests.football-data.org/canada.svg"
+            },
+            "playedGames": 2,
+            "form": null,
+            "won": 1,
+            "draw": 1,
+            "lost": 0,
+            "points": 4,
+            "goalsFor": 5,
+            "goalsAgainst": 1,
+            "goalDifference": 4
+          },
+          {
+            "position": 2,
+            "team": {
               "id": 788,
               "name": "Switzerland",
               "shortName": "Switzerland",
@@ -6482,25 +6501,6 @@
             "points": 4,
             "goalsFor": 5,
             "goalsAgainst": 2,
-            "goalDifference": 3
-          },
-          {
-            "position": 2,
-            "team": {
-              "id": 828,
-              "name": "Canada",
-              "shortName": "Canada",
-              "tla": "CAN",
-              "crest": "https://crests.football-data.org/canada.svg"
-            },
-            "playedGames": 2,
-            "form": null,
-            "won": 1,
-            "draw": 1,
-            "lost": 0,
-            "points": 4,
-            "goalsFor": 4,
-            "goalsAgainst": 1,
             "goalDifference": 3
           },
           {
@@ -6538,8 +6538,8 @@
             "lost": 1,
             "points": 1,
             "goalsFor": 1,
-            "goalsAgainst": 4,
-            "goalDifference": -3
+            "goalsAgainst": 5,
+            "goalDifference": -4
           }
         ]
       },
