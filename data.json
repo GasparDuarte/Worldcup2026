@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T22:03:02Z",
+  "updatedAt": "2026-06-18T22:07:40Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -1757,11 +1757,11 @@
         },
         "id": 537336,
         "utcDate": "2026-06-18T22:00:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_B",
-        "lastUpdated": "2026-06-18T21:10:00Z",
+        "lastUpdated": "2026-06-18T22:06:56Z",
         "homeTeam": {
           "id": 828,
           "name": "Canada",
@@ -1777,11 +1777,11 @@
           "crest": "https://crests.football-data.org/8030.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
