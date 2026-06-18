@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T23:55:17Z",
+  "updatedAt": "2026-06-17T23:59:55Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -1493,11 +1493,11 @@
         },
         "id": 537410,
         "utcDate": "2026-06-17T23:00:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_L",
-        "lastUpdated": "2026-06-17T23:54:31Z",
+        "lastUpdated": "2026-06-17T23:58:07Z",
         "homeTeam": {
           "id": 763,
           "name": "Ghana",
@@ -1520,8 +1520,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
