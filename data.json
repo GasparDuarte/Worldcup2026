@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T16:04:19Z",
+  "updatedAt": "2026-06-18T16:08:57Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -1625,11 +1625,11 @@
         },
         "id": 537329,
         "utcDate": "2026-06-18T16:00:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_A",
-        "lastUpdated": "2026-04-01T00:21:07Z",
+        "lastUpdated": "2026-06-18T16:07:58Z",
         "homeTeam": {
           "id": 798,
           "name": "Czechia",
@@ -1645,11 +1645,11 @@
           "crest": "https://crests.football-data.org/9396.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
