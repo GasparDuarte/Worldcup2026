@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T20:42:07Z",
+  "updatedAt": "2026-06-19T20:46:46Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -1893,7 +1893,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-19T20:40:55Z",
+        "lastUpdated": "2026-06-19T20:45:58Z",
         "homeTeam": {
           "id": 771,
           "name": "United States",
