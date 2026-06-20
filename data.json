@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T03:19:14Z",
+  "updatedAt": "2026-06-20T03:19:42Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -2091,7 +2091,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-20T03:19:04Z",
+        "lastUpdated": "2026-06-20T03:19:40Z",
         "homeTeam": {
           "id": 803,
           "name": "Turkey",
