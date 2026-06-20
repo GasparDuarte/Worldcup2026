@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T18:53:13Z",
+  "updatedAt": "2026-06-20T18:57:52Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -1893,7 +1893,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-20T08:25:01Z",
+        "lastUpdated": "2026-06-20T08:25:00Z",
         "homeTeam": {
           "id": 771,
           "name": "United States",
@@ -2157,7 +2157,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2026-06-20T18:52:07Z",
+        "lastUpdated": "2026-06-20T18:56:10Z",
         "homeTeam": {
           "id": 8601,
           "name": "Netherlands",
@@ -2176,7 +2176,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 4,
+            "home": 5,
             "away": 1
           },
           "halfTime": {
@@ -7657,37 +7657,6 @@
       },
       {
         "player": {
-          "id": 102193,
-          "name": "Crysencio Summerville",
-          "firstName": "Crysencio",
-          "lastName": "Summerville",
-          "dateOfBirth": "2001-10-30",
-          "nationality": "Netherlands",
-          "section": "Midfield",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-06-01T11:16:31Z"
-        },
-        "team": {
-          "id": 8601,
-          "name": "Netherlands",
-          "shortName": "Netherlands",
-          "tla": "NED",
-          "crest": "https://crests.football-data.org/8601.svg",
-          "address": "Woudenbergseweg 56-58 / Postbus 515 Zeist 3700 AM",
-          "website": "http://www.knvb.nl",
-          "founded": 1889,
-          "clubColors": "Orange / White / Blue",
-          "venue": null,
-          "lastUpdated": "2026-06-01T09:43:48Z"
-        },
-        "playedMatches": 2,
-        "goals": 2,
-        "assists": 1,
-        "penalties": null
-      },
-      {
-        "player": {
           "id": 145613,
           "name": "Yasin Ayari",
           "firstName": "Yasin",
@@ -8362,6 +8331,37 @@
           "clubColors": "Gold / Green",
           "venue": null,
           "lastUpdated": "2021-05-22T11:30:43Z"
+        },
+        "playedMatches": 2,
+        "goals": 1,
+        "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
+          "id": 101074,
+          "name": "Felix Kalu Nmecha",
+          "firstName": "Felix",
+          "lastName": "Nmecha",
+          "dateOfBirth": "2000-10-10",
+          "nationality": "Germany",
+          "section": "Midfield",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:31Z"
+        },
+        "team": {
+          "id": 759,
+          "name": "Germany",
+          "shortName": "Germany",
+          "tla": "GER",
+          "crest": "https://crests.football-data.org/759.svg",
+          "address": "Otto-Fleck-Schneise 6 / Postfach 710265 Frankfurt am Main 60492",
+          "website": "http://www.dfb.de",
+          "founded": 1900,
+          "clubColors": "White / Black",
+          "venue": null,
+          "lastUpdated": "2026-06-01T09:41:12Z"
         },
         "playedMatches": 2,
         "goals": 1,
