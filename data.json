@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T04:56:12Z",
+  "updatedAt": "2026-06-21T05:00:49Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6887,9 +6887,9 @@
             "draw": 1,
             "lost": 0,
             "points": 4,
-            "goalsFor": 3,
+            "goalsFor": 4,
             "goalsAgainst": 2,
-            "goalDifference": 1
+            "goalDifference": 2
           },
           {
             "position": 3,
@@ -6926,8 +6926,8 @@
             "lost": 2,
             "points": 0,
             "goalsFor": 1,
-            "goalsAgainst": 6,
-            "goalDifference": -5
+            "goalsAgainst": 7,
+            "goalDifference": -6
           }
         ]
       },
