@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T22:25:39Z",
+  "updatedAt": "2026-06-21T22:30:17Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -2289,7 +2289,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2026-06-21T08:25:00Z",
+        "lastUpdated": "2026-06-21T08:25:01Z",
         "homeTeam": {
           "id": 791,
           "name": "Ecuador",
@@ -2553,7 +2553,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-21T22:24:28Z",
+        "lastUpdated": "2026-06-21T22:29:52Z",
         "homeTeam": {
           "id": 758,
           "name": "Uruguay",
@@ -2569,11 +2569,11 @@
           "crest": "https://crests.football-data.org/cape_verde.svg"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": null,
@@ -7062,6 +7062,25 @@
           {
             "position": 2,
             "team": {
+              "id": 1930,
+              "name": "Cape Verde Islands",
+              "shortName": "Cape Verde",
+              "tla": "CPV",
+              "crest": "https://crests.football-data.org/cape_verde.svg"
+            },
+            "playedGames": 2,
+            "form": null,
+            "won": 1,
+            "draw": 1,
+            "lost": 0,
+            "points": 4,
+            "goalsFor": 1,
+            "goalsAgainst": 0,
+            "goalDifference": 1
+          },
+          {
+            "position": 3,
+            "team": {
               "id": 758,
               "name": "Uruguay",
               "shortName": "Uruguay",
@@ -7071,31 +7090,12 @@
             "playedGames": 2,
             "form": null,
             "won": 0,
-            "draw": 2,
-            "lost": 0,
-            "points": 2,
+            "draw": 1,
+            "lost": 1,
+            "points": 1,
             "goalsFor": 1,
-            "goalsAgainst": 1,
-            "goalDifference": 0
-          },
-          {
-            "position": 3,
-            "team": {
-              "id": 1930,
-              "name": "Cape Verde Islands",
-              "shortName": "Cape Verde",
-              "tla": "CPV",
-              "crest": "https://crests.football-data.org/cape_verde.svg"
-            },
-            "playedGames": 2,
-            "form": null,
-            "won": 0,
-            "draw": 2,
-            "lost": 0,
-            "points": 2,
-            "goalsFor": 0,
-            "goalsAgainst": 0,
-            "goalDifference": 0
+            "goalsAgainst": 2,
+            "goalDifference": -1
           },
           {
             "position": 4,
