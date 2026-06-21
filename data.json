@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T22:58:51Z",
+  "updatedAt": "2026-06-21T23:03:28Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -2549,11 +2549,11 @@
         },
         "id": 537372,
         "utcDate": "2026-06-21T22:00:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-21T22:58:40Z",
+        "lastUpdated": "2026-06-21T22:59:52Z",
         "homeTeam": {
           "id": 758,
           "name": "Uruguay",
@@ -2576,8 +2576,8 @@
             "away": 1
           },
           "halfTime": {
-            "home": 0,
-            "away": 0
+            "home": 2,
+            "away": 1
           }
         },
         "odds": {
@@ -2649,7 +2649,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 129569,
+            "name": "Omar Mohamed Al Ali",
+            "type": "REFEREE",
+            "nationality": "United Arab Emirates"
+          }
+        ]
       },
       {
         "area": {
@@ -7043,6 +7050,25 @@
           {
             "position": 1,
             "team": {
+              "id": 758,
+              "name": "Uruguay",
+              "shortName": "Uruguay",
+              "tla": "URU",
+              "crest": "https://crests.football-data.org/758.svg"
+            },
+            "playedGames": 2,
+            "form": null,
+            "won": 1,
+            "draw": 1,
+            "lost": 0,
+            "points": 4,
+            "goalsFor": 3,
+            "goalsAgainst": 2,
+            "goalDifference": 1
+          },
+          {
+            "position": 2,
+            "team": {
               "id": 760,
               "name": "Spain",
               "shortName": "Spain",
@@ -7060,45 +7086,7 @@
             "goalDifference": 4
           },
           {
-            "position": 2,
-            "team": {
-              "id": 1930,
-              "name": "Cape Verde Islands",
-              "shortName": "Cape Verde",
-              "tla": "CPV",
-              "crest": "https://crests.football-data.org/cape_verde.svg"
-            },
-            "playedGames": 2,
-            "form": null,
-            "won": 1,
-            "draw": 1,
-            "lost": 0,
-            "points": 4,
-            "goalsFor": 1,
-            "goalsAgainst": 0,
-            "goalDifference": 1
-          },
-          {
             "position": 3,
-            "team": {
-              "id": 758,
-              "name": "Uruguay",
-              "shortName": "Uruguay",
-              "tla": "URU",
-              "crest": "https://crests.football-data.org/758.svg"
-            },
-            "playedGames": 2,
-            "form": null,
-            "won": 0,
-            "draw": 1,
-            "lost": 1,
-            "points": 1,
-            "goalsFor": 1,
-            "goalsAgainst": 2,
-            "goalDifference": -1
-          },
-          {
-            "position": 4,
             "team": {
               "id": 801,
               "name": "Saudi Arabia",
@@ -7115,6 +7103,25 @@
             "goalsFor": 1,
             "goalsAgainst": 5,
             "goalDifference": -4
+          },
+          {
+            "position": 4,
+            "team": {
+              "id": 1930,
+              "name": "Cape Verde Islands",
+              "shortName": "Cape Verde",
+              "tla": "CPV",
+              "crest": "https://crests.football-data.org/cape_verde.svg"
+            },
+            "playedGames": 2,
+            "form": null,
+            "won": 0,
+            "draw": 1,
+            "lost": 1,
+            "points": 1,
+            "goalsFor": 1,
+            "goalsAgainst": 2,
+            "goalDifference": -1
           }
         ]
       },
