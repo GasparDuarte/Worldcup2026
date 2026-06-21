@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T20:18:47Z",
+  "updatedAt": "2026-06-21T20:23:24Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -2289,7 +2289,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2026-06-21T08:25:01Z",
+        "lastUpdated": "2026-06-21T08:25:00Z",
         "homeTeam": {
           "id": 791,
           "name": "Ecuador",
@@ -2487,7 +2487,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_G",
-        "lastUpdated": "2026-06-21T20:18:04Z",
+        "lastUpdated": "2026-06-21T20:22:49Z",
         "homeTeam": {
           "id": 805,
           "name": "Belgium",
