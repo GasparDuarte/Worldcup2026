@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T22:11:46Z",
+  "updatedAt": "2026-06-21T22:16:24Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -2553,7 +2553,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-21T22:10:40Z",
+        "lastUpdated": "2026-06-21T22:15:28Z",
         "homeTeam": {
           "id": 758,
           "name": "Uruguay",
