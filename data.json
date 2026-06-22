@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T21:02:41Z",
+  "updatedAt": "2026-06-22T21:07:19Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -2747,11 +2747,11 @@
         },
         "id": 537393,
         "utcDate": "2026-06-22T21:00:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_I",
-        "lastUpdated": "2026-06-21T15:20:13Z",
+        "lastUpdated": "2026-06-22T21:07:04Z",
         "homeTeam": {
           "id": 773,
           "name": "France",
@@ -2767,11 +2767,11 @@
           "crest": "https://crests.football-data.org/iraq.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
