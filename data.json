@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T17:18:19Z",
+  "updatedAt": "2026-06-23T17:22:56Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -2949,7 +2949,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_K",
-        "lastUpdated": "2026-06-23T17:17:48Z",
+        "lastUpdated": "2026-06-23T17:22:03Z",
         "homeTeam": {
           "id": 765,
           "name": "Portugal",
@@ -2968,7 +2968,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 0
           },
           "halfTime": {
