@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T23:11:34Z",
+  "updatedAt": "2026-06-23T23:16:12Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -3081,7 +3081,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_L",
-        "lastUpdated": "2026-06-23T23:11:08Z",
+        "lastUpdated": "2026-06-23T23:16:08Z",
         "homeTeam": {
           "id": 1836,
           "name": "Panama",
