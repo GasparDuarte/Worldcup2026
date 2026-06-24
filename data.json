@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T22:26:32Z",
+  "updatedAt": "2026-06-24T22:31:09Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -3331,7 +3331,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_C",
-        "lastUpdated": "2026-06-24T22:26:19Z",
+        "lastUpdated": "2026-06-24T22:31:00Z",
         "homeTeam": {
           "id": 815,
           "name": "Morocco",
@@ -3397,7 +3397,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_C",
-        "lastUpdated": "2026-06-24T22:26:14Z",
+        "lastUpdated": "2026-06-24T22:31:07Z",
         "homeTeam": {
           "id": 8873,
           "name": "Scotland",
@@ -3417,7 +3417,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 1
+            "away": 2
           },
           "halfTime": {
             "home": null,
@@ -6713,13 +6713,13 @@
             },
             "playedGames": 3,
             "form": null,
-            "won": 1,
-            "draw": 2,
+            "won": 2,
+            "draw": 1,
             "lost": 0,
-            "points": 5,
-            "goalsFor": 4,
+            "points": 7,
+            "goalsFor": 5,
             "goalsAgainst": 1,
-            "goalDifference": 3
+            "goalDifference": 4
           },
           {
             "position": 2,
@@ -6733,12 +6733,12 @@
             "playedGames": 3,
             "form": null,
             "won": 1,
-            "draw": 2,
-            "lost": 0,
-            "points": 5,
+            "draw": 1,
+            "lost": 1,
+            "points": 4,
             "goalsFor": 2,
-            "goalsAgainst": 1,
-            "goalDifference": 1
+            "goalsAgainst": 2,
+            "goalDifference": 0
           },
           {
             "position": 3,
@@ -6752,12 +6752,12 @@
             "playedGames": 3,
             "form": null,
             "won": 1,
-            "draw": 1,
-            "lost": 1,
-            "points": 4,
+            "draw": 0,
+            "lost": 2,
+            "points": 3,
             "goalsFor": 1,
-            "goalsAgainst": 1,
-            "goalDifference": 0
+            "goalsAgainst": 2,
+            "goalDifference": -1
           },
           {
             "position": 4,
@@ -6770,13 +6770,13 @@
             },
             "playedGames": 3,
             "form": null,
-            "won": 0,
-            "draw": 1,
+            "won": 1,
+            "draw": 0,
             "lost": 2,
-            "points": 1,
-            "goalsFor": 0,
+            "points": 3,
+            "goalsFor": 1,
             "goalsAgainst": 4,
-            "goalDifference": -4
+            "goalDifference": -3
           }
         ]
       },
