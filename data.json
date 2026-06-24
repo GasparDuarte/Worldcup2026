@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T22:31:09Z",
+  "updatedAt": "2026-06-24T22:35:46Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -3331,7 +3331,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_C",
-        "lastUpdated": "2026-06-24T22:31:00Z",
+        "lastUpdated": "2026-06-24T22:35:19Z",
         "homeTeam": {
           "id": 815,
           "name": "Morocco",
@@ -3397,7 +3397,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_C",
-        "lastUpdated": "2026-06-24T22:31:07Z",
+        "lastUpdated": "2026-06-24T22:35:14Z",
         "homeTeam": {
           "id": 8873,
           "name": "Scotland",
