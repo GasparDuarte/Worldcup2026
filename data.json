@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T02:07:47Z",
+  "updatedAt": "2026-06-25T02:12:24Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -3459,11 +3459,11 @@
         },
         "id": 537331,
         "utcDate": "2026-06-25T01:00:00Z",
-        "status": "PAUSED",
+        "status": "IN_PLAY",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_A",
-        "lastUpdated": "2026-06-25T01:57:05Z",
+        "lastUpdated": "2026-06-25T02:12:04Z",
         "homeTeam": {
           "id": 798,
           "name": "Czechia",
@@ -3525,11 +3525,11 @@
         },
         "id": 537332,
         "utcDate": "2026-06-25T01:00:00Z",
-        "status": "PAUSED",
+        "status": "IN_PLAY",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_A",
-        "lastUpdated": "2026-06-25T01:56:44Z",
+        "lastUpdated": "2026-06-25T02:12:19Z",
         "homeTeam": {
           "id": 774,
           "name": "South Africa",
