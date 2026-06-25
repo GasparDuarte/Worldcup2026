@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T21:55:59Z",
+  "updatedAt": "2026-06-25T22:00:36Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -3595,7 +3595,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2026-06-25T21:55:49Z",
+        "lastUpdated": "2026-06-25T22:00:14Z",
         "homeTeam": {
           "id": 791,
           "name": "Ecuador",
@@ -3661,7 +3661,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2026-06-25T21:55:43Z",
+        "lastUpdated": "2026-06-25T22:00:26Z",
         "homeTeam": {
           "id": 9460,
           "name": "Curaçao",
@@ -6922,12 +6922,12 @@
             "playedGames": 3,
             "form": null,
             "won": 2,
-            "draw": 1,
-            "lost": 0,
-            "points": 7,
+            "draw": 0,
+            "lost": 1,
+            "points": 6,
             "goalsFor": 10,
-            "goalsAgainst": 3,
-            "goalDifference": 7
+            "goalsAgainst": 4,
+            "goalDifference": 6
           },
           {
             "position": 2,
@@ -6959,13 +6959,13 @@
             },
             "playedGames": 3,
             "form": null,
-            "won": 0,
-            "draw": 2,
+            "won": 1,
+            "draw": 1,
             "lost": 1,
-            "points": 2,
-            "goalsFor": 1,
+            "points": 4,
+            "goalsFor": 2,
             "goalsAgainst": 2,
-            "goalDifference": -1
+            "goalDifference": 0
           },
           {
             "position": 4,
