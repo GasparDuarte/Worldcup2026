@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T19:58:23Z",
+  "updatedAt": "2026-06-25T20:03:00Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6905,12 +6905,12 @@
               "tla": "GER",
               "crest": "https://crests.football-data.org/759.svg"
             },
-            "playedGames": 2,
+            "playedGames": 3,
             "form": null,
             "won": 2,
-            "draw": 0,
+            "draw": 1,
             "lost": 0,
-            "points": 6,
+            "points": 7,
             "goalsFor": 9,
             "goalsAgainst": 2,
             "goalDifference": 7
@@ -6924,12 +6924,12 @@
               "tla": "CIV",
               "crest": "https://crests.football-data.org/787.svg"
             },
-            "playedGames": 2,
+            "playedGames": 3,
             "form": null,
             "won": 1,
-            "draw": 0,
+            "draw": 1,
             "lost": 1,
-            "points": 3,
+            "points": 4,
             "goalsFor": 2,
             "goalsAgainst": 2,
             "goalDifference": 0
@@ -6943,12 +6943,12 @@
               "tla": "ECU",
               "crest": "https://crests.football-data.org/791.svg"
             },
-            "playedGames": 2,
+            "playedGames": 3,
             "form": null,
             "won": 0,
-            "draw": 1,
+            "draw": 2,
             "lost": 1,
-            "points": 1,
+            "points": 2,
             "goalsFor": 0,
             "goalsAgainst": 1,
             "goalDifference": -1
@@ -6962,12 +6962,12 @@
               "tla": "CUW",
               "crest": "https://crests.football-data.org/curacao.svg"
             },
-            "playedGames": 2,
+            "playedGames": 3,
             "form": null,
             "won": 0,
-            "draw": 1,
+            "draw": 2,
             "lost": 1,
-            "points": 1,
+            "points": 2,
             "goalsFor": 1,
             "goalsAgainst": 7,
             "goalDifference": -6
