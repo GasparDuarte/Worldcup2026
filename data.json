@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T20:59:13Z",
+  "updatedAt": "2026-06-25T21:03:50Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -3757,7 +3757,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 212546,
+            "name": "Katia García",
+            "type": "REFEREE",
+            "nationality": "Mexico"
+          }
+        ]
       },
       {
         "area": {
@@ -3816,7 +3823,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 190010,
+            "name": "Ivan Barton",
+            "type": "REFEREE",
+            "nationality": null
+          }
+        ]
       },
       {
         "area": {
