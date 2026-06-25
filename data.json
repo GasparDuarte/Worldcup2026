@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T20:31:06Z",
+  "updatedAt": "2026-06-25T20:35:43Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -3595,7 +3595,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2026-06-25T20:30:46Z",
+        "lastUpdated": "2026-06-25T20:35:34Z",
         "homeTeam": {
           "id": 791,
           "name": "Ecuador",
@@ -3661,7 +3661,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2026-06-25T20:31:00Z",
+        "lastUpdated": "2026-06-25T20:34:59Z",
         "homeTeam": {
           "id": 9460,
           "name": "Curaçao",
