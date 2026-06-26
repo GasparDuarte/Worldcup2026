@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T00:54:30Z",
+  "updatedAt": "2026-06-26T00:59:07Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -8,7 +8,7 @@
       "count": 104,
       "first": "2026-06-11",
       "last": "2026-07-19",
-      "played": 56
+      "played": 54
     },
     "competition": {
       "id": 2000,
@@ -45,7 +45,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_A",
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-12T08:25:00Z",
         "homeTeam": {
           "id": 769,
           "name": "Mexico",
@@ -111,7 +111,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_A",
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-12T08:25:00Z",
         "homeTeam": {
           "id": 772,
           "name": "South Korea",
@@ -193,15 +193,15 @@
           "crest": "https://crests.football-data.org/bosnia.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "odds": {
@@ -1893,7 +1893,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-20T08:25:00Z",
+        "lastUpdated": "2026-06-20T08:25:01Z",
         "homeTeam": {
           "id": 771,
           "name": "United States",
@@ -3591,11 +3591,11 @@
         },
         "id": 537355,
         "utcDate": "2026-06-25T20:00:00Z",
-        "status": "FINISHED",
+        "status": "TIMED",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2026-06-25T22:08:03Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": 791,
           "name": "Ecuador",
@@ -3611,15 +3611,15 @@
           "crest": "https://crests.football-data.org/759.svg"
         },
         "score": {
-          "winner": "HOME_TEAM",
+          "winner": null,
           "duration": "REGULAR",
           "fullTime": {
-            "home": 2,
-            "away": 1
+            "home": null,
+            "away": null
           },
           "halfTime": {
-            "home": 1,
-            "away": 1
+            "home": null,
+            "away": null
           }
         },
         "odds": {
@@ -3657,11 +3657,11 @@
         },
         "id": 537356,
         "utcDate": "2026-06-25T20:00:00Z",
-        "status": "FINISHED",
+        "status": "TIMED",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2026-06-25T22:04:07Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": 9460,
           "name": "Curaçao",
@@ -3677,15 +3677,15 @@
           "crest": "https://crests.football-data.org/787.svg"
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": null,
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
-            "away": 2
+            "home": null,
+            "away": null
           },
           "halfTime": {
-            "home": 0,
-            "away": 1
+            "home": null,
+            "away": null
           }
         },
         "odds": {
@@ -3723,11 +3723,11 @@
         },
         "id": 537361,
         "utcDate": "2026-06-25T23:00:00Z",
-        "status": "IN_PLAY",
+        "status": "TIMED",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2026-06-26T00:54:08Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": 802,
           "name": "Tunisia",
@@ -3743,15 +3743,15 @@
           "crest": "https://crests.football-data.org/8601.svg"
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": null,
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
-            "away": 3
+            "home": null,
+            "away": null
           },
           "halfTime": {
-            "home": 0,
-            "away": 2
+            "home": null,
+            "away": null
           }
         },
         "odds": {
@@ -3789,11 +3789,11 @@
         },
         "id": 537362,
         "utcDate": "2026-06-25T23:00:00Z",
-        "status": "IN_PLAY",
+        "status": "TIMED",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2026-06-26T00:53:53Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": 766,
           "name": "Japan",
@@ -3809,15 +3809,15 @@
           "crest": "https://crests.football-data.org/792.svg"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": null,
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
-            "away": 1
+            "home": null,
+            "away": null
           },
           "halfTime": {
-            "home": 0,
-            "away": 0
+            "home": null,
+            "away": null
           }
         },
         "odds": {
@@ -3859,7 +3859,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": 803,
           "name": "Turkey",
@@ -3925,7 +3925,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": 761,
           "name": "Paraguay",
@@ -3991,7 +3991,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_I",
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": 8872,
           "name": "Norway",
@@ -4050,7 +4050,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_I",
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": 804,
           "name": "Senegal",
@@ -4109,7 +4109,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": 758,
           "name": "Uruguay",
@@ -4168,7 +4168,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": 1930,
           "name": "Cape Verde Islands",
@@ -4227,7 +4227,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_G",
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": 783,
           "name": "New Zealand",
@@ -4286,7 +4286,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_G",
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": 825,
           "name": "Egypt",
@@ -4345,7 +4345,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_L",
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": 1836,
           "name": "Panama",
@@ -4404,7 +4404,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_L",
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": 799,
           "name": "Croatia",
@@ -4463,7 +4463,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_K",
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": 818,
           "name": "Colombia",
@@ -4522,7 +4522,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_K",
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": 1934,
           "name": "Congo DR",
@@ -4581,7 +4581,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_J",
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": 8049,
           "name": "Jordan",
@@ -4640,7 +4640,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_J",
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": 778,
           "name": "Algeria",
@@ -4699,7 +4699,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -4758,7 +4758,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -4817,7 +4817,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -4876,7 +4876,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -4935,7 +4935,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -4994,7 +4994,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -5053,7 +5053,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -5112,7 +5112,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -5171,7 +5171,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -5230,7 +5230,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -5289,7 +5289,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -5348,7 +5348,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -5407,7 +5407,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -5466,7 +5466,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -5525,7 +5525,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -5584,7 +5584,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -5643,7 +5643,7 @@
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -5702,7 +5702,7 @@
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -5761,7 +5761,7 @@
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -5820,7 +5820,7 @@
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -5879,7 +5879,7 @@
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -5938,7 +5938,7 @@
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -5997,7 +5997,7 @@
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -6056,7 +6056,7 @@
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -6115,7 +6115,7 @@
         "matchday": null,
         "stage": "QUARTER_FINALS",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -6174,7 +6174,7 @@
         "matchday": null,
         "stage": "QUARTER_FINALS",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -6233,7 +6233,7 @@
         "matchday": null,
         "stage": "QUARTER_FINALS",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -6292,7 +6292,7 @@
         "matchday": null,
         "stage": "QUARTER_FINALS",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -6351,7 +6351,7 @@
         "matchday": null,
         "stage": "SEMI_FINALS",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -6410,7 +6410,7 @@
         "matchday": null,
         "stage": "SEMI_FINALS",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -6469,7 +6469,7 @@
         "matchday": null,
         "stage": "THIRD_PLACE",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
@@ -6528,7 +6528,7 @@
         "matchday": null,
         "stage": "FINAL",
         "group": null,
-        "lastUpdated": "2026-06-12T15:20:17Z",
+        "lastUpdated": "2026-06-11T15:20:18Z",
         "homeTeam": {
           "id": null,
           "name": null,
