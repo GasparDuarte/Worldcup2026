@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T20:21:36Z",
+  "updatedAt": "2026-06-26T20:26:13Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -3991,7 +3991,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_I",
-        "lastUpdated": "2026-06-26T20:21:07Z",
+        "lastUpdated": "2026-06-26T20:26:07Z",
         "homeTeam": {
           "id": 8872,
           "name": "Norway",
@@ -4057,7 +4057,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_I",
-        "lastUpdated": "2026-06-26T20:21:10Z",
+        "lastUpdated": "2026-06-26T20:25:59Z",
         "homeTeam": {
           "id": 804,
           "name": "Senegal",
@@ -7963,6 +7963,37 @@
       },
       {
         "player": {
+          "id": 3638,
+          "name": "Ismaïla Sarr",
+          "firstName": "Ismaïla",
+          "lastName": "Sarr",
+          "dateOfBirth": "1998-02-25",
+          "nationality": "Senegal",
+          "section": "Midfield",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-06T14:12:29Z"
+        },
+        "team": {
+          "id": 804,
+          "name": "Senegal",
+          "shortName": "Senegal",
+          "tla": "SEN",
+          "crest": "https://crests.football-data.org/senegal.svg",
+          "address": "VDN-Ouest-Foire en face du CICES, Boite postale 13021 Dakar null",
+          "website": "http://www.fsfoot.sn",
+          "founded": 1960,
+          "clubColors": "White / Green",
+          "venue": null,
+          "lastUpdated": "2022-04-02T10:41:30Z"
+        },
+        "playedMatches": 3,
+        "goals": 3,
+        "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
           "id": 39237,
           "name": "Julián Quiñones",
           "firstName": "Julián",
@@ -8486,37 +8517,6 @@
         "playedMatches": 2,
         "goals": 2,
         "assists": 1,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 3638,
-          "name": "Ismaïla Sarr",
-          "firstName": "Ismaïla",
-          "lastName": "Sarr",
-          "dateOfBirth": "1998-02-25",
-          "nationality": "Senegal",
-          "section": "Midfield",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-06-06T14:12:29Z"
-        },
-        "team": {
-          "id": 804,
-          "name": "Senegal",
-          "shortName": "Senegal",
-          "tla": "SEN",
-          "crest": "https://crests.football-data.org/senegal.svg",
-          "address": "VDN-Ouest-Foire en face du CICES, Boite postale 13021 Dakar null",
-          "website": "http://www.fsfoot.sn",
-          "founded": 1960,
-          "clubColors": "White / Green",
-          "venue": null,
-          "lastUpdated": "2022-04-02T10:41:30Z"
-        },
-        "playedMatches": 3,
-        "goals": 2,
-        "assists": null,
         "penalties": null
       },
       {
