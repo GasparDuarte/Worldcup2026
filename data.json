@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T00:49:53Z",
+  "updatedAt": "2026-06-26T00:54:30Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -3727,7 +3727,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2026-06-26T00:49:44Z",
+        "lastUpdated": "2026-06-26T00:54:08Z",
         "homeTeam": {
           "id": 802,
           "name": "Tunisia",
@@ -3793,7 +3793,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2026-06-26T00:49:53Z",
+        "lastUpdated": "2026-06-26T00:53:53Z",
         "homeTeam": {
           "id": 766,
           "name": "Japan",
