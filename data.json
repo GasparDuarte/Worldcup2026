@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T03:24:44Z",
+  "updatedAt": "2026-06-26T03:25:08Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -1893,7 +1893,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-20T08:25:01Z",
+        "lastUpdated": "2026-06-20T08:25:00Z",
         "homeTeam": {
           "id": 771,
           "name": "United States",
@@ -3859,7 +3859,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-26T03:23:56Z",
+        "lastUpdated": "2026-06-26T03:24:56Z",
         "homeTeam": {
           "id": 803,
           "name": "Turkey",
@@ -3925,7 +3925,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-26T03:24:10Z",
+        "lastUpdated": "2026-06-26T03:24:55Z",
         "homeTeam": {
           "id": 761,
           "name": "Paraguay",
