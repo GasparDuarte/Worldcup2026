@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T03:15:30Z",
+  "updatedAt": "2026-06-26T03:20:07Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -8,7 +8,7 @@
       "count": 104,
       "first": "2026-06-11",
       "last": "2026-07-19",
-      "played": 52
+      "played": 58
     },
     "competition": {
       "id": 2000,
@@ -2025,7 +2025,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_C",
-        "lastUpdated": "2026-06-23T20:15:54Z",
+        "lastUpdated": "2026-06-25T03:25:00Z",
         "homeTeam": {
           "id": 764,
           "name": "Brazil",
@@ -2751,7 +2751,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_I",
-        "lastUpdated": "2026-06-23T15:20:15Z",
+        "lastUpdated": "2026-06-25T13:25:01Z",
         "homeTeam": {
           "id": 773,
           "name": "France",
@@ -2949,7 +2949,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_K",
-        "lastUpdated": "2026-06-23T22:35:13Z",
+        "lastUpdated": "2026-06-25T03:25:01Z",
         "homeTeam": {
           "id": 765,
           "name": "Portugal",
@@ -3015,7 +3015,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_L",
-        "lastUpdated": "2026-06-24T00:40:37Z",
+        "lastUpdated": "2026-06-25T03:25:01Z",
         "homeTeam": {
           "id": 770,
           "name": "England",
@@ -3081,7 +3081,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_L",
-        "lastUpdated": "2026-06-24T02:55:22Z",
+        "lastUpdated": "2026-06-25T03:25:01Z",
         "homeTeam": {
           "id": 1836,
           "name": "Panama",
@@ -3140,7 +3140,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_K",
-        "lastUpdated": "2026-06-24T05:57:43Z",
+        "lastUpdated": "2026-06-25T03:25:01Z",
         "homeTeam": {
           "id": 818,
           "name": "Colombia",
@@ -3199,7 +3199,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_B",
-        "lastUpdated": "2026-06-24T22:56:46Z",
+        "lastUpdated": "2026-06-25T03:25:00Z",
         "homeTeam": {
           "id": 788,
           "name": "Switzerland",
@@ -3265,7 +3265,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_B",
-        "lastUpdated": "2026-06-24T23:00:31Z",
+        "lastUpdated": "2026-06-25T13:25:00Z",
         "homeTeam": {
           "id": 1060,
           "name": "Bosnia-Herzegovina",
@@ -3331,7 +3331,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_C",
-        "lastUpdated": "2026-06-25T02:02:44Z",
+        "lastUpdated": "2026-06-25T13:25:00Z",
         "homeTeam": {
           "id": 815,
           "name": "Morocco",
@@ -3397,7 +3397,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_C",
-        "lastUpdated": "2026-06-25T02:02:44Z",
+        "lastUpdated": "2026-06-25T03:25:01Z",
         "homeTeam": {
           "id": 8873,
           "name": "Scotland",
@@ -3459,11 +3459,11 @@
         },
         "id": 537331,
         "utcDate": "2026-06-25T01:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_A",
-        "lastUpdated": "2026-06-25T02:44:46Z",
+        "lastUpdated": "2026-06-25T03:25:00Z",
         "homeTeam": {
           "id": 798,
           "name": "Czechia",
@@ -3479,15 +3479,15 @@
           "crest": "https://crests.football-data.org/769.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 3
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -3525,11 +3525,11 @@
         },
         "id": 537332,
         "utcDate": "2026-06-25T01:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_A",
-        "lastUpdated": "2026-06-25T02:42:07Z",
+        "lastUpdated": "2026-06-25T03:25:00Z",
         "homeTeam": {
           "id": 774,
           "name": "South Africa",
@@ -3545,15 +3545,15 @@
           "crest": "https://crests.football-data.org/772.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -3591,11 +3591,11 @@
         },
         "id": 537355,
         "utcDate": "2026-06-25T20:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2026-06-23T15:20:15Z",
+        "lastUpdated": "2026-06-25T22:08:03Z",
         "homeTeam": {
           "id": 791,
           "name": "Ecuador",
@@ -3611,15 +3611,15 @@
           "crest": "https://crests.football-data.org/759.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           }
         },
         "odds": {
@@ -3657,11 +3657,11 @@
         },
         "id": 537356,
         "utcDate": "2026-06-25T20:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2026-06-23T15:20:15Z",
+        "lastUpdated": "2026-06-25T22:04:07Z",
         "homeTeam": {
           "id": 9460,
           "name": "Curaçao",
@@ -3677,15 +3677,15 @@
           "crest": "https://crests.football-data.org/787.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 2
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "odds": {
@@ -3723,11 +3723,11 @@
         },
         "id": 537361,
         "utcDate": "2026-06-25T23:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2026-06-23T15:20:15Z",
+        "lastUpdated": "2026-06-26T01:00:44Z",
         "homeTeam": {
           "id": 802,
           "name": "Tunisia",
@@ -3743,15 +3743,15 @@
           "crest": "https://crests.football-data.org/8601.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 3
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 2
           }
         },
         "odds": {
@@ -3789,11 +3789,11 @@
         },
         "id": 537362,
         "utcDate": "2026-06-25T23:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2026-06-23T15:20:15Z",
+        "lastUpdated": "2026-06-26T01:04:59Z",
         "homeTeam": {
           "id": 766,
           "name": "Japan",
@@ -3809,15 +3809,15 @@
           "crest": "https://crests.football-data.org/792.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -3859,7 +3859,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-26T03:14:55Z",
+        "lastUpdated": "2026-06-26T03:19:56Z",
         "homeTeam": {
           "id": 803,
           "name": "Turkey",
@@ -3875,11 +3875,11 @@
           "crest": "https://crests.football-data.org/usa.svg"
         },
         "score": {
-          "winner": "HOME_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
             "home": 2,
-            "away": 1
+            "away": 2
           },
           "halfTime": {
             "home": 2,
@@ -3925,7 +3925,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-26T03:15:10Z",
+        "lastUpdated": "2026-06-26T03:19:31Z",
         "homeTeam": {
           "id": 761,
           "name": "Paraguay",
