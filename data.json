@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T20:16:34Z",
+  "updatedAt": "2026-06-26T20:21:36Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -3991,7 +3991,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_I",
-        "lastUpdated": "2026-06-26T20:16:34Z",
+        "lastUpdated": "2026-06-26T20:21:07Z",
         "homeTeam": {
           "id": 8872,
           "name": "Norway",
@@ -4053,11 +4053,11 @@
         },
         "id": 537396,
         "utcDate": "2026-06-26T19:00:00Z",
-        "status": "PAUSED",
+        "status": "IN_PLAY",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_I",
-        "lastUpdated": "2026-06-26T20:03:11Z",
+        "lastUpdated": "2026-06-26T20:21:10Z",
         "homeTeam": {
           "id": 804,
           "name": "Senegal",
