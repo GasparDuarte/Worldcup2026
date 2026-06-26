@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T10:52:31Z",
+  "updatedAt": "2026-06-26T11:15:32Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -3595,7 +3595,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2026-06-26T07:48:25Z",
+        "lastUpdated": "2026-06-26T10:54:12Z",
         "homeTeam": {
           "id": 791,
           "name": "Ecuador",
@@ -3661,7 +3661,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2026-06-26T07:48:25Z",
+        "lastUpdated": "2026-06-26T10:54:12Z",
         "homeTeam": {
           "id": 9460,
           "name": "Curaçao",
@@ -3727,7 +3727,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2026-06-26T07:48:25Z",
+        "lastUpdated": "2026-06-26T10:54:16Z",
         "homeTeam": {
           "id": 802,
           "name": "Tunisia",
@@ -3793,7 +3793,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2026-06-26T07:48:25Z",
+        "lastUpdated": "2026-06-26T10:54:16Z",
         "homeTeam": {
           "id": 766,
           "name": "Japan",
@@ -3859,7 +3859,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-26T07:48:25Z",
+        "lastUpdated": "2026-06-26T10:54:20Z",
         "homeTeam": {
           "id": 803,
           "name": "Turkey",
@@ -3925,7 +3925,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-26T07:48:25Z",
+        "lastUpdated": "2026-06-26T10:54:19Z",
         "homeTeam": {
           "id": 761,
           "name": "Paraguay",
