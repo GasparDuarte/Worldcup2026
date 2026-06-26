@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T02:28:32Z",
+  "updatedAt": "2026-06-26T02:33:09Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -3727,7 +3727,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2026-06-26T01:00:43Z",
+        "lastUpdated": "2026-06-26T01:00:44Z",
         "homeTeam": {
           "id": 802,
           "name": "Tunisia",
@@ -3859,7 +3859,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-26T02:28:20Z",
+        "lastUpdated": "2026-06-26T02:32:11Z",
         "homeTeam": {
           "id": 803,
           "name": "Turkey",
@@ -3925,7 +3925,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-26T02:28:31Z",
+        "lastUpdated": "2026-06-26T02:32:46Z",
         "homeTeam": {
           "id": 761,
           "name": "Paraguay",
@@ -6856,8 +6856,8 @@
             "draw": 1,
             "lost": 0,
             "points": 7,
-            "goalsFor": 6,
-            "goalsAgainst": 1,
+            "goalsFor": 7,
+            "goalsAgainst": 2,
             "goalDifference": 5
           },
           {
@@ -6913,8 +6913,8 @@
             "draw": 1,
             "lost": 2,
             "points": 1,
-            "goalsFor": 0,
-            "goalsAgainst": 3,
+            "goalsFor": 1,
+            "goalsAgainst": 4,
             "goalDifference": -3
           }
         ]
