@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T19:24:49Z",
+  "updatedAt": "2026-06-26T19:29:26Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -3991,7 +3991,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_I",
-        "lastUpdated": "2026-06-26T19:24:32Z",
+        "lastUpdated": "2026-06-26T19:29:08Z",
         "homeTeam": {
           "id": 8872,
           "name": "Norway",
@@ -4010,8 +4010,8 @@
           "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
-            "away": 1
+            "home": 1,
+            "away": 2
           },
           "halfTime": {
             "home": null,
@@ -4057,7 +4057,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_I",
-        "lastUpdated": "2026-06-26T19:24:46Z",
+        "lastUpdated": "2026-06-26T19:29:22Z",
         "homeTeam": {
           "id": 804,
           "name": "Senegal",
@@ -7710,7 +7710,7 @@
         },
         "playedMatches": 3,
         "goals": 4,
-        "assists": 1,
+        "assists": 2,
         "penalties": null
       },
       {
