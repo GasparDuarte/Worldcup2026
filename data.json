@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T16:49:50Z",
+  "updatedAt": "2026-06-26T17:03:39Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4021,7 +4021,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11605,
+            "name": "Michael Oliver",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
       },
       {
         "area": {
@@ -4080,7 +4087,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11580,
+            "name": "Anthony Taylor",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
       },
       {
         "area": {
