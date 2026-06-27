@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T00:02:55Z",
+  "updatedAt": "2026-06-27T00:07:33Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4119,11 +4119,11 @@
         },
         "id": 537373,
         "utcDate": "2026-06-27T00:00:00Z",
-        "status": "TIMED",
+        "status": "LIVE",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-26T07:48:25Z",
+        "lastUpdated": "2026-06-27T00:07:29Z",
         "homeTeam": {
           "id": 758,
           "name": "Uruguay",
@@ -4139,11 +4139,11 @@
           "crest": "https://crests.football-data.org/760.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -4185,11 +4185,11 @@
         },
         "id": 537374,
         "utcDate": "2026-06-27T00:00:00Z",
-        "status": "TIMED",
+        "status": "LIVE",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-26T07:48:25Z",
+        "lastUpdated": "2026-06-27T00:06:59Z",
         "homeTeam": {
           "id": 1930,
           "name": "Cape Verde Islands",
@@ -4205,11 +4205,11 @@
           "crest": "https://crests.football-data.org/saudi_arabia.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
