@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T00:31:08Z",
+  "updatedAt": "2026-06-27T00:35:45Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4123,7 +4123,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-27T00:30:29Z",
+        "lastUpdated": "2026-06-27T00:35:28Z",
         "homeTeam": {
           "id": 758,
           "name": "Uruguay",
@@ -4189,7 +4189,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-27T00:30:54Z",
+        "lastUpdated": "2026-06-27T00:35:34Z",
         "homeTeam": {
           "id": 1930,
           "name": "Cape Verde Islands",
