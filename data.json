@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T03:16:01Z",
+  "updatedAt": "2026-06-27T03:20:40Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4255,7 +4255,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_G",
-        "lastUpdated": "2026-06-27T03:15:41Z",
+        "lastUpdated": "2026-06-27T03:20:19Z",
         "homeTeam": {
           "id": 783,
           "name": "New Zealand",
@@ -4321,7 +4321,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_G",
-        "lastUpdated": "2026-06-27T03:15:51Z",
+        "lastUpdated": "2026-06-27T03:20:28Z",
         "homeTeam": {
           "id": 825,
           "name": "Egypt",
@@ -4337,11 +4337,11 @@
           "crest": "https://crests.football-data.org/iran.svg"
         },
         "score": {
-          "winner": "HOME_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
             "home": 1,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": null,
@@ -8301,6 +8301,37 @@
       },
       {
         "player": {
+          "id": 3804,
+          "name": "Ramin Rezaeian",
+          "firstName": "Ramin",
+          "lastName": "Rezaeian",
+          "dateOfBirth": "1990-03-21",
+          "nationality": "Iran",
+          "section": "Defence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2023-11-17T09:49:52Z"
+        },
+        "team": {
+          "id": 840,
+          "name": "Iran",
+          "shortName": "Iran",
+          "tla": "IRN",
+          "crest": "https://crests.football-data.org/iran.svg",
+          "address": "No. 2/2 Third St. Seoul Avenue Tehrān 19958-7359",
+          "website": "http://www.ffiri.ir",
+          "founded": 1920,
+          "clubColors": "White / Green / Red",
+          "venue": null,
+          "lastUpdated": "2022-04-02T10:38:42Z"
+        },
+        "playedMatches": 3,
+        "goals": 2,
+        "assists": 1,
+        "penalties": null
+      },
+      {
+        "player": {
           "id": 8004,
           "name": "Harry Kane",
           "firstName": "Harry",
@@ -8545,37 +8576,6 @@
         "playedMatches": 3,
         "goals": 2,
         "assists": 1,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 44,
-          "name": "Cristiano Ronaldo",
-          "firstName": "",
-          "lastName": "Cristiano Ronaldo",
-          "dateOfBirth": "1985-02-05",
-          "nationality": "Portugal",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2024-06-12T17:56:51Z"
-        },
-        "team": {
-          "id": 765,
-          "name": "Portugal",
-          "shortName": "Portugal",
-          "tla": "POR",
-          "crest": "https://crests.football-data.org/765.svg",
-          "address": "Rua Alexandre Herculano, 58 Lisboa 1250-012",
-          "website": "http://www.fpf.pt",
-          "founded": 1914,
-          "clubColors": "Red / Green",
-          "venue": null,
-          "lastUpdated": "2026-06-01T09:41:53Z"
-        },
-        "playedMatches": 2,
-        "goals": 2,
-        "assists": null,
         "penalties": null
       }
     ]
