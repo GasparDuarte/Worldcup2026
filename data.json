@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T01:18:14Z",
+  "updatedAt": "2026-06-27T01:22:52Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -8,7 +8,7 @@
       "count": 104,
       "first": "2026-06-11",
       "last": "2026-07-19",
-      "played": 60
+      "played": 62
     },
     "competition": {
       "id": 2000,
@@ -3987,11 +3987,11 @@
         },
         "id": 537395,
         "utcDate": "2026-06-26T19:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_I",
-        "lastUpdated": "2026-06-26T07:48:25Z",
+        "lastUpdated": "2026-06-26T21:05:47Z",
         "homeTeam": {
           "id": 8872,
           "name": "Norway",
@@ -4007,15 +4007,15 @@
           "crest": "https://crests.football-data.org/773.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 4
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 3
           }
         },
         "odds": {
@@ -4053,11 +4053,11 @@
         },
         "id": 537396,
         "utcDate": "2026-06-26T19:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_I",
-        "lastUpdated": "2026-06-26T07:48:25Z",
+        "lastUpdated": "2026-06-26T21:10:58Z",
         "homeTeam": {
           "id": 804,
           "name": "Senegal",
@@ -4073,15 +4073,15 @@
           "crest": "https://crests.football-data.org/iraq.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 5,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "odds": {
@@ -4119,11 +4119,11 @@
         },
         "id": 537373,
         "utcDate": "2026-06-27T00:00:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-26T07:48:25Z",
+        "lastUpdated": "2026-06-27T01:22:35Z",
         "homeTeam": {
           "id": 758,
           "name": "Uruguay",
@@ -4139,15 +4139,15 @@
           "crest": "https://crests.football-data.org/760.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "odds": {
@@ -4185,11 +4185,11 @@
         },
         "id": 537374,
         "utcDate": "2026-06-27T00:00:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-26T07:48:25Z",
+        "lastUpdated": "2026-06-27T01:22:10Z",
         "homeTeam": {
           "id": 1930,
           "name": "Cape Verde Islands",
@@ -4205,15 +4205,15 @@
           "crest": "https://crests.football-data.org/saudi_arabia.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
