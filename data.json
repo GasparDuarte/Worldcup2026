@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T23:33:57Z",
+  "updatedAt": "2026-06-27T23:38:34Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4515,11 +4515,11 @@
         },
         "id": 537407,
         "utcDate": "2026-06-27T23:30:00Z",
-        "status": "TIMED",
+        "status": "LIVE",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_K",
-        "lastUpdated": "2026-06-26T15:20:14Z",
+        "lastUpdated": "2026-06-27T23:38:11Z",
         "homeTeam": {
           "id": 818,
           "name": "Colombia",
@@ -4535,11 +4535,11 @@
           "crest": "https://crests.football-data.org/765.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -4581,11 +4581,11 @@
         },
         "id": 537408,
         "utcDate": "2026-06-27T23:30:00Z",
-        "status": "TIMED",
+        "status": "LIVE",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_K",
-        "lastUpdated": "2026-06-26T15:20:14Z",
+        "lastUpdated": "2026-06-27T23:38:22Z",
         "homeTeam": {
           "id": 1934,
           "name": "Congo DR",
@@ -4601,11 +4601,11 @@
           "crest": "https://crests.football-data.org/8070.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
