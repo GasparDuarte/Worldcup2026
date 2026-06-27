@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T21:45:55Z",
+  "updatedAt": "2026-06-27T21:50:32Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4387,7 +4387,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_L",
-        "lastUpdated": "2026-06-27T21:45:52Z",
+        "lastUpdated": "2026-06-27T21:49:51Z",
         "homeTeam": {
           "id": 1836,
           "name": "Panama",
@@ -4453,7 +4453,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_L",
-        "lastUpdated": "2026-06-27T21:45:54Z",
+        "lastUpdated": "2026-06-27T21:50:18Z",
         "homeTeam": {
           "id": 799,
           "name": "Croatia",
