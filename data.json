@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T04:59:54Z",
+  "updatedAt": "2026-06-27T05:04:37Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -8,7 +8,7 @@
       "count": 104,
       "first": "2026-06-11",
       "last": "2026-07-19",
-      "played": 64
+      "played": 65
     },
     "competition": {
       "id": 2000,
@@ -3595,7 +3595,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2026-06-26T07:48:25Z",
+        "lastUpdated": "2026-06-26T10:54:12Z",
         "homeTeam": {
           "id": 791,
           "name": "Ecuador",
@@ -3661,7 +3661,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2026-06-26T07:48:25Z",
+        "lastUpdated": "2026-06-26T10:54:12Z",
         "homeTeam": {
           "id": 9460,
           "name": "Curaçao",
@@ -3727,7 +3727,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2026-06-26T07:48:25Z",
+        "lastUpdated": "2026-06-26T10:54:16Z",
         "homeTeam": {
           "id": 802,
           "name": "Tunisia",
@@ -3793,7 +3793,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2026-06-26T07:48:25Z",
+        "lastUpdated": "2026-06-26T10:54:16Z",
         "homeTeam": {
           "id": 766,
           "name": "Japan",
@@ -3859,7 +3859,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-26T07:48:25Z",
+        "lastUpdated": "2026-06-26T10:54:20Z",
         "homeTeam": {
           "id": 803,
           "name": "Turkey",
@@ -3925,7 +3925,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2026-06-26T07:48:25Z",
+        "lastUpdated": "2026-06-26T10:54:19Z",
         "homeTeam": {
           "id": 761,
           "name": "Paraguay",
@@ -4251,11 +4251,11 @@
         },
         "id": 537367,
         "utcDate": "2026-06-27T03:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_G",
-        "lastUpdated": "2026-06-27T04:59:36Z",
+        "lastUpdated": "2026-06-27T05:03:41Z",
         "homeTeam": {
           "id": 783,
           "name": "New Zealand",
@@ -4275,7 +4275,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 1,
-            "away": 4
+            "away": 5
           },
           "halfTime": {
             "home": 0,
@@ -4321,7 +4321,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_G",
-        "lastUpdated": "2026-06-27T04:59:16Z",
+        "lastUpdated": "2026-06-27T05:04:16Z",
         "homeTeam": {
           "id": 825,
           "name": "Egypt",
@@ -4337,11 +4337,11 @@
           "crest": "https://crests.football-data.org/iran.svg"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 1,
-            "away": 1
+            "away": 2
           },
           "halfTime": {
             "home": 1,
