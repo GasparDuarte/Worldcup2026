@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T02:43:15Z",
+  "updatedAt": "2026-06-27T03:02:06Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -7141,12 +7141,12 @@
               "tla": "EGY",
               "crest": "https://crests.football-data.org/825.svg"
             },
-            "playedGames": 2,
+            "playedGames": 3,
             "form": null,
             "won": 1,
-            "draw": 1,
+            "draw": 2,
             "lost": 0,
-            "points": 4,
+            "points": 5,
             "goalsFor": 4,
             "goalsAgainst": 2,
             "goalDifference": 2
@@ -7160,12 +7160,12 @@
               "tla": "IRN",
               "crest": "https://crests.football-data.org/iran.svg"
             },
-            "playedGames": 2,
+            "playedGames": 3,
             "form": null,
             "won": 0,
-            "draw": 2,
+            "draw": 3,
             "lost": 0,
-            "points": 2,
+            "points": 3,
             "goalsFor": 2,
             "goalsAgainst": 2,
             "goalDifference": 0
@@ -7179,12 +7179,12 @@
               "tla": "BEL",
               "crest": "https://crests.football-data.org/805.svg"
             },
-            "playedGames": 2,
+            "playedGames": 3,
             "form": null,
             "won": 0,
-            "draw": 2,
+            "draw": 3,
             "lost": 0,
-            "points": 2,
+            "points": 3,
             "goalsFor": 1,
             "goalsAgainst": 1,
             "goalDifference": 0
@@ -7198,12 +7198,12 @@
               "tla": "NZL",
               "crest": "https://crests.football-data.org/783.svg"
             },
-            "playedGames": 2,
+            "playedGames": 3,
             "form": null,
             "won": 0,
-            "draw": 1,
+            "draw": 2,
             "lost": 1,
-            "points": 1,
+            "points": 2,
             "goalsFor": 3,
             "goalsAgainst": 5,
             "goalDifference": -2
