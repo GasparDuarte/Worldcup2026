@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T03:11:23Z",
+  "updatedAt": "2026-06-27T03:16:01Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4255,7 +4255,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_G",
-        "lastUpdated": "2026-06-27T03:11:19Z",
+        "lastUpdated": "2026-06-27T03:15:41Z",
         "homeTeam": {
           "id": 783,
           "name": "New Zealand",
@@ -4321,7 +4321,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_G",
-        "lastUpdated": "2026-06-27T03:10:52Z",
+        "lastUpdated": "2026-06-27T03:15:51Z",
         "homeTeam": {
           "id": 825,
           "name": "Egypt",
