@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T00:45:25Z",
+  "updatedAt": "2026-06-27T00:50:02Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4123,7 +4123,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-27T00:45:19Z",
+        "lastUpdated": "2026-06-27T00:49:31Z",
         "homeTeam": {
           "id": 758,
           "name": "Uruguay",
@@ -4139,11 +4139,11 @@
           "crest": "https://crests.football-data.org/760.svg"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": null,
@@ -4189,7 +4189,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-27T00:44:55Z",
+        "lastUpdated": "2026-06-27T00:49:58Z",
         "homeTeam": {
           "id": 1930,
           "name": "Cape Verde Islands",
