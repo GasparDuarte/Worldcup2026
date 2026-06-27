@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T03:25:44Z",
+  "updatedAt": "2026-06-27T03:30:21Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4255,7 +4255,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_G",
-        "lastUpdated": "2026-06-27T03:25:20Z",
+        "lastUpdated": "2026-06-27T03:30:20Z",
         "homeTeam": {
           "id": 783,
           "name": "New Zealand",
@@ -4321,7 +4321,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_G",
-        "lastUpdated": "2026-06-27T03:24:51Z",
+        "lastUpdated": "2026-06-27T03:29:51Z",
         "homeTeam": {
           "id": 825,
           "name": "Egypt",
@@ -7135,6 +7135,25 @@
           {
             "position": 1,
             "team": {
+              "id": 805,
+              "name": "Belgium",
+              "shortName": "Belgium",
+              "tla": "BEL",
+              "crest": "https://crests.football-data.org/805.svg"
+            },
+            "playedGames": 3,
+            "form": null,
+            "won": 1,
+            "draw": 2,
+            "lost": 0,
+            "points": 5,
+            "goalsFor": 2,
+            "goalsAgainst": 1,
+            "goalDifference": 1
+          },
+          {
+            "position": 2,
+            "team": {
               "id": 825,
               "name": "Egypt",
               "shortName": "Egypt",
@@ -7147,12 +7166,12 @@
             "draw": 2,
             "lost": 0,
             "points": 5,
-            "goalsFor": 4,
-            "goalsAgainst": 2,
+            "goalsFor": 5,
+            "goalsAgainst": 3,
             "goalDifference": 2
           },
           {
-            "position": 2,
+            "position": 3,
             "team": {
               "id": 840,
               "name": "Iran",
@@ -7166,27 +7185,8 @@
             "draw": 3,
             "lost": 0,
             "points": 3,
-            "goalsFor": 2,
-            "goalsAgainst": 2,
-            "goalDifference": 0
-          },
-          {
-            "position": 3,
-            "team": {
-              "id": 805,
-              "name": "Belgium",
-              "shortName": "Belgium",
-              "tla": "BEL",
-              "crest": "https://crests.football-data.org/805.svg"
-            },
-            "playedGames": 3,
-            "form": null,
-            "won": 0,
-            "draw": 3,
-            "lost": 0,
-            "points": 3,
-            "goalsFor": 1,
-            "goalsAgainst": 1,
+            "goalsFor": 3,
+            "goalsAgainst": 3,
             "goalDifference": 0
           },
           {
@@ -7201,12 +7201,12 @@
             "playedGames": 3,
             "form": null,
             "won": 0,
-            "draw": 2,
-            "lost": 1,
-            "points": 2,
+            "draw": 1,
+            "lost": 2,
+            "points": 1,
             "goalsFor": 3,
-            "goalsAgainst": 5,
-            "goalDifference": -2
+            "goalsAgainst": 6,
+            "goalDifference": -3
           }
         ]
       },
