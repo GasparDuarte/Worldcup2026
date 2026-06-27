@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T04:50:11Z",
+  "updatedAt": "2026-06-27T04:54:48Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4255,7 +4255,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_G",
-        "lastUpdated": "2026-06-27T04:49:53Z",
+        "lastUpdated": "2026-06-27T04:54:41Z",
         "homeTeam": {
           "id": 783,
           "name": "New Zealand",
@@ -4274,8 +4274,8 @@
           "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
-            "away": 3
+            "home": 1,
+            "away": 4
           },
           "halfTime": {
             "home": 0,
@@ -4321,7 +4321,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_G",
-        "lastUpdated": "2026-06-27T04:49:59Z",
+        "lastUpdated": "2026-06-27T04:54:16Z",
         "homeTeam": {
           "id": 825,
           "name": "Egypt",
