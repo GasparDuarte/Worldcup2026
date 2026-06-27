@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T07:20:59Z",
+  "updatedAt": "2026-06-27T07:25:37Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -3991,7 +3991,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_I",
-        "lastUpdated": "2026-06-26T21:05:47Z",
+        "lastUpdated": "2026-06-27T07:23:05Z",
         "homeTeam": {
           "id": 8872,
           "name": "Norway",
@@ -4057,7 +4057,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_I",
-        "lastUpdated": "2026-06-26T21:10:58Z",
+        "lastUpdated": "2026-06-27T07:23:05Z",
         "homeTeam": {
           "id": 804,
           "name": "Senegal",
@@ -4123,7 +4123,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-27T02:07:59Z",
+        "lastUpdated": "2026-06-27T07:23:05Z",
         "homeTeam": {
           "id": 758,
           "name": "Uruguay",
@@ -4189,7 +4189,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-27T02:09:26Z",
+        "lastUpdated": "2026-06-27T07:23:05Z",
         "homeTeam": {
           "id": 1930,
           "name": "Cape Verde Islands",
@@ -4255,7 +4255,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_G",
-        "lastUpdated": "2026-06-27T05:03:41Z",
+        "lastUpdated": "2026-06-27T07:23:05Z",
         "homeTeam": {
           "id": 783,
           "name": "New Zealand",
@@ -4321,7 +4321,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_G",
-        "lastUpdated": "2026-06-27T05:16:41Z",
+        "lastUpdated": "2026-06-27T07:23:05Z",
         "homeTeam": {
           "id": 825,
           "name": "Egypt",
