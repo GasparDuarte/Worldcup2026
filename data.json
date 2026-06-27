@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T00:54:42Z",
+  "updatedAt": "2026-06-27T00:59:19Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4123,7 +4123,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-27T00:54:28Z",
+        "lastUpdated": "2026-06-27T00:59:08Z",
         "homeTeam": {
           "id": 758,
           "name": "Uruguay",
@@ -4185,11 +4185,11 @@
         },
         "id": 537374,
         "utcDate": "2026-06-27T00:00:00Z",
-        "status": "LIVE",
+        "status": "PAUSED",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_H",
-        "lastUpdated": "2026-06-27T00:54:37Z",
+        "lastUpdated": "2026-06-27T00:58:47Z",
         "homeTeam": {
           "id": 1930,
           "name": "Cape Verde Islands",
@@ -4212,8 +4212,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
