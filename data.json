@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T00:20:58Z",
+  "updatedAt": "2026-06-28T00:25:36Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4515,11 +4515,11 @@
         },
         "id": 537407,
         "utcDate": "2026-06-27T23:30:00Z",
-        "status": "LIVE",
+        "status": "PAUSED",
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_K",
-        "lastUpdated": "2026-06-28T00:20:39Z",
+        "lastUpdated": "2026-06-28T00:25:27Z",
         "homeTeam": {
           "id": 818,
           "name": "Colombia",
@@ -4542,8 +4542,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -4585,7 +4585,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_K",
-        "lastUpdated": "2026-06-28T00:20:45Z",
+        "lastUpdated": "2026-06-28T00:25:22Z",
         "homeTeam": {
           "id": 1934,
           "name": "Congo DR",
