@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T00:07:06Z",
+  "updatedAt": "2026-06-28T00:11:43Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4519,7 +4519,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_K",
-        "lastUpdated": "2026-06-28T00:07:03Z",
+        "lastUpdated": "2026-06-28T00:11:39Z",
         "homeTeam": {
           "id": 818,
           "name": "Colombia",
@@ -4585,7 +4585,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_K",
-        "lastUpdated": "2026-06-28T00:06:57Z",
+        "lastUpdated": "2026-06-28T00:11:42Z",
         "homeTeam": {
           "id": 1934,
           "name": "Congo DR",
