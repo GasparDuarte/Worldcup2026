@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T03:39:06Z",
+  "updatedAt": "2026-06-28T03:43:44Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4651,7 +4651,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_J",
-        "lastUpdated": "2026-06-28T03:39:06Z",
+        "lastUpdated": "2026-06-28T03:43:07Z",
         "homeTeam": {
           "id": 8049,
           "name": "Jordan",
@@ -4717,7 +4717,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_J",
-        "lastUpdated": "2026-06-28T03:38:27Z",
+        "lastUpdated": "2026-06-28T03:43:06Z",
         "homeTeam": {
           "id": 778,
           "name": "Algeria",
@@ -7717,7 +7717,7 @@
           "lastUpdated": "2022-05-17T21:09:25Z"
         },
         "playedMatches": 3,
-        "goals": 5,
+        "goals": 6,
         "assists": null,
         "penalties": null
       },
