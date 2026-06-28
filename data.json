@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T19:53:07Z",
+  "updatedAt": "2026-06-28T19:57:46Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4779,11 +4779,11 @@
         },
         "id": 537417,
         "utcDate": "2026-06-28T19:00:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-28T19:52:54Z",
+        "lastUpdated": "2026-06-28T19:54:42Z",
         "homeTeam": {
           "id": 774,
           "name": "South Africa",
@@ -4806,8 +4806,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
