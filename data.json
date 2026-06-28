@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T03:29:21Z",
+  "updatedAt": "2026-06-28T03:33:59Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4651,7 +4651,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_J",
-        "lastUpdated": "2026-06-28T03:29:07Z",
+        "lastUpdated": "2026-06-28T03:33:42Z",
         "homeTeam": {
           "id": 8049,
           "name": "Jordan",
@@ -4717,7 +4717,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_J",
-        "lastUpdated": "2026-06-28T03:29:06Z",
+        "lastUpdated": "2026-06-28T03:33:45Z",
         "homeTeam": {
           "id": 778,
           "name": "Algeria",
@@ -7439,8 +7439,8 @@
             "lost": 0,
             "points": 9,
             "goalsFor": 7,
-            "goalsAgainst": 0,
-            "goalDifference": 7
+            "goalsAgainst": 1,
+            "goalDifference": 6
           },
           {
             "position": 2,
@@ -7457,8 +7457,8 @@
             "draw": 1,
             "lost": 1,
             "points": 4,
-            "goalsFor": 4,
-            "goalsAgainst": 4,
+            "goalsFor": 5,
+            "goalsAgainst": 5,
             "goalDifference": 0
           },
           {
@@ -7476,8 +7476,8 @@
             "draw": 1,
             "lost": 1,
             "points": 4,
-            "goalsFor": 3,
-            "goalsAgainst": 5,
+            "goalsFor": 4,
+            "goalsAgainst": 6,
             "goalDifference": -2
           },
           {
@@ -7495,9 +7495,9 @@
             "draw": 0,
             "lost": 3,
             "points": 0,
-            "goalsFor": 2,
+            "goalsFor": 3,
             "goalsAgainst": 7,
-            "goalDifference": -5
+            "goalDifference": -4
           }
         ]
       },
