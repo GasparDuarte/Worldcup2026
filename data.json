@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T22:57:30Z",
+  "updatedAt": "2026-06-29T23:02:07Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4911,11 +4911,11 @@
         },
         "id": 537415,
         "utcDate": "2026-06-29T20:30:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-29T22:56:35Z",
+        "lastUpdated": "2026-06-29T23:01:25Z",
         "homeTeam": {
           "id": 759,
           "name": "Germany",
@@ -5019,7 +5019,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11412,
+            "name": "Wilton Sampaio",
+            "type": "REFEREE",
+            "nationality": "Brazil"
+          }
+        ]
       },
       {
         "area": {
