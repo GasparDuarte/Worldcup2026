@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T23:25:48Z",
+  "updatedAt": "2026-06-29T23:30:27Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4915,7 +4915,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-29T23:22:55Z",
+        "lastUpdated": "2026-06-29T23:29:33Z",
         "homeTeam": {
           "id": 759,
           "name": "Germany",
@@ -4934,8 +4934,8 @@
           "winner": null,
           "duration": "PENALTY_SHOOTOUT",
           "fullTime": {
-            "home": 2,
-            "away": 2
+            "home": 4,
+            "away": 5
           },
           "halfTime": {
             "home": 0,
@@ -4950,8 +4950,8 @@
             "away": 0
           },
           "penalties": {
-            "home": 1,
-            "away": 1
+            "home": 4,
+            "away": 4
           }
         },
         "odds": {
