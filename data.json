@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T17:32:15Z",
+  "updatedAt": "2026-06-29T17:36:52Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4849,7 +4849,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-29T17:32:14Z",
+        "lastUpdated": "2026-06-29T17:36:14Z",
         "homeTeam": {
           "id": 764,
           "name": "Brazil",
@@ -4865,11 +4865,11 @@
           "crest": "https://crests.football-data.org/766.svg"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": null,
