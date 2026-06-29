@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T14:28:41Z",
+  "updatedAt": "2026-06-29T15:01:50Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4879,7 +4879,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11043,
+            "name": "Maurizio Mariani",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          }
+        ]
       },
       {
         "area": {
