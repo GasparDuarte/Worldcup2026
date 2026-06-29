@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T22:24:12Z",
+  "updatedAt": "2026-06-29T22:29:15Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4915,7 +4915,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-29T22:24:11Z",
+        "lastUpdated": "2026-06-29T22:29:10Z",
         "homeTeam": {
           "id": 759,
           "name": "Germany",
