@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T17:18:23Z",
+  "updatedAt": "2026-06-29T17:23:00Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4849,7 +4849,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-29T17:18:13Z",
+        "lastUpdated": "2026-06-29T17:22:13Z",
         "homeTeam": {
           "id": 764,
           "name": "Brazil",
