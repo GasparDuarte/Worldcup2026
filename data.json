@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T02:53:08Z",
+  "updatedAt": "2026-06-30T02:57:46Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4993,7 +4993,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-30T02:52:45Z",
+        "lastUpdated": "2026-06-30T02:57:25Z",
         "homeTeam": {
           "id": 8601,
           "name": "Netherlands",
@@ -5009,11 +5009,11 @@
           "crest": "https://crests.football-data.org/morocco.svg"
         },
         "score": {
-          "winner": "HOME_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
             "home": 1,
-            "away": 0
+            "away": 1
           },
           "halfTime": {
             "home": 0,
