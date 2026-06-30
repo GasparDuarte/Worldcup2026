@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T19:59:28Z",
+  "updatedAt": "2026-06-30T20:22:34Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5101,14 +5101,7 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": [
-          {
-            "id": 28805,
-            "name": "Jesús Valenzuela",
-            "type": "REFEREE",
-            "nationality": "Venezuela"
-          }
-        ]
+        "referees": []
       },
       {
         "area": {
@@ -5167,14 +5160,7 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": [
-          {
-            "id": 43899,
-            "name": "Danny Makkelie",
-            "type": "REFEREE",
-            "nationality": "Netherlands"
-          }
-        ]
+        "referees": []
       },
       {
         "area": {
@@ -7789,37 +7775,6 @@
       },
       {
         "player": {
-          "id": 38101,
-          "name": "Erling Haaland",
-          "firstName": "Erling",
-          "lastName": "Haaland",
-          "dateOfBirth": "2000-07-21",
-          "nationality": "Norway",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-06-01T11:16:30Z"
-        },
-        "team": {
-          "id": 8872,
-          "name": "Norway",
-          "shortName": "Norway",
-          "tla": "NOR",
-          "crest": "https://crests.football-data.org/813.svg",
-          "address": "Serviceboks 1, Ullevaal stadion Oslo 0840",
-          "website": "http://www.fotball.no",
-          "founded": 1902,
-          "clubColors": "Red / White / Navy Blue",
-          "venue": null,
-          "lastUpdated": "2026-06-01T09:43:53Z"
-        },
-        "playedMatches": 4,
-        "goals": 5,
-        "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
           "id": 1556,
           "name": "Vinicius Junior",
           "firstName": "",
@@ -7875,9 +7830,40 @@
           "venue": null,
           "lastUpdated": "2026-06-01T09:42:18Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 3,
         "goals": 4,
         "assists": 2,
+        "penalties": null
+      },
+      {
+        "player": {
+          "id": 38101,
+          "name": "Erling Haaland",
+          "firstName": "Erling",
+          "lastName": "Haaland",
+          "dateOfBirth": "2000-07-21",
+          "nationality": "Norway",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:30Z"
+        },
+        "team": {
+          "id": 8872,
+          "name": "Norway",
+          "shortName": "Norway",
+          "tla": "NOR",
+          "crest": "https://crests.football-data.org/813.svg",
+          "address": "Serviceboks 1, Ullevaal stadion Oslo 0840",
+          "website": "http://www.fotball.no",
+          "founded": 1902,
+          "clubColors": "Red / White / Navy Blue",
+          "venue": null,
+          "lastUpdated": "2026-06-01T09:43:53Z"
+        },
+        "playedMatches": 3,
+        "goals": 4,
+        "assists": null,
         "penalties": null
       },
       {
@@ -7906,7 +7892,7 @@
           "venue": null,
           "lastUpdated": "2026-06-01T09:42:18Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 3,
         "goals": 4,
         "assists": 1,
         "penalties": null
@@ -8440,37 +8426,6 @@
       },
       {
         "player": {
-          "id": 133584,
-          "name": "Amad Diallo",
-          "firstName": "Amad",
-          "lastName": "Diallo",
-          "dateOfBirth": "2002-07-11",
-          "nationality": "Ivory Coast",
-          "section": "Midfield",
-          "position": null,
-          "shirtNumber": 79,
-          "lastUpdated": "2026-06-01T11:16:32Z"
-        },
-        "team": {
-          "id": 1935,
-          "name": "Ivory Coast",
-          "shortName": "Ivory Coast",
-          "tla": "CIV",
-          "crest": "https://crests.football-data.org/787.svg",
-          "address": "Treichville Avenue, 1 / BP 1202 Abidjan 01",
-          "website": "http://www.fif-ci.com",
-          "founded": 1960,
-          "clubColors": "Orange / Green / White",
-          "venue": null,
-          "lastUpdated": "2026-04-17T11:46:40Z"
-        },
-        "playedMatches": 3,
-        "goals": 2,
-        "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
           "id": 145613,
           "name": "Yasin Ayari",
           "firstName": "Yasin",
@@ -8495,7 +8450,7 @@
           "venue": null,
           "lastUpdated": "2026-06-01T09:42:37Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 3,
         "goals": 2,
         "assists": null,
         "penalties": null
@@ -8684,6 +8639,37 @@
         "playedMatches": 3,
         "goals": 2,
         "assists": 1,
+        "penalties": null
+      },
+      {
+        "player": {
+          "id": 221764,
+          "name": "Ermin Mahmic",
+          "firstName": "Ermin",
+          "lastName": "Mahmić",
+          "dateOfBirth": "2005-03-14",
+          "nationality": "Bosnia and Herzegovina",
+          "section": "Midfield",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-05T10:47:28Z"
+        },
+        "team": {
+          "id": 1060,
+          "name": "Bosnia-Herzegovina",
+          "shortName": "Bosnia-H.",
+          "tla": "BIH",
+          "crest": "https://crests.football-data.org/bosnia.svg",
+          "address": "Ulica Ferhadija, 30 Sarajevo 71000",
+          "website": "http://www.nfsbih.ba",
+          "founded": 1992,
+          "clubColors": "White / Blue",
+          "venue": null,
+          "lastUpdated": "2026-06-01T09:43:27Z"
+        },
+        "playedMatches": 3,
+        "goals": 2,
+        "assists": null,
         "penalties": null
       }
     ]
