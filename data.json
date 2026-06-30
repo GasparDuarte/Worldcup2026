@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T18:57:56Z",
+  "updatedAt": "2026-06-30T19:02:35Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5071,7 +5071,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-30T18:57:07Z",
+        "lastUpdated": "2026-06-30T19:02:06Z",
         "homeTeam": {
           "id": 1935,
           "name": "Ivory Coast",
@@ -5101,7 +5101,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 28805,
+            "name": "Jesús Valenzuela",
+            "type": "REFEREE",
+            "nationality": "Venezuela"
+          }
+        ]
       },
       {
         "area": {
@@ -5160,7 +5167,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 43899,
+            "name": "Danny Makkelie",
+            "type": "REFEREE",
+            "nationality": "Netherlands"
+          }
+        ]
       },
       {
         "area": {
