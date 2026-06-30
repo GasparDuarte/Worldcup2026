@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T18:34:15Z",
+  "updatedAt": "2026-06-30T18:38:54Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5071,7 +5071,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-30T18:34:07Z",
+        "lastUpdated": "2026-06-30T18:38:50Z",
         "homeTeam": {
           "id": 1935,
           "name": "Ivory Coast",
@@ -5087,10 +5087,10 @@
           "crest": "https://crests.football-data.org/813.svg"
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 1
           },
           "halfTime": {
@@ -8433,6 +8433,37 @@
       },
       {
         "player": {
+          "id": 133584,
+          "name": "Amad Diallo",
+          "firstName": "Amad",
+          "lastName": "Diallo",
+          "dateOfBirth": "2002-07-11",
+          "nationality": "Ivory Coast",
+          "section": "Midfield",
+          "position": null,
+          "shirtNumber": 79,
+          "lastUpdated": "2026-06-01T11:16:32Z"
+        },
+        "team": {
+          "id": 1935,
+          "name": "Ivory Coast",
+          "shortName": "Ivory Coast",
+          "tla": "CIV",
+          "crest": "https://crests.football-data.org/787.svg",
+          "address": "Treichville Avenue, 1 / BP 1202 Abidjan 01",
+          "website": "http://www.fif-ci.com",
+          "founded": 1960,
+          "clubColors": "Orange / Green / White",
+          "venue": null,
+          "lastUpdated": "2026-04-17T11:46:40Z"
+        },
+        "playedMatches": 3,
+        "goals": 2,
+        "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
           "id": 145613,
           "name": "Yasin Ayari",
           "firstName": "Yasin",
@@ -8646,37 +8677,6 @@
         "playedMatches": 3,
         "goals": 2,
         "assists": 1,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 221764,
-          "name": "Ermin Mahmic",
-          "firstName": "Ermin",
-          "lastName": "Mahmić",
-          "dateOfBirth": "2005-03-14",
-          "nationality": "Bosnia and Herzegovina",
-          "section": "Midfield",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-06-05T10:47:28Z"
-        },
-        "team": {
-          "id": 1060,
-          "name": "Bosnia-Herzegovina",
-          "shortName": "Bosnia-H.",
-          "tla": "BIH",
-          "crest": "https://crests.football-data.org/bosnia.svg",
-          "address": "Ulica Ferhadija, 30 Sarajevo 71000",
-          "website": "http://www.nfsbih.ba",
-          "founded": 1992,
-          "clubColors": "White / Blue",
-          "venue": null,
-          "lastUpdated": "2026-06-01T09:43:27Z"
-        },
-        "playedMatches": 3,
-        "goals": 2,
-        "assists": null,
         "penalties": null
       }
     ]
