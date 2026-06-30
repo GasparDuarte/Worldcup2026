@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T03:07:00Z",
+  "updatedAt": "2026-06-30T03:12:02Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4989,11 +4989,11 @@
         },
         "id": 537418,
         "utcDate": "2026-06-30T01:00:00Z",
-        "status": "PAUSED",
+        "status": "IN_PLAY",
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-30T03:05:21Z",
+        "lastUpdated": "2026-06-30T03:11:57Z",
         "homeTeam": {
           "id": 8601,
           "name": "Netherlands",
@@ -5010,12 +5010,20 @@
         },
         "score": {
           "winner": "DRAW",
-          "duration": "REGULAR",
+          "duration": "EXTRA_TIME",
           "fullTime": {
             "home": 1,
             "away": 1
           },
           "halfTime": {
+            "home": 0,
+            "away": 0
+          },
+          "regularTime": {
+            "home": null,
+            "away": null
+          },
+          "extraTime": {
             "home": 0,
             "away": 0
           }
