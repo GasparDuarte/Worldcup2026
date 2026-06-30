@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T22:53:55Z",
+  "updatedAt": "2026-06-30T22:58:32Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -8,7 +8,7 @@
       "count": 104,
       "first": "2026-06-11",
       "last": "2026-07-19",
-      "played": 77
+      "played": 78
     },
     "competition": {
       "id": 2000,
@@ -5133,11 +5133,11 @@
         },
         "id": 537416,
         "utcDate": "2026-06-30T21:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-30T22:53:42Z",
+        "lastUpdated": "2026-06-30T22:58:30Z",
         "homeTeam": {
           "id": 773,
           "name": "France",
