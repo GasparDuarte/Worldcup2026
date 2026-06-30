@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T17:51:26Z",
+  "updatedAt": "2026-06-30T17:56:05Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5067,11 +5067,11 @@
         },
         "id": 537424,
         "utcDate": "2026-06-30T17:00:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-30T17:51:25Z",
+        "lastUpdated": "2026-06-30T17:55:54Z",
         "homeTeam": {
           "id": 1935,
           "name": "Ivory Coast",
@@ -5094,8 +5094,8 @@
             "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "odds": {
