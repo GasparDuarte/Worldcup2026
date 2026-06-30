@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T02:34:13Z",
+  "updatedAt": "2026-06-30T02:38:51Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -4993,7 +4993,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-30T02:34:12Z",
+        "lastUpdated": "2026-06-30T02:38:46Z",
         "homeTeam": {
           "id": 8601,
           "name": "Netherlands",
@@ -5009,10 +5009,10 @@
           "crest": "https://crests.football-data.org/morocco.svg"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
@@ -8197,6 +8197,37 @@
       },
       {
         "player": {
+          "id": 7459,
+          "name": "Cody Gakpo",
+          "firstName": "Cody",
+          "lastName": "Gakpo",
+          "dateOfBirth": "1999-05-07",
+          "nationality": "Netherlands",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:31Z"
+        },
+        "team": {
+          "id": 8601,
+          "name": "Netherlands",
+          "shortName": "Netherlands",
+          "tla": "NED",
+          "crest": "https://crests.football-data.org/8601.svg",
+          "address": "Woudenbergseweg 56-58 / Postbus 515 Zeist 3700 AM",
+          "website": "http://www.knvb.nl",
+          "founded": 1889,
+          "clubColors": "Orange / White / Blue",
+          "venue": null,
+          "lastUpdated": "2026-06-01T09:43:48Z"
+        },
+        "playedMatches": 4,
+        "goals": 3,
+        "assists": 1,
+        "penalties": null
+      },
+      {
+        "player": {
           "id": 3638,
           "name": "Ismaïla Sarr",
           "firstName": "Ismaïla",
@@ -8347,7 +8378,7 @@
         },
         "playedMatches": 4,
         "goals": 2,
-        "assists": 1,
+        "assists": 2,
         "penalties": null
       },
       {
@@ -8627,37 +8658,6 @@
         "playedMatches": 3,
         "goals": 2,
         "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 7459,
-          "name": "Cody Gakpo",
-          "firstName": "Cody",
-          "lastName": "Gakpo",
-          "dateOfBirth": "1999-05-07",
-          "nationality": "Netherlands",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-06-01T11:16:31Z"
-        },
-        "team": {
-          "id": 8601,
-          "name": "Netherlands",
-          "shortName": "Netherlands",
-          "tla": "NED",
-          "crest": "https://crests.football-data.org/8601.svg",
-          "address": "Woudenbergseweg 56-58 / Postbus 515 Zeist 3700 AM",
-          "website": "http://www.knvb.nl",
-          "founded": 1889,
-          "clubColors": "Orange / White / Blue",
-          "venue": null,
-          "lastUpdated": "2026-06-01T09:43:48Z"
-        },
-        "playedMatches": 4,
-        "goals": 2,
-        "assists": 1,
         "penalties": null
       }
     ]
