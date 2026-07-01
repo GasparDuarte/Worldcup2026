@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T13:58:00Z",
+  "updatedAt": "2026-07-01T14:02:40Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5071,7 +5071,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-01T08:25:00Z",
+        "lastUpdated": "2026-07-01T08:25:01Z",
         "homeTeam": {
           "id": 1935,
           "name": "Ivory Coast",
@@ -5299,7 +5299,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 129250,
+            "name": "Adham Makhadmeh",
+            "type": "REFEREE",
+            "nationality": "Jordan"
+          }
+        ]
       },
       {
         "area": {
