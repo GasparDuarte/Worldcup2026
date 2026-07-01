@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T03:26:58Z",
+  "updatedAt": "2026-07-01T03:27:24Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -8,7 +8,7 @@
       "count": 104,
       "first": "2026-06-11",
       "last": "2026-07-19",
-      "played": 78
+      "played": 77
     },
     "competition": {
       "id": 2000,
@@ -5067,11 +5067,11 @@
         },
         "id": 537424,
         "utcDate": "2026-06-30T17:00:00Z",
-        "status": "FINISHED",
+        "status": "TIMED",
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-06-30T19:04:39Z",
+        "lastUpdated": "2026-06-30T19:12:59Z",
         "homeTeam": {
           "id": 1935,
           "name": "Ivory Coast",
@@ -5087,15 +5087,15 @@
           "crest": "https://crests.football-data.org/813.svg"
         },
         "score": {
-          "winner": "AWAY_TEAM",
+          "winner": null,
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
-            "away": 2
+            "home": null,
+            "away": null
           },
           "halfTime": {
-            "home": 0,
-            "away": 1
+            "home": null,
+            "away": null
           }
         },
         "odds": {
@@ -5203,7 +5203,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-01T03:26:26Z",
+        "lastUpdated": "2026-07-01T03:27:24Z",
         "homeTeam": {
           "id": 769,
           "name": "Mexico",
