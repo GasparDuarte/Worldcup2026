@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T16:52:56Z",
+  "updatedAt": "2026-07-01T16:57:35Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5265,11 +5265,11 @@
         },
         "id": 537426,
         "utcDate": "2026-07-01T16:00:00Z",
-        "status": "LIVE",
+        "status": "PAUSED",
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-01T16:52:51Z",
+        "lastUpdated": "2026-07-01T16:57:12Z",
         "homeTeam": {
           "id": 770,
           "name": "England",
@@ -5292,8 +5292,8 @@
             "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "odds": {
