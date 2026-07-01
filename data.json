@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T16:05:29Z",
+  "updatedAt": "2026-07-01T16:10:07Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5265,11 +5265,11 @@
         },
         "id": 537426,
         "utcDate": "2026-07-01T16:00:00Z",
-        "status": "IN_PLAY",
+        "status": "LIVE",
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-01T16:05:24Z",
+        "lastUpdated": "2026-07-01T16:09:48Z",
         "homeTeam": {
           "id": 770,
           "name": "England",
