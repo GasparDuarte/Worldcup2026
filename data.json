@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T03:32:03Z",
+  "updatedAt": "2026-07-01T03:36:41Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5203,7 +5203,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-01T03:31:26Z",
+        "lastUpdated": "2026-07-01T03:36:26Z",
         "homeTeam": {
           "id": 769,
           "name": "Mexico",
