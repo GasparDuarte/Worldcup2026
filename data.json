@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T20:38:52Z",
+  "updatedAt": "2026-07-01T20:43:31Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5335,7 +5335,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-01T20:38:30Z",
+        "lastUpdated": "2026-07-01T20:43:29Z",
         "homeTeam": {
           "id": 805,
           "name": "Belgium",
