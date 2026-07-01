@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T21:16:42Z",
+  "updatedAt": "2026-07-01T21:21:20Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5335,7 +5335,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-01T21:16:27Z",
+        "lastUpdated": "2026-07-01T21:20:51Z",
         "homeTeam": {
           "id": 805,
           "name": "Belgium",
@@ -5355,7 +5355,7 @@
           "duration": "REGULAR",
           "fullTime": {
             "home": 0,
-            "away": 1
+            "away": 2
           },
           "halfTime": {
             "home": 0,
