@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T11:18:24Z",
+  "updatedAt": "2026-07-01T11:41:53Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5071,7 +5071,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-01T08:25:01Z",
+        "lastUpdated": "2026-07-01T08:25:00Z",
         "homeTeam": {
           "id": 1935,
           "name": "Ivory Coast",
