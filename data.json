@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T02:35:09Z",
+  "updatedAt": "2026-07-01T02:39:47Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5203,7 +5203,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-01T02:34:48Z",
+        "lastUpdated": "2026-07-01T02:39:24Z",
         "homeTeam": {
           "id": 769,
           "name": "Mexico",
@@ -5222,7 +5222,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 0
           },
           "halfTime": {
