@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T04:14:37Z",
+  "updatedAt": "2026-07-01T04:23:52Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5101,14 +5101,7 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": [
-          {
-            "id": 28805,
-            "name": "Jesús Valenzuela",
-            "type": "REFEREE",
-            "nationality": "Venezuela"
-          }
-        ]
+        "referees": []
       },
       {
         "area": {
@@ -5167,14 +5160,7 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": [
-          {
-            "id": 43899,
-            "name": "Danny Makkelie",
-            "type": "REFEREE",
-            "nationality": "Netherlands"
-          }
-        ]
+        "referees": []
       },
       {
         "area": {
@@ -5233,14 +5219,7 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": [
-          {
-            "id": 9351,
-            "name": "Slavko Vinčič",
-            "type": "REFEREE",
-            "nationality": "Slovenia"
-          }
-        ]
+        "referees": []
       },
       {
         "area": {
