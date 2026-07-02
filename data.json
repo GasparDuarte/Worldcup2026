@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T02:08:43Z",
+  "updatedAt": "2026-07-02T02:13:22Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -8,7 +8,7 @@
       "count": 104,
       "first": "2026-06-11",
       "last": "2026-07-19",
-      "played": 81
+      "played": 82
     },
     "competition": {
       "id": 2000,
@@ -5071,7 +5071,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-01T08:25:00Z",
+        "lastUpdated": "2026-07-01T08:25:01Z",
         "homeTeam": {
           "id": 1935,
           "name": "Ivory Coast",
@@ -5335,7 +5335,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-01T23:03:12Z",
+        "lastUpdated": "2026-07-01T22:54:56Z",
         "homeTeam": {
           "id": 805,
           "name": "Belgium",
@@ -5352,7 +5352,7 @@
         },
         "score": {
           "winner": "HOME_TEAM",
-          "duration": "EXTRA_TIME",
+          "duration": "REGULAR",
           "fullTime": {
             "home": 3,
             "away": 2
@@ -5405,11 +5405,11 @@
         },
         "id": 537421,
         "utcDate": "2026-07-02T00:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-02T02:08:08Z",
+        "lastUpdated": "2026-07-02T02:12:45Z",
         "homeTeam": {
           "id": 771,
           "name": "United States",
