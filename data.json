@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T01:49:46Z",
+  "updatedAt": "2026-07-02T01:50:10Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5335,7 +5335,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-01T22:54:56Z",
+        "lastUpdated": "2026-07-01T23:03:12Z",
         "homeTeam": {
           "id": 805,
           "name": "Belgium",
@@ -5352,7 +5352,7 @@
         },
         "score": {
           "winner": "HOME_TEAM",
-          "duration": "REGULAR",
+          "duration": "EXTRA_TIME",
           "fullTime": {
             "home": 3,
             "away": 2
@@ -5409,7 +5409,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-02T01:49:07Z",
+        "lastUpdated": "2026-07-02T01:50:08Z",
         "homeTeam": {
           "id": 771,
           "name": "United States",
