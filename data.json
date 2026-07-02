@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T19:53:57Z",
+  "updatedAt": "2026-07-02T19:58:35Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5471,11 +5471,11 @@
         },
         "id": 537420,
         "utcDate": "2026-07-02T19:00:00Z",
-        "status": "TIMED",
+        "status": "PAUSED",
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-02T19:53:57Z",
+        "lastUpdated": "2026-07-02T19:56:21Z",
         "homeTeam": {
           "id": 760,
           "name": "Spain",
@@ -5498,8 +5498,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "odds": {
