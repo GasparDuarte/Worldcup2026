@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T05:22:34Z",
+  "updatedAt": "2026-07-02T05:55:16Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5352,7 +5352,7 @@
         },
         "score": {
           "winner": "HOME_TEAM",
-          "duration": "EXTRA_TIME",
+          "duration": "REGULAR",
           "fullTime": {
             "home": 3,
             "away": 2
