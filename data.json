@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T00:39:04Z",
+  "updatedAt": "2026-07-02T01:03:04Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5071,7 +5071,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-01T08:25:01Z",
+        "lastUpdated": "2026-07-01T08:25:00Z",
         "homeTeam": {
           "id": 1935,
           "name": "Ivory Coast",
@@ -5405,11 +5405,11 @@
         },
         "id": 537421,
         "utcDate": "2026-07-02T00:00:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-02T00:38:30Z",
+        "lastUpdated": "2026-07-02T01:01:21Z",
         "homeTeam": {
           "id": 771,
           "name": "United States",
@@ -5425,15 +5425,15 @@
           "crest": "https://crests.football-data.org/bosnia.svg"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "odds": {
@@ -8042,6 +8042,37 @@
       },
       {
         "player": {
+          "id": 131040,
+          "name": "Folarin Balogun",
+          "firstName": "Folarin",
+          "lastName": "Balogun",
+          "dateOfBirth": "2001-07-03",
+          "nationality": "USA",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:31Z"
+        },
+        "team": {
+          "id": 771,
+          "name": "United States",
+          "shortName": "USA",
+          "tla": "USA",
+          "crest": "https://crests.football-data.org/usa.svg",
+          "address": "1801 South Prairie Ave Chicago, IL 90266",
+          "website": "http://www.ussoccer.com",
+          "founded": 1913,
+          "clubColors": "White / Navy Blue / Red",
+          "venue": null,
+          "lastUpdated": "2026-06-01T09:42:10Z"
+        },
+        "playedMatches": 4,
+        "goals": 3,
+        "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
           "id": 130173,
           "name": "Ismael Saibari",
           "firstName": "Ismael",
@@ -8406,37 +8437,6 @@
           "clubColors": null,
           "venue": null,
           "lastUpdated": "2022-10-07T08:25:45Z"
-        },
-        "playedMatches": 4,
-        "goals": 2,
-        "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 131040,
-          "name": "Folarin Balogun",
-          "firstName": "Folarin",
-          "lastName": "Balogun",
-          "dateOfBirth": "2001-07-03",
-          "nationality": "USA",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-06-01T11:16:31Z"
-        },
-        "team": {
-          "id": 771,
-          "name": "United States",
-          "shortName": "USA",
-          "tla": "USA",
-          "crest": "https://crests.football-data.org/usa.svg",
-          "address": "1801 South Prairie Ave Chicago, IL 90266",
-          "website": "http://www.ussoccer.com",
-          "founded": 1913,
-          "clubColors": "White / Navy Blue / Red",
-          "venue": null,
-          "lastUpdated": "2026-06-01T09:42:10Z"
         },
         "playedMatches": 4,
         "goals": 2,
