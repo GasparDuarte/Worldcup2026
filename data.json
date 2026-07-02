@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T19:35:00Z",
+  "updatedAt": "2026-07-02T19:39:37Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5475,7 +5475,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-02T19:34:10Z",
+        "lastUpdated": "2026-07-02T19:39:11Z",
         "homeTeam": {
           "id": 760,
           "name": "Spain",
@@ -8390,6 +8390,37 @@
       },
       {
         "player": {
+          "id": 180137,
+          "name": "Mikel Oyarzabal",
+          "firstName": "",
+          "lastName": "Mikel Oyarzabal",
+          "dateOfBirth": "1997-04-21",
+          "nationality": "Spain",
+          "section": "Midfield",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:30Z"
+        },
+        "team": {
+          "id": 760,
+          "name": "Spain",
+          "shortName": "Spain",
+          "tla": "ESP",
+          "crest": "https://crests.football-data.org/760.svg",
+          "address": "Ramón y Cajal, s/n Las Rozas 28230",
+          "website": "http://www.rfef.es",
+          "founded": 1909,
+          "clubColors": "Red / Blue / Yellow",
+          "venue": null,
+          "lastUpdated": "2026-06-01T09:41:19Z"
+        },
+        "playedMatches": 4,
+        "goals": 3,
+        "assists": 1,
+        "penalties": null
+      },
+      {
+        "player": {
           "id": 3305,
           "name": "Raúl Jiménez",
           "firstName": "Raúl",
@@ -8697,37 +8728,6 @@
         "goals": 2,
         "assists": null,
         "penalties": 1
-      },
-      {
-        "player": {
-          "id": 125010,
-          "name": "Jude Bellingham",
-          "firstName": "Jude",
-          "lastName": "Bellingham",
-          "dateOfBirth": "2003-06-29",
-          "nationality": "England",
-          "section": "Midfield",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-06-01T11:16:29Z"
-        },
-        "team": {
-          "id": 770,
-          "name": "England",
-          "shortName": "England",
-          "tla": "ENG",
-          "crest": "https://crests.football-data.org/770.svg",
-          "address": "Wembley Stadium, PO Box 1966 London SW1P 9EQ",
-          "website": "http://www.thefa.com",
-          "founded": 1863,
-          "clubColors": "White / Red / Navy Blue",
-          "venue": null,
-          "lastUpdated": "2026-06-01T09:42:05Z"
-        },
-        "playedMatches": 4,
-        "goals": 2,
-        "assists": 1,
-        "penalties": null
       }
     ]
   }
