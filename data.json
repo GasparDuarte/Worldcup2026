@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T20:59:47Z",
+  "updatedAt": "2026-07-02T21:04:25Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -8,7 +8,7 @@
       "count": 104,
       "first": "2026-06-11",
       "last": "2026-07-19",
-      "played": 82
+      "played": 83
     },
     "competition": {
       "id": 2000,
@@ -5471,11 +5471,11 @@
         },
         "id": 537420,
         "utcDate": "2026-07-02T19:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-02T20:59:07Z",
+        "lastUpdated": "2026-07-02T21:04:09Z",
         "homeTeam": {
           "id": 760,
           "name": "Spain",
@@ -5571,7 +5571,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 215543,
+            "name": "Espen Eskås",
+            "type": "REFEREE",
+            "nationality": "Norway"
+          }
+        ]
       },
       {
         "area": {
