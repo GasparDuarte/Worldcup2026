@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T16:49:41Z",
+  "updatedAt": "2026-07-02T17:03:37Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5505,7 +5505,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 30960,
+            "name": "Glenn Nyberg",
+            "type": "REFEREE",
+            "nationality": "Sweden"
+          }
+        ]
       },
       {
         "area": {
