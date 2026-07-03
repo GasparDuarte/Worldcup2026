@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T20:08:56Z",
+  "updatedAt": "2026-07-03T20:13:35Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5669,11 +5669,11 @@
         },
         "id": 537428,
         "utcDate": "2026-07-03T18:00:00Z",
-        "status": "PAUSED",
+        "status": "IN_PLAY",
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-03T20:08:25Z",
+        "lastUpdated": "2026-07-03T20:13:19Z",
         "homeTeam": {
           "id": 779,
           "name": "Australia",
@@ -5690,7 +5690,7 @@
         },
         "score": {
           "winner": "DRAW",
-          "duration": "REGULAR",
+          "duration": "EXTRA_TIME",
           "fullTime": {
             "home": 1,
             "away": 1
@@ -5698,6 +5698,14 @@
           "halfTime": {
             "home": 0,
             "away": 1
+          },
+          "regularTime": {
+            "home": null,
+            "away": null
+          },
+          "extraTime": {
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
