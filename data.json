@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T20:42:31Z",
+  "updatedAt": "2026-07-03T20:47:09Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5673,7 +5673,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-03T20:42:24Z",
+        "lastUpdated": "2026-07-03T20:43:16Z",
         "homeTeam": {
           "id": 779,
           "name": "Australia",
@@ -5689,8 +5689,8 @@
           "crest": "https://crests.football-data.org/825.svg"
         },
         "score": {
-          "winner": "DRAW",
-          "duration": "EXTRA_TIME",
+          "winner": null,
+          "duration": "PENALTY_SHOOTOUT",
           "fullTime": {
             "home": 1,
             "away": 1
@@ -5700,10 +5700,14 @@
             "away": 1
           },
           "regularTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           },
           "extraTime": {
+            "home": 0,
+            "away": 0
+          },
+          "penalties": {
             "home": 0,
             "away": 0
           }
