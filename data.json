@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T02:43:50Z",
+  "updatedAt": "2026-07-03T03:07:18Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5541,7 +5541,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-03T01:22:34Z",
+        "lastUpdated": "2026-07-03T01:26:11Z",
         "homeTeam": {
           "id": 765,
           "name": "Portugal",
@@ -5603,11 +5603,11 @@
         },
         "id": 537429,
         "utcDate": "2026-07-03T03:00:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-02T05:20:12Z",
+        "lastUpdated": "2026-07-03T03:07:14Z",
         "homeTeam": {
           "id": 788,
           "name": "Switzerland",
@@ -5623,11 +5623,11 @@
           "crest": "https://crests.football-data.org/algeria.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
