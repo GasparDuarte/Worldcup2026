@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T23:59:02Z",
+  "updatedAt": "2026-07-03T00:12:57Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5537,11 +5537,11 @@
         },
         "id": 537419,
         "utcDate": "2026-07-02T23:00:00Z",
-        "status": "PAUSED",
+        "status": "IN_PLAY",
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-02T23:55:39Z",
+        "lastUpdated": "2026-07-03T00:12:14Z",
         "homeTeam": {
           "id": 765,
           "name": "Portugal",
