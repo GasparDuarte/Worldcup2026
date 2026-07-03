@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T18:10:32Z",
+  "updatedAt": "2026-07-03T18:15:11Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5673,7 +5673,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-03T18:10:08Z",
+        "lastUpdated": "2026-07-03T18:15:08Z",
         "homeTeam": {
           "id": 779,
           "name": "Australia",
@@ -8690,6 +8690,37 @@
       },
       {
         "player": {
+          "id": 191972,
+          "name": "Emam Ashour",
+          "firstName": "Emam",
+          "lastName": "Ashour",
+          "dateOfBirth": "1998-02-20",
+          "nationality": "Egypt",
+          "section": "Midfield",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2024-01-11T10:31:49Z"
+        },
+        "team": {
+          "id": 825,
+          "name": "Egypt",
+          "shortName": "Egypt",
+          "tla": "EGY",
+          "crest": "https://crests.football-data.org/825.svg",
+          "address": "5, Gabalaya Street, El Gezira Cairo null",
+          "website": "http://www.efa.com.eg",
+          "founded": 1921,
+          "clubColors": "Red / White / Black",
+          "venue": null,
+          "lastUpdated": "2026-04-17T11:44:21Z"
+        },
+        "playedMatches": 4,
+        "goals": 2,
+        "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
           "id": 28770,
           "name": "Maximiliano Araújo",
           "firstName": "Maxi",
@@ -8713,37 +8744,6 @@
           "clubColors": "Sky Blue / White / Black",
           "venue": null,
           "lastUpdated": "2026-06-16T00:37:18Z"
-        },
-        "playedMatches": 3,
-        "goals": 2,
-        "assists": 1,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 3804,
-          "name": "Ramin Rezaeian",
-          "firstName": "Ramin",
-          "lastName": "Rezaeian",
-          "dateOfBirth": "1990-03-21",
-          "nationality": "Iran",
-          "section": "Defence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2023-11-17T09:49:52Z"
-        },
-        "team": {
-          "id": 840,
-          "name": "Iran",
-          "shortName": "Iran",
-          "tla": "IRN",
-          "crest": "https://crests.football-data.org/iran.svg",
-          "address": "No. 2/2 Third St. Seoul Avenue Tehrān 19958-7359",
-          "website": "http://www.ffiri.ir",
-          "founded": 1920,
-          "clubColors": "White / Green / Red",
-          "venue": null,
-          "lastUpdated": "2022-04-02T10:38:42Z"
         },
         "playedMatches": 3,
         "goals": 2,
