@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T04:08:56Z",
+  "updatedAt": "2026-07-03T04:13:34Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5603,11 +5603,11 @@
         },
         "id": 537429,
         "utcDate": "2026-07-03T03:00:00Z",
-        "status": "PAUSED",
+        "status": "IN_PLAY",
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-03T03:56:12Z",
+        "lastUpdated": "2026-07-03T04:13:00Z",
         "homeTeam": {
           "id": 788,
           "name": "Switzerland",
@@ -5626,7 +5626,7 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 0
           },
           "halfTime": {
