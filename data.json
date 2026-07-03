@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T19:59:37Z",
+  "updatedAt": "2026-07-03T20:04:18Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5669,11 +5669,11 @@
         },
         "id": 537428,
         "utcDate": "2026-07-03T18:00:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-03T19:59:36Z",
+        "lastUpdated": "2026-07-03T20:03:12Z",
         "homeTeam": {
           "id": 779,
           "name": "Australia",
@@ -5769,7 +5769,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 77052,
+            "name": "Drew Fischer",
+            "type": "REFEREE",
+            "nationality": "Canada"
+          }
+        ]
       },
       {
         "area": {
