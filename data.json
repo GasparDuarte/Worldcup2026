@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T01:05:25Z",
+  "updatedAt": "2026-07-03T01:14:21Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -8,7 +8,7 @@
       "count": 104,
       "first": "2026-06-11",
       "last": "2026-07-19",
-      "played": 83
+      "played": 84
     },
     "competition": {
       "id": 2000,
@@ -5537,11 +5537,11 @@
         },
         "id": 537419,
         "utcDate": "2026-07-02T23:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-03T01:05:14Z",
+        "lastUpdated": "2026-07-03T01:14:14Z",
         "homeTeam": {
           "id": 765,
           "name": "Portugal",
@@ -5557,11 +5557,11 @@
           "crest": "https://crests.football-data.org/799.svg"
         },
         "score": {
-          "winner": "HOME_TEAM",
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
             "home": 2,
-            "away": 1
+            "away": 2
           },
           "halfTime": {
             "home": 0,
