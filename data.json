@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T03:26:15Z",
+  "updatedAt": "2026-07-03T03:30:54Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5607,7 +5607,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-03T03:26:13Z",
+        "lastUpdated": "2026-07-03T03:30:24Z",
         "homeTeam": {
           "id": 788,
           "name": "Switzerland",
