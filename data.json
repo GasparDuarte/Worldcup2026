@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T18:56:43Z",
+  "updatedAt": "2026-07-04T19:01:20Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5891,7 +5891,7 @@
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-07-04T18:55:57Z",
+        "lastUpdated": "2026-07-04T19:00:45Z",
         "homeTeam": {
           "id": 828,
           "name": "Canada",
@@ -5987,7 +5987,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 236055,
+            "name": "Il'giz Tantashev",
+            "type": "REFEREE",
+            "nationality": "Uzbekistan"
+          }
+        ]
       },
       {
         "area": {
