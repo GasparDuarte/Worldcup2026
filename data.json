@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T01:39:53Z",
+  "updatedAt": "2026-07-04T01:44:33Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5825,7 +5825,7 @@
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-04T01:39:48Z",
+        "lastUpdated": "2026-07-04T01:44:16Z",
         "homeTeam": {
           "id": 818,
           "name": "Colombia",
