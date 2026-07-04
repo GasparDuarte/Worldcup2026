@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T00:24:34Z",
+  "updatedAt": "2026-07-04T00:29:13Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5747,11 +5747,11 @@
         },
         "id": 537427,
         "utcDate": "2026-07-03T22:00:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "matchday": null,
         "stage": "LAST_32",
         "group": null,
-        "lastUpdated": "2026-07-04T00:24:18Z",
+        "lastUpdated": "2026-07-04T00:29:06Z",
         "homeTeam": {
           "id": 762,
           "name": "Argentina",
@@ -5783,7 +5783,7 @@
           },
           "extraTime": {
             "home": 1,
-            "away": 0
+            "away": 1
           }
         },
         "odds": {
