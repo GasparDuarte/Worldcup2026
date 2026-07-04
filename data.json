@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T21:56:14Z",
+  "updatedAt": "2026-07-04T22:00:53Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5953,11 +5953,11 @@
         },
         "id": 537375,
         "utcDate": "2026-07-04T21:00:00Z",
-        "status": "LIVE",
+        "status": "PAUSED",
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-07-04T21:55:47Z",
+        "lastUpdated": "2026-07-04T21:58:09Z",
         "homeTeam": {
           "id": 761,
           "name": "Paraguay",
@@ -5980,8 +5980,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
