@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T21:08:48Z",
+  "updatedAt": "2026-07-04T21:13:29Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -5953,11 +5953,11 @@
         },
         "id": 537375,
         "utcDate": "2026-07-04T21:00:00Z",
-        "status": "IN_PLAY",
+        "status": "LIVE",
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-07-04T21:06:12Z",
+        "lastUpdated": "2026-07-04T21:13:24Z",
         "homeTeam": {
           "id": 761,
           "name": "Paraguay",
