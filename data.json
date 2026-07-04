@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T23:07:13Z",
+  "updatedAt": "2026-07-04T23:11:51Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -8,7 +8,7 @@
       "count": 104,
       "first": "2026-06-11",
       "last": "2026-07-19",
-      "played": 89
+      "played": 90
     },
     "competition": {
       "id": 2000,
@@ -5953,11 +5953,11 @@
         },
         "id": 537375,
         "utcDate": "2026-07-04T21:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-07-04T23:07:06Z",
+        "lastUpdated": "2026-07-04T23:10:57Z",
         "homeTeam": {
           "id": 761,
           "name": "Paraguay",
