@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T21:38:23Z",
+  "updatedAt": "2026-07-05T21:43:01Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6023,7 +6023,7 @@
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-07-05T21:38:03Z",
+        "lastUpdated": "2026-07-05T21:42:51Z",
         "homeTeam": {
           "id": 764,
           "name": "Brazil",
@@ -7964,7 +7964,7 @@
           "lastUpdated": "2026-06-01T09:43:53Z"
         },
         "playedMatches": 5,
-        "goals": 5,
+        "goals": 6,
         "assists": null,
         "penalties": null
       },
