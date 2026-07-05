@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T20:56:31Z",
+  "updatedAt": "2026-07-05T21:01:09Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6019,11 +6019,11 @@
         },
         "id": 537377,
         "utcDate": "2026-07-05T20:00:00Z",
-        "status": "IN_PLAY",
+        "status": "PAUSED",
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-07-05T20:56:13Z",
+        "lastUpdated": "2026-07-05T20:59:48Z",
         "homeTeam": {
           "id": 764,
           "name": "Brazil",
@@ -6046,8 +6046,8 @@
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
