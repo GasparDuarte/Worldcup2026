@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T23:03:28Z",
+  "updatedAt": "2026-07-05T23:08:07Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -8001,7 +8001,7 @@
           "venue": null,
           "lastUpdated": "2026-06-01T09:42:05Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 5,
         "goals": 5,
         "assists": null,
         "penalties": 1
@@ -8156,7 +8156,7 @@
           "venue": null,
           "lastUpdated": "2026-06-01T09:41:59Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 5,
         "goals": 3,
         "assists": 1,
         "penalties": null
@@ -8559,7 +8559,7 @@
           "venue": null,
           "lastUpdated": "2026-06-01T09:41:59Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 5,
         "goals": 2,
         "assists": null,
         "penalties": null
