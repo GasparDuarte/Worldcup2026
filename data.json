@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T21:48:03Z",
+  "updatedAt": "2026-07-05T21:52:41Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6023,7 +6023,7 @@
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-07-05T21:47:24Z",
+        "lastUpdated": "2026-07-05T21:52:25Z",
         "homeTeam": {
           "id": 764,
           "name": "Brazil",
@@ -7908,6 +7908,37 @@
       },
       {
         "player": {
+          "id": 38101,
+          "name": "Erling Haaland",
+          "firstName": "Erling",
+          "lastName": "Haaland",
+          "dateOfBirth": "2000-07-21",
+          "nationality": "Norway",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:30Z"
+        },
+        "team": {
+          "id": 8872,
+          "name": "Norway",
+          "shortName": "Norway",
+          "tla": "NOR",
+          "crest": "https://crests.football-data.org/813.svg",
+          "address": "Serviceboks 1, Ullevaal stadion Oslo 0840",
+          "website": "http://www.fotball.no",
+          "founded": 1902,
+          "clubColors": "Red / White / Navy Blue",
+          "venue": null,
+          "lastUpdated": "2026-06-01T09:43:53Z"
+        },
+        "playedMatches": 5,
+        "goals": 7,
+        "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
           "id": 3218,
           "name": "Lionel Messi",
           "firstName": "Lionel",
@@ -7934,37 +7965,6 @@
         },
         "playedMatches": 4,
         "goals": 7,
-        "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 38101,
-          "name": "Erling Haaland",
-          "firstName": "Erling",
-          "lastName": "Haaland",
-          "dateOfBirth": "2000-07-21",
-          "nationality": "Norway",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-06-01T11:16:30Z"
-        },
-        "team": {
-          "id": 8872,
-          "name": "Norway",
-          "shortName": "Norway",
-          "tla": "NOR",
-          "crest": "https://crests.football-data.org/813.svg",
-          "address": "Serviceboks 1, Ullevaal stadion Oslo 0840",
-          "website": "http://www.fotball.no",
-          "founded": 1902,
-          "clubColors": "Red / White / Navy Blue",
-          "venue": null,
-          "lastUpdated": "2026-06-01T09:43:53Z"
-        },
-        "playedMatches": 5,
-        "goals": 6,
         "assists": null,
         "penalties": null
       },
