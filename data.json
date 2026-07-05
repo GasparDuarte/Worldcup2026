@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T11:02:41Z",
+  "updatedAt": "2026-07-05T11:17:02Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -7870,37 +7870,6 @@
     "scorers": [
       {
         "player": {
-          "id": 3374,
-          "name": "Kylian Mbappé",
-          "firstName": "Kylian",
-          "lastName": "Mbappé",
-          "dateOfBirth": "1998-12-20",
-          "nationality": "France",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-06-01T11:16:30Z"
-        },
-        "team": {
-          "id": 773,
-          "name": "France",
-          "shortName": "France",
-          "tla": "FRA",
-          "crest": "https://crests.football-data.org/773.svg",
-          "address": "87 Boulevard de Grenelle Paris 75738",
-          "website": "http://www.fff.fr",
-          "founded": 1919,
-          "clubColors": "Blue / White / Red",
-          "venue": null,
-          "lastUpdated": "2026-06-01T09:42:18Z"
-        },
-        "playedMatches": 5,
-        "goals": 7,
-        "assists": 2,
-        "penalties": 1
-      },
-      {
-        "player": {
           "id": 3218,
           "name": "Lionel Messi",
           "firstName": "Lionel",
@@ -7927,7 +7896,38 @@
         },
         "playedMatches": 4,
         "goals": 7,
-        "assists": null,
+        "assists": 1,
+        "penalties": null
+      },
+      {
+        "player": {
+          "id": 3374,
+          "name": "Kylian Mbappé",
+          "firstName": "Kylian",
+          "lastName": "Mbappé",
+          "dateOfBirth": "1998-12-20",
+          "nationality": "France",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:30Z"
+        },
+        "team": {
+          "id": 773,
+          "name": "France",
+          "shortName": "France",
+          "tla": "FRA",
+          "crest": "https://crests.football-data.org/773.svg",
+          "address": "87 Boulevard de Grenelle Paris 75738",
+          "website": "http://www.fff.fr",
+          "founded": 1919,
+          "clubColors": "Blue / White / Red",
+          "venue": null,
+          "lastUpdated": "2026-06-01T09:42:18Z"
+        },
+        "playedMatches": 4,
+        "goals": 6,
+        "assists": 2,
         "penalties": null
       },
       {
@@ -8080,7 +8080,7 @@
           "venue": null,
           "lastUpdated": "2026-06-01T09:42:18Z"
         },
-        "playedMatches": 5,
+        "playedMatches": 4,
         "goals": 4,
         "assists": 2,
         "penalties": null
@@ -8204,7 +8204,7 @@
           "venue": null,
           "lastUpdated": "2022-04-02T10:40:28Z"
         },
-        "playedMatches": 5,
+        "playedMatches": 4,
         "goals": 3,
         "assists": null,
         "penalties": null
@@ -8390,7 +8390,7 @@
           "venue": null,
           "lastUpdated": "2022-10-07T08:25:45Z"
         },
-        "playedMatches": 5,
+        "playedMatches": 4,
         "goals": 3,
         "assists": null,
         "penalties": null
@@ -8576,7 +8576,7 @@
           "venue": null,
           "lastUpdated": "2022-10-07T08:25:45Z"
         },
-        "playedMatches": 5,
+        "playedMatches": 4,
         "goals": 2,
         "assists": null,
         "penalties": null
