@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T17:29:15Z",
+  "updatedAt": "2026-07-05T18:01:54Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6053,7 +6053,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 76608,
+            "name": "Ismail Elfath",
+            "type": "REFEREE",
+            "nationality": "United States"
+          }
+        ]
       },
       {
         "area": {
