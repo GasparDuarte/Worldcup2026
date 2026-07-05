@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T10:58:03Z",
+  "updatedAt": "2026-07-05T11:02:41Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -7894,10 +7894,10 @@
           "venue": null,
           "lastUpdated": "2026-06-01T09:42:18Z"
         },
-        "playedMatches": 4,
-        "goals": 6,
+        "playedMatches": 5,
+        "goals": 7,
         "assists": 2,
-        "penalties": null
+        "penalties": 1
       },
       {
         "player": {
@@ -7925,8 +7925,8 @@
           "venue": null,
           "lastUpdated": "2022-05-17T21:09:25Z"
         },
-        "playedMatches": 3,
-        "goals": 6,
+        "playedMatches": 4,
+        "goals": 7,
         "assists": null,
         "penalties": null
       },
@@ -8080,7 +8080,7 @@
           "venue": null,
           "lastUpdated": "2026-06-01T09:42:18Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 5,
         "goals": 4,
         "assists": 2,
         "penalties": null
@@ -8204,7 +8204,7 @@
           "venue": null,
           "lastUpdated": "2022-04-02T10:40:28Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 5,
         "goals": 3,
         "assists": null,
         "penalties": null
@@ -8361,7 +8361,7 @@
         },
         "playedMatches": 4,
         "goals": 3,
-        "assists": 1,
+        "assists": 2,
         "penalties": null
       },
       {
@@ -8390,7 +8390,7 @@
           "venue": null,
           "lastUpdated": "2022-10-07T08:25:45Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 5,
         "goals": 3,
         "assists": null,
         "penalties": null
@@ -8576,10 +8576,41 @@
           "venue": null,
           "lastUpdated": "2022-10-07T08:25:45Z"
         },
-        "playedMatches": 4,
+        "playedMatches": 5,
         "goals": 2,
         "assists": null,
         "penalties": null
+      },
+      {
+        "player": {
+          "id": 3483,
+          "name": "Breel Embolo",
+          "firstName": "Breel",
+          "lastName": "Embolo",
+          "dateOfBirth": "1997-02-14",
+          "nationality": "Switzerland",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:32Z"
+        },
+        "team": {
+          "id": 788,
+          "name": "Switzerland",
+          "shortName": "Switzerland",
+          "tla": "SUI",
+          "crest": "https://crests.football-data.org/788.svg",
+          "address": "Worbstrasse 48 Bern 3000",
+          "website": "http://www.football.ch",
+          "founded": 1895,
+          "clubColors": "Red / White",
+          "venue": null,
+          "lastUpdated": "2026-06-01T09:42:31Z"
+        },
+        "playedMatches": 4,
+        "goals": 2,
+        "assists": 2,
+        "penalties": 1
       },
       {
         "player": {
@@ -8707,6 +8738,37 @@
       },
       {
         "player": {
+          "id": 191972,
+          "name": "Emam Ashour",
+          "firstName": "Emam",
+          "lastName": "Ashour",
+          "dateOfBirth": "1998-02-20",
+          "nationality": "Egypt",
+          "section": "Midfield",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2024-01-11T10:31:49Z"
+        },
+        "team": {
+          "id": 825,
+          "name": "Egypt",
+          "shortName": "Egypt",
+          "tla": "EGY",
+          "crest": "https://crests.football-data.org/825.svg",
+          "address": "5, Gabalaya Street, El Gezira Cairo null",
+          "website": "http://www.efa.com.eg",
+          "founded": 1921,
+          "clubColors": "Red / White / Black",
+          "venue": null,
+          "lastUpdated": "2026-04-17T11:44:21Z"
+        },
+        "playedMatches": 4,
+        "goals": 2,
+        "assists": null,
+        "penalties": null
+      },
+      {
+        "player": {
           "id": 28770,
           "name": "Maximiliano Araújo",
           "firstName": "Maxi",
@@ -8732,68 +8794,6 @@
           "lastUpdated": "2026-06-16T00:37:18Z"
         },
         "playedMatches": 3,
-        "goals": 2,
-        "assists": 1,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 3804,
-          "name": "Ramin Rezaeian",
-          "firstName": "Ramin",
-          "lastName": "Rezaeian",
-          "dateOfBirth": "1990-03-21",
-          "nationality": "Iran",
-          "section": "Defence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2023-11-17T09:49:52Z"
-        },
-        "team": {
-          "id": 840,
-          "name": "Iran",
-          "shortName": "Iran",
-          "tla": "IRN",
-          "crest": "https://crests.football-data.org/iran.svg",
-          "address": "No. 2/2 Third St. Seoul Avenue Tehrān 19958-7359",
-          "website": "http://www.ffiri.ir",
-          "founded": 1920,
-          "clubColors": "White / Green / Red",
-          "venue": null,
-          "lastUpdated": "2022-04-02T10:38:42Z"
-        },
-        "playedMatches": 3,
-        "goals": 2,
-        "assists": 1,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 172762,
-          "name": "Bradley Barcola",
-          "firstName": "Bradley",
-          "lastName": "Barcola",
-          "dateOfBirth": "2002-09-02",
-          "nationality": "France",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2026-06-01T11:16:30Z"
-        },
-        "team": {
-          "id": 773,
-          "name": "France",
-          "shortName": "France",
-          "tla": "FRA",
-          "crest": "https://crests.football-data.org/773.svg",
-          "address": "87 Boulevard de Grenelle Paris 75738",
-          "website": "http://www.fff.fr",
-          "founded": 1919,
-          "clubColors": "Blue / White / Red",
-          "venue": null,
-          "lastUpdated": "2026-06-01T09:42:18Z"
-        },
-        "playedMatches": 4,
         "goals": 2,
         "assists": 1,
         "penalties": null
