@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T22:06:33Z",
+  "updatedAt": "2026-07-05T22:30:35Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -8,7 +8,7 @@
       "count": 104,
       "first": "2026-06-11",
       "last": "2026-07-19",
-      "played": 90
+      "played": 91
     },
     "competition": {
       "id": 2000,
@@ -6019,11 +6019,11 @@
         },
         "id": 537377,
         "utcDate": "2026-07-05T20:00:00Z",
-        "status": "LIVE",
+        "status": "FINISHED",
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-07-05T22:06:25Z",
+        "lastUpdated": "2026-07-05T22:09:19Z",
         "homeTeam": {
           "id": 764,
           "name": "Brazil",
@@ -6042,7 +6042,7 @@
           "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 2
           },
           "halfTime": {
