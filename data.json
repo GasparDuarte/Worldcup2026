@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T02:21:28Z",
+  "updatedAt": "2026-07-06T02:26:05Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6089,7 +6089,7 @@
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-07-06T02:21:26Z",
+        "lastUpdated": "2026-07-06T02:25:48Z",
         "homeTeam": {
           "id": 769,
           "name": "Mexico",
@@ -8002,9 +8002,9 @@
           "lastUpdated": "2026-06-01T09:42:05Z"
         },
         "playedMatches": 5,
-        "goals": 5,
+        "goals": 6,
         "assists": 1,
-        "penalties": 1
+        "penalties": 2
       },
       {
         "player": {
