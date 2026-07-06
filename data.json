@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T01:34:09Z",
+  "updatedAt": "2026-07-06T01:38:46Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6089,7 +6089,7 @@
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-07-06T01:33:36Z",
+        "lastUpdated": "2026-07-06T01:38:24Z",
         "homeTeam": {
           "id": 769,
           "name": "Mexico",
@@ -8349,6 +8349,37 @@
       },
       {
         "player": {
+          "id": 125010,
+          "name": "Jude Bellingham",
+          "firstName": "Jude",
+          "lastName": "Bellingham",
+          "dateOfBirth": "2003-06-29",
+          "nationality": "England",
+          "section": "Midfield",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:29Z"
+        },
+        "team": {
+          "id": 770,
+          "name": "England",
+          "shortName": "England",
+          "tla": "ENG",
+          "crest": "https://crests.football-data.org/770.svg",
+          "address": "Wembley Stadium, PO Box 1966 London SW1P 9EQ",
+          "website": "http://www.thefa.com",
+          "founded": 1863,
+          "clubColors": "White / Red / Navy Blue",
+          "venue": null,
+          "lastUpdated": "2026-06-01T09:42:05Z"
+        },
+        "playedMatches": 5,
+        "goals": 3,
+        "assists": 1,
+        "penalties": null
+      },
+      {
+        "player": {
           "id": 212309,
           "name": "Johan Manzambi",
           "firstName": "Johan",
@@ -8779,37 +8810,6 @@
         "playedMatches": 4,
         "goals": 2,
         "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 28770,
-          "name": "Maximiliano Araújo",
-          "firstName": "Maxi",
-          "lastName": "Araújo",
-          "dateOfBirth": "2000-02-15",
-          "nationality": "Uruguay",
-          "section": "Defence",
-          "position": null,
-          "shirtNumber": 20,
-          "lastUpdated": "2026-06-01T11:07:17Z"
-        },
-        "team": {
-          "id": 758,
-          "name": "Uruguay",
-          "shortName": "Uruguay",
-          "tla": "URU",
-          "crest": "https://crests.football-data.org/758.svg",
-          "address": "Guayaybo 1531 Montevideo 11200",
-          "website": "http://www.auf.org.uy",
-          "founded": 1900,
-          "clubColors": "Sky Blue / White / Black",
-          "venue": null,
-          "lastUpdated": "2026-06-16T00:37:18Z"
-        },
-        "playedMatches": 3,
-        "goals": 2,
-        "assists": 1,
         "penalties": null
       }
     ]
