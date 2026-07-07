@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T00:36:10Z",
+  "updatedAt": "2026-07-07T00:40:50Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6221,7 +6221,7 @@
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-07-07T00:36:06Z",
+        "lastUpdated": "2026-07-07T00:40:33Z",
         "homeTeam": {
           "id": 771,
           "name": "United States",
@@ -6240,8 +6240,8 @@
           "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
-            "away": 1
+            "home": 1,
+            "away": 2
           },
           "halfTime": {
             "home": null,
