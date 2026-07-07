@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T01:56:48Z",
+  "updatedAt": "2026-07-07T02:01:31Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6221,7 +6221,7 @@
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-07-07T01:56:30Z",
+        "lastUpdated": "2026-07-07T02:00:42Z",
         "homeTeam": {
           "id": 771,
           "name": "United States",
@@ -8611,6 +8611,37 @@
       },
       {
         "player": {
+          "id": 3662,
+          "name": "Romelu Lukaku",
+          "firstName": "Romelu",
+          "lastName": "Lukaku",
+          "dateOfBirth": "1993-05-13",
+          "nationality": "Belgium",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:30Z"
+        },
+        "team": {
+          "id": 805,
+          "name": "Belgium",
+          "shortName": "Belgium",
+          "tla": "BEL",
+          "crest": "https://crests.football-data.org/805.svg",
+          "address": "145, avenue Houba de Strooper Brussels 1020",
+          "website": "https://www.rbfa.be",
+          "founded": 1895,
+          "clubColors": "Red / Black / Yellow",
+          "venue": null,
+          "lastUpdated": "2026-06-01T09:43:01Z"
+        },
+        "playedMatches": 5,
+        "goals": 3,
+        "assists": 1,
+        "penalties": null
+      },
+      {
+        "player": {
           "id": 15958,
           "name": "Cyle Larin",
           "firstName": "Cyle",
@@ -8789,37 +8820,6 @@
           "clubColors": "Yellow / Blue",
           "venue": null,
           "lastUpdated": "2026-06-01T09:42:37Z"
-        },
-        "playedMatches": 4,
-        "goals": 2,
-        "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 191972,
-          "name": "Emam Ashour",
-          "firstName": "Emam",
-          "lastName": "Ashour",
-          "dateOfBirth": "1998-02-20",
-          "nationality": "Egypt",
-          "section": "Midfield",
-          "position": null,
-          "shirtNumber": null,
-          "lastUpdated": "2024-01-11T10:31:49Z"
-        },
-        "team": {
-          "id": 825,
-          "name": "Egypt",
-          "shortName": "Egypt",
-          "tla": "EGY",
-          "crest": "https://crests.football-data.org/825.svg",
-          "address": "5, Gabalaya Street, El Gezira Cairo null",
-          "website": "http://www.efa.com.eg",
-          "founded": 1921,
-          "clubColors": "Red / White / Black",
-          "venue": null,
-          "lastUpdated": "2026-04-17T11:44:21Z"
         },
         "playedMatches": 4,
         "goals": 2,
