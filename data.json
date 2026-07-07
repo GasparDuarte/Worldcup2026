@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T17:01:29Z",
+  "updatedAt": "2026-07-07T17:15:20Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6283,11 +6283,11 @@
         },
         "id": 537381,
         "utcDate": "2026-07-07T16:00:00Z",
-        "status": "PAUSED",
+        "status": "LIVE",
         "matchday": null,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2026-07-07T16:59:09Z",
+        "lastUpdated": "2026-07-07T17:15:00Z",
         "homeTeam": {
           "id": 762,
           "name": "Argentina",
