@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T17:50:02Z",
+  "updatedAt": "2026-07-09T18:04:22Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6461,7 +6461,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57301,
+            "name": "Facundo Tello",
+            "type": "REFEREE",
+            "nationality": "Argentina"
+          }
+        ]
       },
       {
         "area": {
