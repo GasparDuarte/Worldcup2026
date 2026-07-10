@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T22:31:22Z",
+  "updatedAt": "2026-07-10T22:59:33Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6497,7 +6497,7 @@
         "matchday": null,
         "stage": "QUARTER_FINALS",
         "group": null,
-        "lastUpdated": "2026-07-10T22:25:01Z",
+        "lastUpdated": "2026-07-10T22:25:00Z",
         "homeTeam": {
           "id": 760,
           "name": "Spain",
