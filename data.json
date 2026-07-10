@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T19:40:48Z",
+  "updatedAt": "2026-07-10T19:45:28Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6497,7 +6497,7 @@
         "matchday": null,
         "stage": "QUARTER_FINALS",
         "group": null,
-        "lastUpdated": "2026-07-10T19:40:31Z",
+        "lastUpdated": "2026-07-10T19:45:18Z",
         "homeTeam": {
           "id": 760,
           "name": "Spain",
@@ -8682,6 +8682,37 @@
       },
       {
         "player": {
+          "id": 129947,
+          "name": "Charles De Ketelaere",
+          "firstName": "Charles",
+          "lastName": "De Ketelaere",
+          "dateOfBirth": "2001-03-10",
+          "nationality": "Belgium",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": 90,
+          "lastUpdated": "2026-06-01T11:16:30Z"
+        },
+        "team": {
+          "id": 805,
+          "name": "Belgium",
+          "shortName": "Belgium",
+          "tla": "BEL",
+          "crest": "https://crests.football-data.org/805.svg",
+          "address": "145, avenue Houba de Strooper Brussels 1020",
+          "website": "https://www.rbfa.be",
+          "founded": 1895,
+          "clubColors": "Red / Black / Yellow",
+          "venue": null,
+          "lastUpdated": "2026-06-01T09:43:01Z"
+        },
+        "playedMatches": 6,
+        "goals": 3,
+        "assists": 1,
+        "penalties": null
+      },
+      {
+        "player": {
           "id": 15958,
           "name": "Cyle Larin",
           "firstName": "Cyle",
@@ -8831,37 +8862,6 @@
           "lastUpdated": "2026-04-17T11:46:40Z"
         },
         "playedMatches": 3,
-        "goals": 2,
-        "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 145613,
-          "name": "Yasin Ayari",
-          "firstName": "Yasin",
-          "lastName": "Ayari",
-          "dateOfBirth": "2003-10-06",
-          "nationality": "Sweden",
-          "section": "Midfield",
-          "position": null,
-          "shirtNumber": 26,
-          "lastUpdated": "2026-06-01T11:16:31Z"
-        },
-        "team": {
-          "id": 792,
-          "name": "Sweden",
-          "shortName": "Sweden",
-          "tla": "SWE",
-          "crest": "https://crests.football-data.org/792.svg",
-          "address": "Evenemangsgatan 31 / Box 1216 Solna 17123",
-          "website": "http://www.svenskfotboll.se",
-          "founded": 1904,
-          "clubColors": "Yellow / Blue",
-          "venue": null,
-          "lastUpdated": "2026-06-01T09:42:37Z"
-        },
-        "playedMatches": 4,
         "goals": 2,
         "assists": null,
         "penalties": null
