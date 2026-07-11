@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T22:00:06Z",
+  "updatedAt": "2026-07-11T22:14:22Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6559,11 +6559,11 @@
         },
         "id": 537385,
         "utcDate": "2026-07-11T21:00:00Z",
-        "status": "PAUSED",
+        "status": "IN_PLAY",
         "matchday": null,
         "stage": "QUARTER_FINALS",
         "group": null,
-        "lastUpdated": "2026-07-11T21:58:07Z",
+        "lastUpdated": "2026-07-11T22:14:19Z",
         "homeTeam": {
           "id": 8872,
           "name": "Norway",
