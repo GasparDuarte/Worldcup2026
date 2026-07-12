@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T03:45:31Z",
+  "updatedAt": "2026-07-12T03:50:11Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6637,7 +6637,7 @@
         "matchday": null,
         "stage": "QUARTER_FINALS",
         "group": null,
-        "lastUpdated": "2026-07-12T03:45:21Z",
+        "lastUpdated": "2026-07-12T03:49:33Z",
         "homeTeam": {
           "id": 762,
           "name": "Argentina",
@@ -6656,7 +6656,7 @@
           "winner": "HOME_TEAM",
           "duration": "EXTRA_TIME",
           "fullTime": {
-            "home": 2,
+            "home": 3,
             "away": 1
           },
           "halfTime": {
@@ -6668,7 +6668,7 @@
             "away": null
           },
           "extraTime": {
-            "home": 1,
+            "home": 2,
             "away": 0
           }
         },
