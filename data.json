@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T03:50:11Z",
+  "updatedAt": "2026-07-12T03:54:49Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -8,7 +8,7 @@
       "count": 104,
       "first": "2026-06-11",
       "last": "2026-07-19",
-      "played": 98
+      "played": 99
     },
     "competition": {
       "id": 2000,
@@ -6633,11 +6633,11 @@
         },
         "id": 537386,
         "utcDate": "2026-07-12T01:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": null,
         "stage": "QUARTER_FINALS",
         "group": null,
-        "lastUpdated": "2026-07-12T03:49:33Z",
+        "lastUpdated": "2026-07-12T03:51:58Z",
         "homeTeam": {
           "id": 762,
           "name": "Argentina",
