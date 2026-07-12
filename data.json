@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T01:13:57Z",
+  "updatedAt": "2026-07-12T01:19:03Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6637,7 +6637,7 @@
         "matchday": null,
         "stage": "QUARTER_FINALS",
         "group": null,
-        "lastUpdated": "2026-07-12T01:13:34Z",
+        "lastUpdated": "2026-07-12T01:18:57Z",
         "homeTeam": {
           "id": 762,
           "name": "Argentina",
@@ -6653,10 +6653,10 @@
           "crest": "https://crests.football-data.org/788.svg"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
