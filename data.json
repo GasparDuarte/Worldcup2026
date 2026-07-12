@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T01:09:16Z",
+  "updatedAt": "2026-07-12T01:13:57Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6637,7 +6637,7 @@
         "matchday": null,
         "stage": "QUARTER_FINALS",
         "group": null,
-        "lastUpdated": "2026-07-12T01:08:45Z",
+        "lastUpdated": "2026-07-12T01:13:34Z",
         "homeTeam": {
           "id": 762,
           "name": "Argentina",
@@ -8017,7 +8017,7 @@
         },
         "playedMatches": 6,
         "goals": 8,
-        "assists": 1,
+        "assists": 2,
         "penalties": null
       },
       {
