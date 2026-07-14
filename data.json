@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T20:48:44Z",
+  "updatedAt": "2026-07-14T20:53:27Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6711,7 +6711,7 @@
         "matchday": null,
         "stage": "SEMI_FINALS",
         "group": null,
-        "lastUpdated": "2026-07-14T20:48:28Z",
+        "lastUpdated": "2026-07-14T20:53:00Z",
         "homeTeam": {
           "id": 773,
           "name": "France",
