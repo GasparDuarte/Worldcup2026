@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T16:42:54Z",
+  "updatedAt": "2026-07-14T17:01:57Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6741,7 +6741,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 190010,
+            "name": "Ivan Barton",
+            "type": "REFEREE",
+            "nationality": null
+          }
+        ]
       },
       {
         "area": {
