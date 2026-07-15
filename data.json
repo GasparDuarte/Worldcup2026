@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T07:25:56Z",
+  "updatedAt": "2026-07-15T07:35:14Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -8818,10 +8818,10 @@
           "lastName": "Summerville",
           "dateOfBirth": "2001-10-30",
           "nationality": "Netherlands",
-          "section": "Midfield",
+          "section": "Offence",
           "position": null,
           "shirtNumber": null,
-          "lastUpdated": "2026-06-01T11:16:31Z"
+          "lastUpdated": "2026-07-15T09:33:22Z"
         },
         "team": {
           "id": 8601,
