@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T20:57:47Z",
+  "updatedAt": "2026-07-15T21:02:29Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6777,7 +6777,7 @@
         "matchday": null,
         "stage": "SEMI_FINALS",
         "group": null,
-        "lastUpdated": "2026-07-15T20:57:31Z",
+        "lastUpdated": "2026-07-15T21:01:37Z",
         "homeTeam": {
           "id": 770,
           "name": "England",
@@ -6793,11 +6793,11 @@
           "crest": "https://crests.football-data.org/762.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
             "home": 1,
-            "away": 1
+            "away": 2
           },
           "halfTime": {
             "home": 0,
@@ -8039,7 +8039,7 @@
         },
         "playedMatches": 7,
         "goals": 8,
-        "assists": 3,
+        "assists": 4,
         "penalties": null
       },
       {
