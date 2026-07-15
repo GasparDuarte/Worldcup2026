@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T20:53:09Z",
+  "updatedAt": "2026-07-15T20:57:47Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6777,7 +6777,7 @@
         "matchday": null,
         "stage": "SEMI_FINALS",
         "group": null,
-        "lastUpdated": "2026-07-15T20:52:40Z",
+        "lastUpdated": "2026-07-15T20:57:31Z",
         "homeTeam": {
           "id": 770,
           "name": "England",
@@ -8726,6 +8726,37 @@
       },
       {
         "player": {
+          "id": 3220,
+          "name": "Lautaro Martínez",
+          "firstName": "Lautaro",
+          "lastName": "Martínez",
+          "dateOfBirth": "1997-08-22",
+          "nationality": "Argentina",
+          "section": "Offence",
+          "position": null,
+          "shirtNumber": null,
+          "lastUpdated": "2026-06-01T11:16:29Z"
+        },
+        "team": {
+          "id": 762,
+          "name": "Argentina",
+          "shortName": "Argentina",
+          "tla": "ARG",
+          "crest": "https://crests.football-data.org/762.png",
+          "address": "Viamonte 1366/76 Buenos Aires, Buenos Aires 1053",
+          "website": "http://www.afa.org.ar",
+          "founded": 1893,
+          "clubColors": "Sky Blue / White / Black",
+          "venue": null,
+          "lastUpdated": "2022-05-17T21:09:25Z"
+        },
+        "playedMatches": 7,
+        "goals": 3,
+        "assists": 1,
+        "penalties": 1
+      },
+      {
+        "player": {
           "id": 129947,
           "name": "Charles De Ketelaere",
           "firstName": "Charles",
@@ -8875,37 +8906,6 @@
           "lastUpdated": "2026-06-01T09:40:05Z"
         },
         "playedMatches": 4,
-        "goals": 2,
-        "assists": null,
-        "penalties": null
-      },
-      {
-        "player": {
-          "id": 133584,
-          "name": "Amad Diallo",
-          "firstName": "Amad",
-          "lastName": "Diallo",
-          "dateOfBirth": "2002-07-11",
-          "nationality": "Ivory Coast",
-          "section": "Offence",
-          "position": null,
-          "shirtNumber": 79,
-          "lastUpdated": "2026-07-15T09:25:43Z"
-        },
-        "team": {
-          "id": 1935,
-          "name": "Ivory Coast",
-          "shortName": "Ivory Coast",
-          "tla": "CIV",
-          "crest": "https://crests.football-data.org/787.svg",
-          "address": "Treichville Avenue, 1 / BP 1202 Abidjan 01",
-          "website": "http://www.fif-ci.com",
-          "founded": 1960,
-          "clubColors": "Orange / Green / White",
-          "venue": null,
-          "lastUpdated": "2026-04-17T11:46:40Z"
-        },
-        "playedMatches": 3,
         "goals": 2,
         "assists": null,
         "penalties": null
