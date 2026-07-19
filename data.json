@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T19:34:21Z",
+  "updatedAt": "2026-07-19T19:39:01Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6909,7 +6909,7 @@
         "matchday": null,
         "stage": "FINAL",
         "group": null,
-        "lastUpdated": "2026-07-19T19:33:59Z",
+        "lastUpdated": "2026-07-19T19:39:00Z",
         "homeTeam": {
           "id": 760,
           "name": "Spain",
