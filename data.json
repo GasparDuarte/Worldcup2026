@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T22:05:34Z",
+  "updatedAt": "2026-07-19T22:10:12Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -8,7 +8,7 @@
       "count": 104,
       "first": "2026-06-11",
       "last": "2026-07-19",
-      "played": 103
+      "played": 104
     },
     "competition": {
       "id": 2000,
@@ -6905,11 +6905,11 @@
         },
         "id": 537390,
         "utcDate": "2026-07-19T19:00:00Z",
-        "status": "LIVE",
+        "status": "FINISHED",
         "matchday": null,
         "stage": "FINAL",
         "group": null,
-        "lastUpdated": "2026-07-19T22:04:56Z",
+        "lastUpdated": "2026-07-19T22:07:40Z",
         "homeTeam": {
           "id": 760,
           "name": "Spain",
@@ -6926,7 +6926,7 @@
         },
         "score": {
           "winner": "HOME_TEAM",
-          "duration": "REGULAR",
+          "duration": "EXTRA_TIME",
           "fullTime": {
             "home": 1,
             "away": 0
@@ -6940,7 +6940,7 @@
             "away": null
           },
           "extraTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           }
         },
