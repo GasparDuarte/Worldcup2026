@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T03:03:27Z",
+  "updatedAt": "2026-07-19T03:27:07Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6843,7 +6843,7 @@
         "matchday": null,
         "stage": "THIRD_PLACE",
         "group": null,
-        "lastUpdated": "2026-07-18T23:08:00Z",
+        "lastUpdated": "2026-07-19T03:25:01Z",
         "homeTeam": {
           "id": 773,
           "name": "France",
