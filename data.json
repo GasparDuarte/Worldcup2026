@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T22:10:12Z",
+  "updatedAt": "2026-07-19T22:14:51Z",
   "matches": {
     "filters": {
       "season": "2026"
@@ -6909,7 +6909,7 @@
         "matchday": null,
         "stage": "FINAL",
         "group": null,
-        "lastUpdated": "2026-07-19T22:07:40Z",
+        "lastUpdated": "2026-07-19T22:12:40Z",
         "homeTeam": {
           "id": 760,
           "name": "Spain",
@@ -6926,7 +6926,7 @@
         },
         "score": {
           "winner": "HOME_TEAM",
-          "duration": "EXTRA_TIME",
+          "duration": "REGULAR",
           "fullTime": {
             "home": 1,
             "away": 0
